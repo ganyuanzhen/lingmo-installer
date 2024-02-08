@@ -1,0 +1,1 @@
+i18n.gettext('lingmo-installer', preset: 'glib')

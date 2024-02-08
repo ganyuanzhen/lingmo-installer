@@ -1,0 +1,779 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-installer package.
+# Martin <stefanic.martin@gmail.com>, 2023.
+# DanyCDev <dany@kmaster.ovh>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: 2023-11-26 16:57+0000\n"
+"Last-Translator: DanyCDev <dany@kmaster.ovh>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/lingmo-os/"
+"installer/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.2.1-rc\n"
+
+#: data/org.lingmoos.Installer.desktop.in:3 lingmo_installer/gtk/window.ui:8
+msgid "Lingmo OS Installer"
+msgstr "Lingmo OS Inštalátor"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:7
+msgid "Tweak your Lingmo OS installation."
+msgstr "Vylaďte si inštaláciu Lingmo OS."
+
+#: data/org.lingmoos.Installer.appdata.xml.in:10
+msgid "No description"
+msgstr "Žiaden popis"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:26
+msgid "First release"
+msgstr "Prvé vydanie"
+
+#: lingmo_installer/gtk/confirm.ui:10
+msgid "Confirm Installation"
+msgstr "Potvrďte inštaláciu"
+
+#: lingmo_installer/gtk/confirm.ui:11
+#, fuzzy
+msgid "The following changes will be made to your system"
+msgstr "V systéme sa vykonajú nasledujúce zmeny:"
+
+#: lingmo_installer/gtk/confirm.ui:28
+msgid "Install Lingmo OS"
+msgstr "Nainštalovať Lingmo OS"
+
+#: lingmo_installer/gtk/default-conn-check.ui:12
+msgid "Checking Connection…"
+msgstr ""
+
+#: lingmo_installer/gtk/default-conn-check.ui:13
+msgid "Please wait until the connection check is done"
+msgstr ""
+
+#: lingmo_installer/gtk/default-disk.ui:19
+#: lingmo_installer/gtk/default-encryption.ui:18
+#: lingmo_installer/gtk/default-keyboard.ui:30
+#: lingmo_installer/gtk/default-language.ui:18
+#: lingmo_installer/gtk/default-network.ui:18
+#: lingmo_installer/gtk/default-theme.ui:49
+#: lingmo_installer/gtk/default-users.ui:19
+#: lingmo_installer/gtk/layout-preferences.ui:29
+#: lingmo_installer/gtk/progress.ui:41
+msgid "Next"
+msgstr "Ďalej"
+
+#: lingmo_installer/gtk/default-disk.ui:29
+msgid "Install Location"
+msgstr "Umiestnenie inštalácie"
+
+#: lingmo_installer/gtk/default-disk.ui:30
+msgid ""
+"Select the disk where you want to install Lingmo OS. Alternatively, you can "
+"select one or more disks to configure manually."
+msgstr ""
+"Vyberte disk, kde chcete inštalovať Lingmo OS, alebo vyberte jeden či viac "
+"diskov pre manuálne nastavenie."
+
+#: lingmo_installer/gtk/default-disk.ui:44
+#, fuzzy
+msgid "Use Entire Disk"
+msgstr "Použiť celý disk"
+
+#: lingmo_installer/gtk/default-disk.ui:56
+msgid "Manual"
+msgstr "Manuálne"
+
+#: lingmo_installer/gtk/default-disk.ui:86
+msgid "You need at least %s of disk space to proceed with the installation."
+msgstr ""
+"Potrebujete aspoň % miesta na disku, aby bolo možné pokračovať v inštalácii."
+
+#: lingmo_installer/gtk/default-encryption.ui:28
+msgid "Device Encryption"
+msgstr "Šifrovanie zariadenia"
+
+#: lingmo_installer/gtk/default-encryption.ui:29
+#, fuzzy
+msgid "Lingmo OS encrypts your disk to protect your personal information"
+msgstr ""
+"Lingmo OS poskytuje celkové šifrovanie diasku prostredníctvom LUKS2, aby "
+"ochránil Vaše osobné dáta, ak by bolo Vaše zariadenie odcudzené."
+
+#: lingmo_installer/gtk/default-encryption.ui:36
+#, fuzzy
+msgid "Encrypt Device"
+msgstr "Zašifrovať zariadenie"
+
+#: lingmo_installer/gtk/default-encryption.ui:37
+msgid "Use a memorable password to encrypt your data"
+msgstr "Použite zapamätateľné heslo na zašifrovanie Vašich dát"
+
+#: lingmo_installer/gtk/default-encryption.ui:49
+#: lingmo_installer/gtk/default-users.ui:60
+msgid "Password"
+msgstr "Heslo"
+
+#: lingmo_installer/gtk/default-encryption.ui:55
+#: lingmo_installer/gtk/default-users.ui:66
+msgid "Confirm Password"
+msgstr "Potvrdiť heslo"
+
+#: lingmo_installer/gtk/default-keyboard.ui:42
+msgid "Keyboard Layout"
+msgstr "Rozloženie klávesnice"
+
+#: lingmo_installer/gtk/default-keyboard.ui:43
+msgid "Select your preferred keyboard layout"
+msgstr "Zvoľte si rozloženie klávesnice"
+
+#: lingmo_installer/gtk/default-keyboard.ui:53
+#, fuzzy
+msgid "Search keyboard layouts"
+msgstr "Vyhľadávanie rozloženia klávesnice"
+
+#: lingmo_installer/gtk/default-language.ui:28
+#: lingmo_installer/gtk/widget-language.ui:12
+#: lingmo_installer/views/confirm.py:75
+msgid "Language"
+msgstr "Jazyk"
+
+#: lingmo_installer/gtk/default-language.ui:29
+msgid "Select your language"
+msgstr "Zvoľte si jazyk systému"
+
+#: lingmo_installer/gtk/default-language.ui:39
+#, fuzzy
+msgid "Search languages"
+msgstr "Vyhľadať jazyk"
+
+#: lingmo_installer/gtk/default-network.ui:27
+msgid "Internet"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:28
+msgid "An active internet connection is required to install the system"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:39
+msgid "Wired"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:44
+msgid "Wireless Networks"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:49
+msgid "Advanced"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:52
+msgid "Connect to Hidden Network..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:79
+msgid "Open Proxy Settings..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:14
+msgid "NVIDIA® Drivers"
+msgstr "Ovládače NVIDIA®"
+
+#: lingmo_installer/gtk/default-nvidia.ui:15
+msgid ""
+"Choose whether to install proprietary NVIDIA drivers for better "
+"compatibility and performance."
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:29
+#: lingmo_installer/gtk/default-vm.ui:29
+msgid "Skip"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:38
+#: lingmo_installer/gtk/default-vm.ui:38
+msgid "Install  (Recommended)"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:70
+msgid "About Proprietary Drivers"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:78
+msgid ""
+"A proprietary driver has private code that neither Lingmo OS nor Debian "
+"developers can review.\n"
+"\n"
+"Security and other updates are dependent on the driver vendor."
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:14
+msgid "VM Tools"
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:15
+msgid ""
+"Choose whether to install VM Tools for better compatibility and performance."
+msgstr ""
+
+#: lingmo_installer/gtk/default-theme.ui:17
+msgid "Default"
+msgstr "Predvolený"
+
+#: lingmo_installer/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr "Tmavý"
+
+#: lingmo_installer/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr "Vzhľad"
+
+#: lingmo_installer/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system"
+msgstr "Zvoľte si vzhľad systému"
+
+#: lingmo_installer/gtk/default-users.ui:40
+msgid "Create User"
+msgstr "Vytvoriť používateľa"
+
+#: lingmo_installer/gtk/default-users.ui:41
+msgid "Provide details for your user account"
+msgstr "Zadajte podrobnosti k Vášmu používateľskému kontu"
+
+#: lingmo_installer/gtk/default-users.ui:48
+msgid "Name"
+msgstr "Meno"
+
+#: lingmo_installer/gtk/default-users.ui:54
+msgid "Username"
+msgstr "Používateľské meno"
+
+#: lingmo_installer/gtk/default-welcome.ui:17
+#, fuzzy
+msgid "Install"
+msgstr "Inštalácia..."
+
+#: lingmo_installer/gtk/default-welcome.ui:34
+#: lingmo_installer/gtk/dialog-recovery.ui:6
+msgid "Recovery"
+msgstr ""
+
+#: lingmo_installer/gtk/default-welcome.ui:51
+#: lingmo_installer/gtk/dialog-poweroff.ui:6
+#: lingmo_installer/gtk/dialog-poweroff.ui:26
+msgid "Power Off"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog.ui:6
+msgid "Showing Information"
+msgstr "Zobraziť informácie"
+
+#: lingmo_installer/gtk/dialog-disk.ui:5
+msgid "Configure Disk"
+msgstr "Konfigurácia disku"
+
+#: lingmo_installer/gtk/dialog-disk.ui:17
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:18
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: lingmo_installer/gtk/dialog-disk.ui:22
+msgid "Apply"
+msgstr "Potvrdiť"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:6
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:25
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:36
+msgid "Confirm Changes"
+msgstr "Potvrdiť zmeny"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:26
+msgid ""
+"The following changes will be made to your disk. Please review them "
+"carefully."
+msgstr ""
+"Na vašom disku sa vykonajú nasledujúce zmeny. Prosím, pozorne ich "
+"skontrolujte."
+
+#: lingmo_installer/gtk/dialog-output.ui:6
+msgid "Log"
+msgstr "Záznam"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:42
+msgid "Restart"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:58
+msgid "Restart into Firmware Setup"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-recovery.ui:26
+msgid "Console"
+msgstr "Konzola"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:27
+#, fuzzy
+msgid "Open a terminal"
+msgstr "Otvoriť teminál"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:43
+msgid "Documentation"
+msgstr "Dokumentácia"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:44
+#, fuzzy
+msgid "Open the Lingmo OS documentation"
+msgstr "Prečítajte si dokumenťáciu Lingmo OS."
+
+#: lingmo_installer/gtk/dialog-recovery.ui:60
+#, fuzzy
+msgid "GParted"
+msgstr "GParted"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:61
+msgid "Manage disks and partitions"
+msgstr "Spravujte disky a partície"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:77
+msgid "Handbook"
+msgstr "Manuál"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:78
+#, fuzzy
+msgid "Read tutorials and guides about Lingmo OS"
+msgstr "Prečítajte návody a sprievodcov o Lingmo OS"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:94
+msgid "Web Browser"
+msgstr "Webový prehliadač"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:95
+#, fuzzy
+msgid "Search help online"
+msgstr "Vyhľadať pomoc online"
+
+#: lingmo_installer/gtk/done.ui:12
+msgid "Finished!"
+msgstr ""
+
+#: lingmo_installer/gtk/done.ui:13
+msgid "Restart your device to enjoy your Lingmo OS experience"
+msgstr "Reštartujte počítač a vychutnajte si prácu s Lingmo OS"
+
+#: lingmo_installer/gtk/done.ui:23
+msgid "Show Log"
+msgstr "Ukázať protokol"
+
+#: lingmo_installer/gtk/done.ui:32
+msgid "Reboot Now"
+msgstr "Reštartovať teraz"
+
+#: lingmo_installer/gtk/done.ui:42
+msgid "Close"
+msgstr "Zatvoriť"
+
+#: lingmo_installer/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr "Áno, povoľte to"
+
+#: lingmo_installer/gtk/progress.ui:27
+msgid "Previous"
+msgstr ""
+
+#: lingmo_installer/gtk/progress.ui:110
+msgid "Installing..."
+msgstr "Inštalácia..."
+
+#: lingmo_installer/gtk/progress.ui:131
+msgid "Show Console output"
+msgstr "Ukázať výstup konzoly"
+
+#: lingmo_installer/gtk/progress.ui:146
+msgid "Show Slideshow"
+msgstr "Zobraziť prezentáciu"
+
+#: lingmo_installer/gtk/widget-keyboard.ui:12
+msgid "key"
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:10
+#, fuzzy
+msgid "Manually Partition"
+msgstr "Oddelenia"
+
+#: lingmo_installer/gtk/widget-partition.ui:11
+msgid "Open GParted to manually partition the disk"
+msgstr "Otvorte GParted a ručne rozdeľte disk"
+
+#: lingmo_installer/gtk/widget-partition.ui:29
+msgid "Boot Partition"
+msgstr "Zavádzacia partícia"
+
+#: lingmo_installer/gtk/widget-partition.ui:30
+msgid ""
+"The partition to mount under “/boot”. This directory stores files for "
+"booting into Lingmo OS."
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:33
+#: lingmo_installer/gtk/widget-partition.ui:53
+#: lingmo_installer/gtk/widget-partition.ui:73
+#: lingmo_installer/gtk/widget-partition.ui:94
+#: lingmo_installer/gtk/widget-partition.ui:114
+#: lingmo_installer/gtk/widget-partition.ui:147
+#, fuzzy
+msgid "No Partition Selected"
+msgstr "Nebola vybraná partícia"
+
+#: lingmo_installer/gtk/widget-partition.ui:34
+#: lingmo_installer/gtk/widget-partition.ui:54
+#: lingmo_installer/gtk/widget-partition.ui:74
+#: lingmo_installer/gtk/widget-partition.ui:95
+#: lingmo_installer/gtk/widget-partition.ui:115
+#: lingmo_installer/gtk/widget-partition.ui:148
+#: lingmo_installer/defaults/disk.py:404
+msgid "Please select a partition from the options below"
+msgstr "Prosím vyberte partíciu zo zoznamu nižšie"
+
+#: lingmo_installer/gtk/widget-partition.ui:49
+msgid "EFI Partition"
+msgstr "EFI partícia"
+
+#: lingmo_installer/gtk/widget-partition.ui:50
+msgid ""
+"The partition to mount under “/boot/efi”. This directory stores files for "
+"booting in the bootloader."
+msgstr ""
+"Partícia ktorá sa má pripojiť pod “/boot/efi“. Tento priečinok ukladá súbory "
+"na štart v bootloaderi."
+
+#: lingmo_installer/gtk/widget-partition.ui:69
+msgid "BIOS Boot Partition"
+msgstr "Zavádzacia partícia BIOSu"
+
+#: lingmo_installer/gtk/widget-partition.ui:70
+msgid ""
+"The partition required by GPT-formatted disks to support booting from BIOS "
+"systems. It must be located in the first 2 TB of the disk and must be "
+"exactly 1 Mebibyte (1 MiB)."
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:85
+msgid "BIOS partition must be exactly 1 MiB."
+msgstr "BIOS partícia musí mať presne 1 MiB."
+
+#: lingmo_installer/gtk/widget-partition.ui:90
+msgid "Root Partition"
+msgstr "Koreňová partícia"
+
+#: lingmo_installer/gtk/widget-partition.ui:91
+msgid ""
+"The partition to mount under “/”. It will be automatically converted into an "
+"LVM thin pool during installation."
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:110
+msgid "Var Partition"
+msgstr "Var partícia"
+
+#: lingmo_installer/gtk/widget-partition.ui:111
+msgid ""
+"The partition to mount under “/var”. This directory stores all user data "
+"like personal documents and system-wide configuration."
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:130
+#: lingmo_installer/gtk/widget-partition.ui:134
+msgid "Swap Partition"
+msgstr "Swap partícia"
+
+#: lingmo_installer/gtk/widget-partition.ui:131
+msgid ""
+"Swap acts as a virtual extension of your RAM and enables hibernation. "
+"Lingmo OS already uses zram to provide swapping at no storage cost."
+msgstr ""
+"Swap slúži ako virtuálne rozšírenie operačnej pamäti a umožňuje hybernáciu. "
+"Lingmo OS už používa zram na swapping bez použitia úložiska."
+
+#: lingmo_installer/gtk/widget-partition.ui:135
+msgid ""
+"Choose a partition to use for swap alongside zram. This is not required for "
+"hibernation."
+msgstr ""
+"Vyberte partíciu za účelom swap popri zram. K hibernácii to nie je "
+"nevyhnutné."
+
+#: lingmo_installer/gtk/window-unsupported.ui:58
+msgid "Power Off..."
+msgstr ""
+
+#: lingmo_installer/gtk/window.ui:37
+msgid "Back"
+msgstr "Späť"
+
+#: lingmo_installer/gtk/wireless-row.ui:34
+#: lingmo_installer/defaults/network.py:372
+msgid "Connected"
+msgstr "Pripojené"
+
+#: lingmo_installer/defaults/disk.py:298
+msgid "GParted is already running. Only one instance of GParted is permitted."
+msgstr "GParted už beží. Je povolená len jedna relácia GParted."
+
+#: lingmo_installer/defaults/disk.py:363
+msgid "Partition must be at least {}"
+msgstr "Partícia musí mať aspoň {}"
+
+#: lingmo_installer/defaults/disk.py:387
+msgid "Partition must EXACTLY {}"
+msgstr "Partícia musí mať PRESNE {}"
+
+#: lingmo_installer/defaults/disk.py:402
+msgid "No partition selected"
+msgstr "Nebola vybraná partícia"
+
+#: lingmo_installer/defaults/disk.py:500
+msgid "Partitions have changed. Current selections have been cleared."
+msgstr "Partície sa zmenili. Súčasné výber bol vymazaný."
+
+#: lingmo_installer/defaults/disk.py:558
+msgid "Entire disk will be used."
+msgstr "Využije sa celý disk."
+
+#: lingmo_installer/defaults/disk.py:565
+msgid "Will be formatted in {} and mounted in {}"
+msgstr "Bude naformátovaný v {} a pripojený do {}"
+
+#: lingmo_installer/defaults/network.py:37
+msgid "Insecure network (WEP)"
+msgstr "Nezabezpečená sieť (WEP)"
+
+#: lingmo_installer/defaults/network.py:38
+msgid "Secure network (WPA)"
+msgstr "Zabezpečená sieť (WPA)"
+
+#: lingmo_installer/defaults/network.py:39
+msgid "Secure network (WPA2)"
+msgstr "Zabezpečená sieť (WPA2)"
+
+#: lingmo_installer/defaults/network.py:40
+msgid "Secure network (WPA3)"
+msgstr "Zabezpečená sieť (WPA3)"
+
+#: lingmo_installer/defaults/network.py:375
+msgid "Authentication required"
+msgstr "Vyžaduje autentifikáciu"
+
+#: lingmo_installer/defaults/network.py:383
+msgid "Connecting"
+msgstr "Pripájanie"
+
+#: lingmo_installer/defaults/network.py:385
+msgid "Disconnected"
+msgstr "Odpojené"
+
+#: lingmo_installer/defaults/network.py:387
+msgid "Disconnecting"
+msgstr "Odpájanie"
+
+#: lingmo_installer/defaults/network.py:389
+msgid "Connection Failed"
+msgstr "Pripojenie zlyhalo"
+
+#: lingmo_installer/defaults/network.py:391
+msgid "Status Unknown"
+msgstr "Neznámy stav"
+
+#: lingmo_installer/defaults/network.py:393
+msgid "Unmanaged"
+msgstr "Nespravované"
+
+#: lingmo_installer/defaults/network.py:395
+msgid "Unavailable"
+msgstr "Nedostupné"
+
+#: lingmo_installer/defaults/network.py:397
+#, fuzzy
+msgid "Unknown"
+msgstr "Neznámy stav"
+
+#: lingmo_installer/defaults/network.py:409
+msgid "Cable Unplugged"
+msgstr "Odpojený kábel"
+
+#: lingmo_installer/defaults/timezone.py:58
+#, python-format
+msgid "(at %s, %s)"
+msgstr ""
+
+#: lingmo_installer/layouts/preferences.py:67
+msgid "Please select at least one option."
+msgstr "Prosím, vyberte aspoň jednu možnosť."
+
+#: lingmo_installer/utils/builder.py:73
+msgid "Missing 'log_file' in the recipe."
+msgstr "Chýba 'log_file' v recepte."
+
+#: lingmo_installer/utils/builder.py:82
+#, python-format
+msgid "failed to create log file: %s"
+msgstr "vytvorenie súboru protokolu zlyhalo: %s"
+
+#: lingmo_installer/utils/builder.py:83
+msgid "No log will be stored."
+msgstr "Nebude uložený protokol."
+
+#: lingmo_installer/utils/builder.py:90
+#, python-format
+msgid "Performing display-condition: %s"
+msgstr "Vykonávanie podmienky zobrazenia: %s"
+
+#: lingmo_installer/utils/builder.py:99 lingmo_installer/utils/builder.py:104
+#, python-format
+msgid "Step %s skipped due to display-conditions"
+msgstr "Krok %s preskočený kvôli podmienkam zobrazenia"
+
+#: lingmo_installer/utils/recipe.py:43
+msgid "Invalid recipe file"
+msgstr "Neplatný súbor receptu"
+
+#: lingmo_installer/utils/recipe.py:52
+msgid "Recipe is not a dictionary"
+msgstr "Recept nie je slovník"
+
+#: lingmo_installer/utils/recipe.py:57
+#, python-brace-format
+msgid "Recipe is missing the '{key}' key"
+msgstr "V recepte chýba '{key}' kľúč"
+
+#: lingmo_installer/utils/recipe.py:61
+msgid "Recipe steps is not a list"
+msgstr "Kroky receptu nie sú zoznamom"
+
+#: lingmo_installer/utils/recipe.py:66
+#, python-brace-format
+msgid "Step {step} is not a dictionary"
+msgstr "Krok {step} nie je slovník"
+
+#: lingmo_installer/views/confirm.py:81
+msgid "Keyboard"
+msgstr "Klávesnica"
+
+#: lingmo_installer/views/confirm.py:87
+msgid "Timezone"
+msgstr "Časové pásmo"
+
+#: lingmo_installer/views/confirm.py:95
+msgid "Users"
+msgstr "Používateľ"
+
+#: lingmo_installer/views/confirm.py:104
+#: lingmo_installer/views/confirm.py:120
+msgid "Disk"
+msgstr "Disk"
+
+#: lingmo_installer/views/done.py:40
+msgid "Restart your device to enjoy your {} experience."
+msgstr "Reštartujte zariadenie, aby ste vychutnali svoj {} zážitok."
+
+#: lingmo_installer/views/done.py:54
+msgid "Something went wrong"
+msgstr "Niečo sa pokazilo"
+
+#: lingmo_installer/views/done.py:56
+msgid "Please contact the distribution developers."
+msgstr "Prosím kontaktujte vývojárov distribúcie."
+
+#~ msgid "Date & Time"
+#~ msgstr "Dátum a čas"
+
+#~ msgid "Select your preferred timezone"
+#~ msgstr "Vyberte si časové pásmo"
+
+#, fuzzy
+#~| msgid "Search for a Timezone"
+#~ msgid "Search timezones"
+#~ msgstr "Vyhľadávanie časového pásma"
+
+#~ msgid "Boot partition is too small."
+#~ msgstr "Zavádzacia partícia je príliš malá."
+
+#~ msgid "EFI partition is too small."
+#~ msgstr "EFI partícia je príliš malá."
+
+#~ msgid "Root partition is too small."
+#~ msgstr "Koreňová partícia je príliš malá."
+
+#~ msgid "Home partition is too small."
+#~ msgstr "Domovská partícia je príliš malá."
+
+#~ msgid "All done!"
+#~ msgstr "Všetko je hotové!"
+
+#~ msgid "Open GParted"
+#~ msgstr "Otvorte GParted"
+
+#~ msgid "Region"
+#~ msgstr "Oblasť"
+
+#~ msgid "Zone"
+#~ msgstr "Zóna"
+
+#, fuzzy
+#~| msgid "Try Lingmo OS"
+#~ msgid "Welcome to Lingmo OS!"
+#~ msgstr "Vyskúšať Lingmo OS"
+
+#, fuzzy
+#~ msgid "Home Partition"
+#~ msgstr "Oddelenia"
+
+#, fuzzy
+#~ msgid "Lingmo OS Recovery"
+#~ msgstr "Lingmo OS Inštalátor"
+
+#~ msgid "Select a Disk"
+#~ msgstr "Vyberte disk"
+
+#, fuzzy
+#~ msgid "Select the disk where you want to install Lingmo OS"
+#~ msgstr "Vyberte disk, na ktorí chcete nainštalovať Lingmo OS"
+
+#~ msgid "Configure"
+#~ msgstr "Konfigurácia"
+
+#, fuzzy
+#~ msgid "Choose how to install Lingmo OS on your drive."
+#~ msgstr "Vyberte disk, na ktorí chcete nainštalovať Lingmo OS"
+
+#~ msgid "This will erase all data on the disk."
+#~ msgstr "Týmto sa odstránia všetky údaje na disku."
+
+#~ msgid "This is the only disk available and cannot be deselected!"
+#~ msgstr "Tento disk musí byť zvolený, lebo je to jediný dostupný disk!"
+
+#~ msgid "Welcome"
+#~ msgstr "Vitajte"
+
+#~ msgid "This software will guide you through the installation process."
+#~ msgstr "Tento program vám položí niekoľko otázok a nainštaluje Lingmo OS."
+
+#~ msgid "The following partitions were found on the disk"
+#~ msgstr "Na disku boli nájdené tieto oddiely"
+
+#~ msgid "Format"
+#~ msgstr "Formát"
+
+#~ msgid "Choose a new file system or leave as is"
+#~ msgstr "Vyberte si nový súborový systém alebo ho nechajte tak, ako je"
+
+#~ msgid "Mount Point"
+#~ msgstr "Bod pripojenia"
+
+#~ msgid "Choose a mount point for the partition"
+#~ msgstr "Vyberte bod pripojenia pre diskový oddiel"

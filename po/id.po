@@ -1,0 +1,850 @@
+# Indonesian translations for lingmo-installer package.
+# Copyright (C) 2022 THE lingmo-installer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-installer package.
+# Automatically generated, 2022.
+#
+# Alim Satria <alimsatria2017@mail.ugm.ac.id>, 2023.
+# Zee <efzeee@pm.me>, 2023.
+# Sultan Iskandar Maulana <nattadasu@nattadasu.my.id>, 2023.
+# Reza Almanda <rezaalmanda27@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: 2023-12-30 08:05+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/lingmo-os/"
+"installer/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/org.lingmoos.Installer.desktop.in:3 lingmo_installer/gtk/window.ui:8
+msgid "Lingmo OS Installer"
+msgstr "Installasi Lingmo OS"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:7
+msgid "Tweak your Lingmo OS installation."
+msgstr "Sesuaikan instalasi Lingmo OS mu."
+
+#: data/org.lingmoos.Installer.appdata.xml.in:10
+msgid "No description"
+msgstr "Tidak ada deskripsi"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:26
+msgid "First release"
+msgstr "Rilisan Pertama"
+
+#: lingmo_installer/gtk/confirm.ui:10
+msgid "Confirm Installation"
+msgstr "Konfirmasi Instalasi"
+
+#: lingmo_installer/gtk/confirm.ui:11
+msgid "The following changes will be made to your system"
+msgstr "Perubahan berikut ini akan dilakukan pada sistem Anda"
+
+#: lingmo_installer/gtk/confirm.ui:28
+msgid "Install Lingmo OS"
+msgstr "Install Lingmo OS"
+
+#: lingmo_installer/gtk/default-conn-check.ui:12
+msgid "Checking Connection…"
+msgstr "Memeriksa koneksi…"
+
+#: lingmo_installer/gtk/default-conn-check.ui:13
+msgid "Please wait until the connection check is done"
+msgstr "Harap tunggu hingga pemeriksaan koneksi selesai"
+
+#: lingmo_installer/gtk/default-disk.ui:19
+#: lingmo_installer/gtk/default-encryption.ui:18
+#: lingmo_installer/gtk/default-keyboard.ui:30
+#: lingmo_installer/gtk/default-language.ui:18
+#: lingmo_installer/gtk/default-network.ui:18
+#: lingmo_installer/gtk/default-theme.ui:49
+#: lingmo_installer/gtk/default-users.ui:19
+#: lingmo_installer/gtk/layout-preferences.ui:29
+#: lingmo_installer/gtk/progress.ui:41
+msgid "Next"
+msgstr "Lanjut"
+
+#: lingmo_installer/gtk/default-disk.ui:29
+msgid "Install Location"
+msgstr "Lokasi Instalasi"
+
+#: lingmo_installer/gtk/default-disk.ui:30
+msgid ""
+"Select the disk where you want to install Lingmo OS. Alternatively, you can "
+"select one or more disks to configure manually."
+msgstr ""
+"Pilih disk yang mana Anda ingin memasang Lingmo OS. Atau Anda dapat memilih "
+"satu atau beberapa disk untuk dikonfigurasikan secara manual."
+
+#: lingmo_installer/gtk/default-disk.ui:44
+#, fuzzy
+msgid "Use Entire Disk"
+msgstr "Gunakan seluruh disk"
+
+#: lingmo_installer/gtk/default-disk.ui:56
+msgid "Manual"
+msgstr "Manual"
+
+#: lingmo_installer/gtk/default-disk.ui:86
+msgid "You need at least %s of disk space to proceed with the installation."
+msgstr ""
+"Anda memerlukan setidaknya %s dari ruang disk untuk melanjutkan instalasi."
+
+#: lingmo_installer/gtk/default-encryption.ui:28
+msgid "Device Encryption"
+msgstr "Enkripsi Perangkat"
+
+#: lingmo_installer/gtk/default-encryption.ui:29
+#, fuzzy
+msgid "Lingmo OS encrypts your disk to protect your personal information"
+msgstr ""
+"Lingmo OS menyediakan enkripsi disk menyeluruh menggunakan LUKS2 untuk "
+"menjaga informasi personal Anda dikala perangkat Anda dicuri."
+
+#: lingmo_installer/gtk/default-encryption.ui:36
+#, fuzzy
+msgid "Encrypt Device"
+msgstr "Enkripsikan perangkat"
+
+#: lingmo_installer/gtk/default-encryption.ui:37
+msgid "Use a memorable password to encrypt your data"
+msgstr "Gunakan kata sandi yang mudah diingat untuk mengenkripsi data Anda"
+
+#: lingmo_installer/gtk/default-encryption.ui:49
+#: lingmo_installer/gtk/default-users.ui:60
+msgid "Password"
+msgstr "Kata Sandi"
+
+#: lingmo_installer/gtk/default-encryption.ui:55
+#: lingmo_installer/gtk/default-users.ui:66
+msgid "Confirm Password"
+msgstr "Konfirmasi Kata Sandi"
+
+#: lingmo_installer/gtk/default-keyboard.ui:42
+msgid "Keyboard Layout"
+msgstr "Tata Letak Keyboard"
+
+#: lingmo_installer/gtk/default-keyboard.ui:43
+msgid "Select your preferred keyboard layout"
+msgstr "Pilih tata letak keyboard pilihan Anda"
+
+#: lingmo_installer/gtk/default-keyboard.ui:53
+#, fuzzy
+msgid "Search keyboard layouts"
+msgstr "Cari Tata Letak Keyboard"
+
+#: lingmo_installer/gtk/default-language.ui:28
+#: lingmo_installer/gtk/widget-language.ui:12
+#: lingmo_installer/views/confirm.py:75
+msgid "Language"
+msgstr "Bahasa"
+
+#: lingmo_installer/gtk/default-language.ui:29
+msgid "Select your language"
+msgstr "Pilih bahasa anda"
+
+#: lingmo_installer/gtk/default-language.ui:39
+#, fuzzy
+msgid "Search languages"
+msgstr "Cari salah satu bahasa"
+
+#: lingmo_installer/gtk/default-network.ui:27
+msgid "Internet"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:28
+msgid "An active internet connection is required to install the system"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:39
+msgid "Wired"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:44
+msgid "Wireless Networks"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:49
+msgid "Advanced"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:52
+msgid "Connect to Hidden Network..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:79
+msgid "Open Proxy Settings..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:14
+msgid "NVIDIA® Drivers"
+msgstr "Driver NVIDIA®"
+
+#: lingmo_installer/gtk/default-nvidia.ui:15
+msgid ""
+"Choose whether to install proprietary NVIDIA drivers for better "
+"compatibility and performance."
+msgstr ""
+"Pilih jika ingin memasang driver NVIDIA proprietary untuk kompatibilitas dan "
+"performa yang lebih baik."
+
+#: lingmo_installer/gtk/default-nvidia.ui:29
+#: lingmo_installer/gtk/default-vm.ui:29
+msgid "Skip"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:38
+#: lingmo_installer/gtk/default-vm.ui:38
+#, fuzzy
+msgid "Install  (Recommended)"
+msgstr "Pasang  (direkomendasikan)"
+
+#: lingmo_installer/gtk/default-nvidia.ui:70
+msgid "About Proprietary Drivers"
+msgstr "Mengenai Driver Proprietary"
+
+#: lingmo_installer/gtk/default-nvidia.ui:78
+msgid ""
+"A proprietary driver has private code that neither Lingmo OS nor Debian "
+"developers can review.\n"
+"\n"
+"Security and other updates are dependent on the driver vendor."
+msgstr ""
+"Driver proprietary memiliki kode pribadi yang mana pengembang Lingmo OS "
+"ataupun Debian tidak bisa ulas.\n"
+"\n"
+"Keamanan dan pembaruan lainnya tergantung pada pemilik driver."
+
+#: lingmo_installer/gtk/default-vm.ui:14
+msgid "VM Tools"
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:15
+#, fuzzy
+msgid ""
+"Choose whether to install VM Tools for better compatibility and performance."
+msgstr ""
+"Pilih jika ingin memasang driver NVIDIA proprietary untuk kompatibilitas dan "
+"performa yang lebih baik."
+
+#: lingmo_installer/gtk/default-theme.ui:17
+msgid "Default"
+msgstr "Bawaan"
+
+#: lingmo_installer/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr "Gelap"
+
+#: lingmo_installer/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr "Skema Warna"
+
+#: lingmo_installer/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system"
+msgstr "Pilih skema warna untuk sistem Anda"
+
+#: lingmo_installer/gtk/default-users.ui:40
+msgid "Create User"
+msgstr "Buat Pengguna"
+
+#: lingmo_installer/gtk/default-users.ui:41
+msgid "Provide details for your user account"
+msgstr "Lengkapi detail untuk akun Anda"
+
+#: lingmo_installer/gtk/default-users.ui:48
+msgid "Name"
+msgstr "Nama"
+
+#: lingmo_installer/gtk/default-users.ui:54
+msgid "Username"
+msgstr "Nama Pengguna"
+
+#: lingmo_installer/gtk/default-welcome.ui:17
+msgid "Install"
+msgstr "Pasang"
+
+#: lingmo_installer/gtk/default-welcome.ui:34
+#: lingmo_installer/gtk/dialog-recovery.ui:6
+msgid "Recovery"
+msgstr "Pemulihan"
+
+#: lingmo_installer/gtk/default-welcome.ui:51
+#: lingmo_installer/gtk/dialog-poweroff.ui:6
+#: lingmo_installer/gtk/dialog-poweroff.ui:26
+msgid "Power Off"
+msgstr "Matikan Daya"
+
+#: lingmo_installer/gtk/dialog.ui:6
+msgid "Showing Information"
+msgstr "Menampilkan Informasi"
+
+#: lingmo_installer/gtk/dialog-disk.ui:5
+msgid "Configure Disk"
+msgstr "Mengatur Penyimpanan"
+
+#: lingmo_installer/gtk/dialog-disk.ui:17
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:18
+msgid "Cancel"
+msgstr "Batal"
+
+#: lingmo_installer/gtk/dialog-disk.ui:22
+msgid "Apply"
+msgstr "Terapkan"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:6
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:25
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:36
+msgid "Confirm Changes"
+msgstr "Konfirmasi Perubahan"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:26
+msgid ""
+"The following changes will be made to your disk. Please review them "
+"carefully."
+msgstr ""
+"Perubahan berikut ini akan dilakukan pada penyimpananmu. Mohon diperiksa "
+"dengan hati-hati."
+
+#: lingmo_installer/gtk/dialog-output.ui:6
+msgid "Log"
+msgstr "Log"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:42
+msgid "Restart"
+msgstr "Mulai Ulang"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:58
+msgid "Restart into Firmware Setup"
+msgstr "Mulai Ulang ke Pengaturan Firmware"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:26
+msgid "Console"
+msgstr "Console"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:27
+#, fuzzy
+msgid "Open a terminal"
+msgstr "Buka Terminal"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:43
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:44
+#, fuzzy
+msgid "Open the Lingmo OS documentation"
+msgstr "Baca Dokumentasi Lingmo OS"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:60
+#, fuzzy
+msgid "GParted"
+msgstr "Gparted"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:61
+msgid "Manage disks and partitions"
+msgstr "Kelola disk dan partisi"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:77
+msgid "Handbook"
+msgstr "Buku Panduan"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:78
+#, fuzzy
+msgid "Read tutorials and guides about Lingmo OS"
+msgstr "Baca tutorial dan petunjuk mengenai Lingmo OS."
+
+#: lingmo_installer/gtk/dialog-recovery.ui:94
+msgid "Web Browser"
+msgstr "Web Browser"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:95
+#, fuzzy
+msgid "Search help online"
+msgstr "Cari bantuan secara daring"
+
+#: lingmo_installer/gtk/done.ui:12
+msgid "Finished!"
+msgstr ""
+
+#: lingmo_installer/gtk/done.ui:13
+msgid "Restart your device to enjoy your Lingmo OS experience"
+msgstr ""
+"Mulai kembali perangkat Anda untuk menikmati pengalaman menggunakan Lingmo "
+"OS"
+
+#: lingmo_installer/gtk/done.ui:23
+msgid "Show Log"
+msgstr "Tampilkan Log"
+
+#: lingmo_installer/gtk/done.ui:32
+msgid "Reboot Now"
+msgstr "Mulai Kembali Sekarang"
+
+#: lingmo_installer/gtk/done.ui:42
+msgid "Close"
+msgstr "Tutup"
+
+#: lingmo_installer/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr "Ya, hidupkan"
+
+#: lingmo_installer/gtk/progress.ui:27
+msgid "Previous"
+msgstr ""
+
+#: lingmo_installer/gtk/progress.ui:110
+msgid "Installing..."
+msgstr "Menginstal..."
+
+#: lingmo_installer/gtk/progress.ui:131
+msgid "Show Console output"
+msgstr "Tampilkan keluaran Konsol"
+
+#: lingmo_installer/gtk/progress.ui:146
+msgid "Show Slideshow"
+msgstr "Tampilkan Rangkaian Slide"
+
+#: lingmo_installer/gtk/widget-keyboard.ui:12
+msgid "key"
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:10
+#, fuzzy
+msgid "Manually Partition"
+msgstr "Partisi Manual"
+
+#: lingmo_installer/gtk/widget-partition.ui:11
+msgid "Open GParted to manually partition the disk"
+msgstr "Buka GParted untuk mengatur partisi penyimpanan secara manual"
+
+#: lingmo_installer/gtk/widget-partition.ui:29
+msgid "Boot Partition"
+msgstr "Partisi Boot"
+
+#: lingmo_installer/gtk/widget-partition.ui:30
+msgid ""
+"The partition to mount under “/boot”. This directory stores files for "
+"booting into Lingmo OS."
+msgstr ""
+"Partisi yang akan dipasang pada \"/boot\". Direktori ini menyimpan file "
+"untuk booting ke dalam Lingmo OS."
+
+#: lingmo_installer/gtk/widget-partition.ui:33
+#: lingmo_installer/gtk/widget-partition.ui:53
+#: lingmo_installer/gtk/widget-partition.ui:73
+#: lingmo_installer/gtk/widget-partition.ui:94
+#: lingmo_installer/gtk/widget-partition.ui:114
+#: lingmo_installer/gtk/widget-partition.ui:147
+#, fuzzy
+msgid "No Partition Selected"
+msgstr "Tidak ada partisi yang dipilih"
+
+#: lingmo_installer/gtk/widget-partition.ui:34
+#: lingmo_installer/gtk/widget-partition.ui:54
+#: lingmo_installer/gtk/widget-partition.ui:74
+#: lingmo_installer/gtk/widget-partition.ui:95
+#: lingmo_installer/gtk/widget-partition.ui:115
+#: lingmo_installer/gtk/widget-partition.ui:148
+#: lingmo_installer/defaults/disk.py:404
+msgid "Please select a partition from the options below"
+msgstr "Pilihlah partisi dari pilihan di bawah ini"
+
+#: lingmo_installer/gtk/widget-partition.ui:49
+msgid "EFI Partition"
+msgstr "Partisi EFI"
+
+#: lingmo_installer/gtk/widget-partition.ui:50
+msgid ""
+"The partition to mount under “/boot/efi”. This directory stores files for "
+"booting in the bootloader."
+msgstr ""
+"Partisi yang akan dipasang pada \"/boot/efi\". Direktori ini menyimpan file "
+"untuk booting kedalam bootloader."
+
+#: lingmo_installer/gtk/widget-partition.ui:69
+msgid "BIOS Boot Partition"
+msgstr "Partisi Boot BIOS"
+
+#: lingmo_installer/gtk/widget-partition.ui:70
+msgid ""
+"The partition required by GPT-formatted disks to support booting from BIOS "
+"systems. It must be located in the first 2 TB of the disk and must be "
+"exactly 1 Mebibyte (1 MiB)."
+msgstr ""
+"Partisi yang diperlukan oleh disk berformat GPT untuk mendukung booting dari "
+"sistem BIOS. Partisi ini harus berada di 2 TB pertama disk dan harus "
+"berukuran tepat 1 Mebibyte (1 MiB)."
+
+#: lingmo_installer/gtk/widget-partition.ui:85
+msgid "BIOS partition must be exactly 1 MiB."
+msgstr "Partisi BIOS harus berukuran tepat 1 MiB."
+
+#: lingmo_installer/gtk/widget-partition.ui:90
+msgid "Root Partition"
+msgstr "Partisi Root"
+
+#: lingmo_installer/gtk/widget-partition.ui:91
+msgid ""
+"The partition to mount under “/”. It will be automatically converted into an "
+"LVM thin pool during installation."
+msgstr ""
+"Partisi yang akan dipasang pada \"/\". Ini akan secara otomatis "
+"dikonversikan ke pool tipis LVM saat pemasangan."
+
+#: lingmo_installer/gtk/widget-partition.ui:110
+msgid "Var Partition"
+msgstr "Partisi Var"
+
+#: lingmo_installer/gtk/widget-partition.ui:111
+msgid ""
+"The partition to mount under “/var”. This directory stores all user data "
+"like personal documents and system-wide configuration."
+msgstr ""
+"Partisi yang akan dipasang di bawah \"/var\". Direktori ini menyimpan semua "
+"data pengguna seperti dokumen pribadi dan konfigurasi di seluruh sistem."
+
+#: lingmo_installer/gtk/widget-partition.ui:130
+#: lingmo_installer/gtk/widget-partition.ui:134
+msgid "Swap Partition"
+msgstr "Partisi Swap"
+
+#: lingmo_installer/gtk/widget-partition.ui:131
+msgid ""
+"Swap acts as a virtual extension of your RAM and enables hibernation. "
+"Lingmo OS already uses zram to provide swapping at no storage cost."
+msgstr ""
+"Swap bertindak sebagai tambahan virtual untuk RAM Anda dan memungkinkan "
+"hibernasi. Lingmo OS sudah menggunakan zram untuk menyediakan swap tanpa "
+"biaya penyimpanan."
+
+#: lingmo_installer/gtk/widget-partition.ui:135
+msgid ""
+"Choose a partition to use for swap alongside zram. This is not required for "
+"hibernation."
+msgstr ""
+"Pilih partisi yang akan digunakan untuk swap bersama zram. Hal ini tidak "
+"diperlukan untuk hibernasi."
+
+#: lingmo_installer/gtk/window-unsupported.ui:58
+#, fuzzy
+msgid "Power Off..."
+msgstr "Matikan Daya"
+
+#: lingmo_installer/gtk/window.ui:37
+msgid "Back"
+msgstr "Kembali"
+
+#: lingmo_installer/gtk/wireless-row.ui:34
+#: lingmo_installer/defaults/network.py:372
+msgid "Connected"
+msgstr "Terhubung"
+
+#: lingmo_installer/defaults/disk.py:298
+msgid "GParted is already running. Only one instance of GParted is permitted."
+msgstr "GParted sudah berjalan. Hanya satu instansi dari GParted dibolehkan."
+
+#: lingmo_installer/defaults/disk.py:363
+msgid "Partition must be at least {}"
+msgstr "Partisi harus setidaknya {}"
+
+#: lingmo_installer/defaults/disk.py:387
+msgid "Partition must EXACTLY {}"
+msgstr "Partisi harus PERSIS {}"
+
+#: lingmo_installer/defaults/disk.py:402
+msgid "No partition selected"
+msgstr "Tidak ada partisi yang dipilih"
+
+#: lingmo_installer/defaults/disk.py:500
+msgid "Partitions have changed. Current selections have been cleared."
+msgstr "Partisi telah berubah. Pilihan saat ini telah dihapus."
+
+#: lingmo_installer/defaults/disk.py:558
+msgid "Entire disk will be used."
+msgstr "Seluruh penyimpanan akan digunakan."
+
+#: lingmo_installer/defaults/disk.py:565
+msgid "Will be formatted in {} and mounted in {}"
+msgstr "Akan diformat dalam {} dan dimount dalam {}"
+
+#: lingmo_installer/defaults/network.py:37
+msgid "Insecure network (WEP)"
+msgstr "Jaringan tidak aman (WEP)"
+
+#: lingmo_installer/defaults/network.py:38
+msgid "Secure network (WPA)"
+msgstr "Jaringan aman (WPA)"
+
+#: lingmo_installer/defaults/network.py:39
+msgid "Secure network (WPA2)"
+msgstr "Jaringan aman (WPA2)"
+
+#: lingmo_installer/defaults/network.py:40
+msgid "Secure network (WPA3)"
+msgstr "Jaringan aman (WPA3)"
+
+#: lingmo_installer/defaults/network.py:375
+msgid "Authentication required"
+msgstr "Otentikasi diperlukan"
+
+#: lingmo_installer/defaults/network.py:383
+msgid "Connecting"
+msgstr "Menghubungkan"
+
+#: lingmo_installer/defaults/network.py:385
+msgid "Disconnected"
+msgstr "Tidak Terhubung"
+
+#: lingmo_installer/defaults/network.py:387
+msgid "Disconnecting"
+msgstr "Memutuskan"
+
+#: lingmo_installer/defaults/network.py:389
+msgid "Connection Failed"
+msgstr "Koneksi Gagal"
+
+#: lingmo_installer/defaults/network.py:391
+msgid "Status Unknown"
+msgstr "Status Tidak Diketahui"
+
+#: lingmo_installer/defaults/network.py:393
+msgid "Unmanaged"
+msgstr "Tidak Dikelola"
+
+#: lingmo_installer/defaults/network.py:395
+msgid "Unavailable"
+msgstr "Tidak Tersedia"
+
+#: lingmo_installer/defaults/network.py:397
+#, fuzzy
+msgid "Unknown"
+msgstr "Status Tidak Diketahui"
+
+#: lingmo_installer/defaults/network.py:409
+msgid "Cable Unplugged"
+msgstr "Kabel Tidak Terpasang"
+
+#: lingmo_installer/defaults/timezone.py:58
+#, python-format
+msgid "(at %s, %s)"
+msgstr ""
+
+#: lingmo_installer/layouts/preferences.py:67
+msgid "Please select at least one option."
+msgstr "Tolong setidaknya pilih satu opsi."
+
+#: lingmo_installer/utils/builder.py:73
+msgid "Missing 'log_file' in the recipe."
+msgstr "'log_file' tidak ditemukan dalam resep."
+
+#: lingmo_installer/utils/builder.py:82
+#, python-format
+msgid "failed to create log file: %s"
+msgstr "gagal membuat berkas log: %s"
+
+#: lingmo_installer/utils/builder.py:83
+msgid "No log will be stored."
+msgstr "Tidak ada log yang akan disimpan."
+
+#: lingmo_installer/utils/builder.py:90
+#, python-format
+msgid "Performing display-condition: %s"
+msgstr "Melakukan kondisi tampilan: %s"
+
+#: lingmo_installer/utils/builder.py:99 lingmo_installer/utils/builder.py:104
+#, python-format
+msgid "Step %s skipped due to display-conditions"
+msgstr "Langkah %s dilewati karena kondisi tampilan"
+
+#: lingmo_installer/utils/recipe.py:43
+msgid "Invalid recipe file"
+msgstr "Berkas resep tidak sah"
+
+#: lingmo_installer/utils/recipe.py:52
+msgid "Recipe is not a dictionary"
+msgstr "Resep bukanlah kamus"
+
+#: lingmo_installer/utils/recipe.py:57
+#, python-brace-format
+msgid "Recipe is missing the '{key}' key"
+msgstr "Resep tidak memiliki kunci '{key}'"
+
+#: lingmo_installer/utils/recipe.py:61
+msgid "Recipe steps is not a list"
+msgstr "Instruksi resep bukanlah sebuah daftar"
+
+#: lingmo_installer/utils/recipe.py:66
+#, python-brace-format
+msgid "Step {step} is not a dictionary"
+msgstr "Langkah {step} bukanlah sebuah kamus"
+
+#: lingmo_installer/views/confirm.py:81
+msgid "Keyboard"
+msgstr "Papan Ketik"
+
+#: lingmo_installer/views/confirm.py:87
+msgid "Timezone"
+msgstr "Zona waktu"
+
+#: lingmo_installer/views/confirm.py:95
+msgid "Users"
+msgstr "Pengguna"
+
+#: lingmo_installer/views/confirm.py:104
+#: lingmo_installer/views/confirm.py:120
+msgid "Disk"
+msgstr "Disk"
+
+#: lingmo_installer/views/done.py:40
+msgid "Restart your device to enjoy your {} experience."
+msgstr "Mulai ulang perangkat anda untuk menikmati pengalaman {} anda."
+
+#: lingmo_installer/views/done.py:54
+msgid "Something went wrong"
+msgstr "Ada sesuatu yang salah"
+
+#: lingmo_installer/views/done.py:56
+msgid "Please contact the distribution developers."
+msgstr "Silakan hubungi pengembang distro."
+
+#~ msgid "Date & Time"
+#~ msgstr "Tanggal & Waktu"
+
+#~ msgid "Select your preferred timezone"
+#~ msgstr "Pilih zona waktu anda"
+
+#, fuzzy
+#~| msgid "Search for a Timezone"
+#~ msgid "Search timezones"
+#~ msgstr "Cari Zona Waktu"
+
+#~ msgid "Boot partition is too small."
+#~ msgstr "Partisi boot terlalu kecil."
+
+#~ msgid "EFI partition is too small."
+#~ msgstr "Partisi EFI terlalu kecil."
+
+#~ msgid "Root partition is too small."
+#~ msgstr "Partisi root terlalu kecil."
+
+#~ msgid "Home partition is too small."
+#~ msgstr "Partisi rumah terlalu kecil."
+
+#~ msgid "Don't install"
+#~ msgstr "Jangan pasang"
+
+#~ msgid "All done!"
+#~ msgstr "Selesai!"
+
+#~ msgid "Open GParted"
+#~ msgstr "Buka GParted"
+
+#~ msgid "Region"
+#~ msgstr "Wilayah"
+
+#~ msgid "Zone"
+#~ msgstr "Zona"
+
+#, fuzzy
+#~| msgid "Try Lingmo OS"
+#~ msgid "Welcome to Lingmo OS!"
+#~ msgstr "Coba Lingmo OS"
+
+#~ msgid ""
+#~ "The partitions to mount under “/”. Both partitions must be the same size."
+#~ msgstr ""
+#~ "Partisi yang akan dipasang pada \"/\". Kedua partisi harus berukuran sama."
+
+#~ msgid ""
+#~ "Lingmo OS uses an A/B partition system managed by ABRoot,\n"
+#~ "which switches between two root partitions between updates."
+#~ msgstr ""
+#~ "Lingmo OS menggunakan sistem partisi A/B yang dikelola oleh ABRoot,\n"
+#~ "yang beralih di antara dua partisi root di antara pembaruan."
+
+#~ msgid "Root partitions are not the same size."
+#~ msgstr "Partisi root tidak memiliki ukuran yang sama."
+
+#~ msgid "Please make sure your A and B partitions have the same disk space."
+#~ msgstr "Pastikan partisi A dan B memiliki ruang disk yang sama."
+
+#~ msgid "Root partitions are too small."
+#~ msgstr "Partisi root terlalu kecil."
+
+#~ msgid "Home Partition"
+#~ msgstr "Partisi Rumah"
+
+#~ msgid "clicked"
+#~ msgstr "diklik"
+
+#~ msgid "installation-confirmed"
+#~ msgstr "instalasi terkonfirmasikan"
+
+#~ msgid "page-changed"
+#~ msgstr "halaman berubah"
+
+#~ msgid "Lingmo OS Recovery"
+#~ msgstr "Pemulihan Lingmo OS"
+
+#~ msgid "Select a Disk"
+#~ msgstr "Pilih sebuah disk"
+
+#~ msgid "Select the disk where you want to install Lingmo OS"
+#~ msgstr "Pilih disk untuk instalasi Lingmo OS"
+
+#~ msgid "Configure"
+#~ msgstr "Konfigurasi"
+
+#~ msgid "Disk Allocation"
+#~ msgstr "Alokasi Disk"
+
+#~ msgid "Choose how to install Lingmo OS on your drive."
+#~ msgstr "Pilih cara menginstal Lingmo OS pada drive Anda."
+
+#~ msgid "This will erase all data on the disk."
+#~ msgstr "Ini akan menghapus seluruh data pada penyimpanan."
+
+#~ msgid ""
+#~ "Select which partitions to use for installation. Incorrect configuration "
+#~ "can lead to data loss, corruption, and/or an unbootable system."
+#~ msgstr ""
+#~ "Pilih partisi yang akan digunakan untuk penginstalan. Konfigurasi yang "
+#~ "salah dapat menyebabkan hilangnya data, kerusakan, dan/atau sistem tidak "
+#~ "dapat di-boot."
+
+#, python-brace-format
+#~ msgid "Not enough space: {0}/{1}"
+#~ msgstr "Tidak cukup ruang: {0}/{1}"
+
+#~ msgid "This is the only disk available and cannot be deselected!"
+#~ msgstr ""
+#~ "Ini adalah satu-satunya penyimpanan yang tersedia dan tidak dapat untuk "
+#~ "tidak dipilih!"
+
+#~ msgid "Welcome"
+#~ msgstr "Selamat Datang"
+
+#~ msgid "This software will guide you through the installation process."
+#~ msgstr "Software ini akan memandu anda dalam proses instalasi."
+
+#~ msgid "The following partitions were found on the disk"
+#~ msgstr "Partisi berikut ditemukan di dalam penyimpanan"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Choose a new file system or leave as is"
+#~ msgstr "Pilih file system baru atau biarkan seperti ini"
+
+#~ msgid "Mount Point"
+#~ msgstr "Titik mount"
+
+#~ msgid "Choose a mount point for the partition"
+#~ msgstr "Pilih titik mount untuk partisi"

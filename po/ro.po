@@ -1,0 +1,832 @@
+# Romanian translations for lingmo-installer package.
+# Copyright (C) 2022 THE lingmo-installer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-installer package.
+# Automatically generated, 2022.
+#
+# Matt C <matei.gurzu@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: 2023-04-02 13:31+0000\n"
+"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/lingmo-os/"
+"installer/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 4.17-dev\n"
+
+#: data/org.lingmoos.Installer.desktop.in:3 lingmo_installer/gtk/window.ui:8
+msgid "Lingmo OS Installer"
+msgstr "Program de instalare Lingmo OS"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:7
+msgid "Tweak your Lingmo OS installation."
+msgstr "Configurează instalarea Lingmo OS."
+
+#: data/org.lingmoos.Installer.appdata.xml.in:10
+msgid "No description"
+msgstr "Fără descriere"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:26
+msgid "First release"
+msgstr "Prima lansare"
+
+#: lingmo_installer/gtk/confirm.ui:10
+msgid "Confirm Installation"
+msgstr "Confirmă instalarea"
+
+#: lingmo_installer/gtk/confirm.ui:11
+#, fuzzy
+msgid "The following changes will be made to your system"
+msgstr "Următoarele schimbări se vor aplica în sistemului dvs:"
+
+#: lingmo_installer/gtk/confirm.ui:28
+msgid "Install Lingmo OS"
+msgstr "Instalează Lingmo OS"
+
+#: lingmo_installer/gtk/default-conn-check.ui:12
+msgid "Checking Connection…"
+msgstr ""
+
+#: lingmo_installer/gtk/default-conn-check.ui:13
+msgid "Please wait until the connection check is done"
+msgstr ""
+
+#: lingmo_installer/gtk/default-disk.ui:19
+#: lingmo_installer/gtk/default-encryption.ui:18
+#: lingmo_installer/gtk/default-keyboard.ui:30
+#: lingmo_installer/gtk/default-language.ui:18
+#: lingmo_installer/gtk/default-network.ui:18
+#: lingmo_installer/gtk/default-theme.ui:49
+#: lingmo_installer/gtk/default-users.ui:19
+#: lingmo_installer/gtk/layout-preferences.ui:29
+#: lingmo_installer/gtk/progress.ui:41
+msgid "Next"
+msgstr "Următorul"
+
+#: lingmo_installer/gtk/default-disk.ui:29
+#, fuzzy
+msgid "Install Location"
+msgstr "Confirmă instalarea"
+
+#: lingmo_installer/gtk/default-disk.ui:30
+msgid ""
+"Select the disk where you want to install Lingmo OS. Alternatively, you can "
+"select one or more disks to configure manually."
+msgstr ""
+
+#: lingmo_installer/gtk/default-disk.ui:44
+#, fuzzy
+msgid "Use Entire Disk"
+msgstr "Întregul disc"
+
+#: lingmo_installer/gtk/default-disk.ui:56
+msgid "Manual"
+msgstr ""
+
+#: lingmo_installer/gtk/default-disk.ui:86
+msgid "You need at least %s of disk space to proceed with the installation."
+msgstr ""
+
+#: lingmo_installer/gtk/default-encryption.ui:28
+msgid "Device Encryption"
+msgstr ""
+
+#: lingmo_installer/gtk/default-encryption.ui:29
+msgid "Lingmo OS encrypts your disk to protect your personal information"
+msgstr ""
+
+#: lingmo_installer/gtk/default-encryption.ui:36
+msgid "Encrypt Device"
+msgstr ""
+
+#: lingmo_installer/gtk/default-encryption.ui:37
+msgid "Use a memorable password to encrypt your data"
+msgstr ""
+
+#: lingmo_installer/gtk/default-encryption.ui:49
+#: lingmo_installer/gtk/default-users.ui:60
+msgid "Password"
+msgstr "Parolă"
+
+#: lingmo_installer/gtk/default-encryption.ui:55
+#: lingmo_installer/gtk/default-users.ui:66
+msgid "Confirm Password"
+msgstr "Confirmă parola"
+
+#: lingmo_installer/gtk/default-keyboard.ui:42
+msgid "Keyboard Layout"
+msgstr "Aspectul tastaturii"
+
+#: lingmo_installer/gtk/default-keyboard.ui:43
+msgid "Select your preferred keyboard layout"
+msgstr "Selectează aspectul preferat pentru tastatura dvs."
+
+#: lingmo_installer/gtk/default-keyboard.ui:53
+#, fuzzy
+msgid "Search keyboard layouts"
+msgstr "Caută un aspect pentru tastatură"
+
+#: lingmo_installer/gtk/default-language.ui:28
+#: lingmo_installer/gtk/widget-language.ui:12
+#: lingmo_installer/views/confirm.py:75
+msgid "Language"
+msgstr "Limbă"
+
+#: lingmo_installer/gtk/default-language.ui:29
+msgid "Select your language"
+msgstr "Selectează limba"
+
+#: lingmo_installer/gtk/default-language.ui:39
+#, fuzzy
+msgid "Search languages"
+msgstr "Caută o limbă"
+
+#: lingmo_installer/gtk/default-network.ui:27
+msgid "Internet"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:28
+msgid "An active internet connection is required to install the system"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:39
+msgid "Wired"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:44
+msgid "Wireless Networks"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:49
+msgid "Advanced"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:52
+msgid "Connect to Hidden Network..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:79
+msgid "Open Proxy Settings..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:14
+msgid "NVIDIA® Drivers"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:15
+msgid ""
+"Choose whether to install proprietary NVIDIA drivers for better "
+"compatibility and performance."
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:29
+#: lingmo_installer/gtk/default-vm.ui:29
+msgid "Skip"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:38
+#: lingmo_installer/gtk/default-vm.ui:38
+msgid "Install  (Recommended)"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:70
+msgid "About Proprietary Drivers"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:78
+msgid ""
+"A proprietary driver has private code that neither Lingmo OS nor Debian "
+"developers can review.\n"
+"\n"
+"Security and other updates are dependent on the driver vendor."
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:14
+msgid "VM Tools"
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:15
+msgid ""
+"Choose whether to install VM Tools for better compatibility and performance."
+msgstr ""
+
+#: lingmo_installer/gtk/default-theme.ui:17
+msgid "Default"
+msgstr "Implicit"
+
+#: lingmo_installer/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr "Întunecat"
+
+#: lingmo_installer/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr "Schema de culori"
+
+#: lingmo_installer/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system"
+msgstr "Selectează schema de culori pentru sistemul tău"
+
+#: lingmo_installer/gtk/default-users.ui:40
+msgid "Create User"
+msgstr "Crează utilizator"
+
+#: lingmo_installer/gtk/default-users.ui:41
+msgid "Provide details for your user account"
+msgstr "Specifică detalii pentru contul tău de utilizator"
+
+#: lingmo_installer/gtk/default-users.ui:48
+msgid "Name"
+msgstr "Nume"
+
+#: lingmo_installer/gtk/default-users.ui:54
+msgid "Username"
+msgstr "Nume de utilizator"
+
+#: lingmo_installer/gtk/default-welcome.ui:17
+#, fuzzy
+msgid "Install"
+msgstr "Se instalează..."
+
+#: lingmo_installer/gtk/default-welcome.ui:34
+#: lingmo_installer/gtk/dialog-recovery.ui:6
+msgid "Recovery"
+msgstr "Recuperare"
+
+#: lingmo_installer/gtk/default-welcome.ui:51
+#: lingmo_installer/gtk/dialog-poweroff.ui:6
+#: lingmo_installer/gtk/dialog-poweroff.ui:26
+msgid "Power Off"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog.ui:6
+msgid "Showing Information"
+msgstr "Afișare informații"
+
+#: lingmo_installer/gtk/dialog-disk.ui:5
+msgid "Configure Disk"
+msgstr "Configurează disc"
+
+#: lingmo_installer/gtk/dialog-disk.ui:17
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:18
+msgid "Cancel"
+msgstr "Anulare"
+
+#: lingmo_installer/gtk/dialog-disk.ui:22
+msgid "Apply"
+msgstr "Aplică"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:6
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:25
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:36
+msgid "Confirm Changes"
+msgstr "Confirmă schimbările"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:26
+msgid ""
+"The following changes will be made to your disk. Please review them "
+"carefully."
+msgstr ""
+"Următoarele schimbări se vor aplica la discul dvs. Revizuiți cu atenție."
+
+#: lingmo_installer/gtk/dialog-output.ui:6
+msgid "Log"
+msgstr "Jurnal"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:42
+msgid "Restart"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:58
+msgid "Restart into Firmware Setup"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-recovery.ui:26
+msgid "Console"
+msgstr "Consolă"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:27
+#, fuzzy
+msgid "Open a terminal"
+msgstr "Deschide un terminal."
+
+#: lingmo_installer/gtk/dialog-recovery.ui:43
+msgid "Documentation"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-recovery.ui:44
+#, fuzzy
+msgid "Open the Lingmo OS documentation"
+msgstr "Citiți manualul Lingmo OS."
+
+#: lingmo_installer/gtk/dialog-recovery.ui:60
+#, fuzzy
+msgid "GParted"
+msgstr "Gparted"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:61
+#, fuzzy
+msgid "Manage disks and partitions"
+msgstr "Gestionează discuri și partiții."
+
+#: lingmo_installer/gtk/dialog-recovery.ui:77
+msgid "Handbook"
+msgstr "Manual"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:78
+msgid "Read tutorials and guides about Lingmo OS"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-recovery.ui:94
+msgid "Web Browser"
+msgstr "Browser web"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:95
+#, fuzzy
+msgid "Search help online"
+msgstr "Căută ajutor online."
+
+#: lingmo_installer/gtk/done.ui:12
+msgid "Finished!"
+msgstr ""
+
+#: lingmo_installer/gtk/done.ui:13
+msgid "Restart your device to enjoy your Lingmo OS experience"
+msgstr "Reporniți dispozitivul pentru a vă bucura de experiența Lingmo OS"
+
+#: lingmo_installer/gtk/done.ui:23
+msgid "Show Log"
+msgstr "Arată jurnal"
+
+#: lingmo_installer/gtk/done.ui:32
+msgid "Reboot Now"
+msgstr "Repornește acum"
+
+#: lingmo_installer/gtk/done.ui:42
+msgid "Close"
+msgstr "Închide"
+
+#: lingmo_installer/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr "Da, activează opțiunea"
+
+#: lingmo_installer/gtk/progress.ui:27
+msgid "Previous"
+msgstr ""
+
+#: lingmo_installer/gtk/progress.ui:110
+msgid "Installing..."
+msgstr "Se instalează..."
+
+#: lingmo_installer/gtk/progress.ui:131
+msgid "Show Console output"
+msgstr "Arată datele de ieșire ale consolei"
+
+#: lingmo_installer/gtk/progress.ui:146
+msgid "Show Slideshow"
+msgstr "Arată prezentarea"
+
+#: lingmo_installer/gtk/widget-keyboard.ui:12
+msgid "key"
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:10
+#, fuzzy
+msgid "Manually Partition"
+msgstr "Partiționare manuală"
+
+#: lingmo_installer/gtk/widget-partition.ui:11
+msgid "Open GParted to manually partition the disk"
+msgstr "Deschide GParted pentru a modifica manual partițiile de pe disc"
+
+#: lingmo_installer/gtk/widget-partition.ui:29
+msgid "Boot Partition"
+msgstr "Partiție de pornire"
+
+#: lingmo_installer/gtk/widget-partition.ui:30
+#, fuzzy
+msgid ""
+"The partition to mount under “/boot”. This directory stores files for "
+"booting into Lingmo OS."
+msgstr ""
+"Partiția care trebuie montată sub “/boot”. Acest director stochează "
+"fișierele pentru pornirea Lingmo OS."
+
+#: lingmo_installer/gtk/widget-partition.ui:33
+#: lingmo_installer/gtk/widget-partition.ui:53
+#: lingmo_installer/gtk/widget-partition.ui:73
+#: lingmo_installer/gtk/widget-partition.ui:94
+#: lingmo_installer/gtk/widget-partition.ui:114
+#: lingmo_installer/gtk/widget-partition.ui:147
+#, fuzzy
+msgid "No Partition Selected"
+msgstr "Nicio partiție selectată"
+
+#: lingmo_installer/gtk/widget-partition.ui:34
+#: lingmo_installer/gtk/widget-partition.ui:54
+#: lingmo_installer/gtk/widget-partition.ui:74
+#: lingmo_installer/gtk/widget-partition.ui:95
+#: lingmo_installer/gtk/widget-partition.ui:115
+#: lingmo_installer/gtk/widget-partition.ui:148
+#: lingmo_installer/defaults/disk.py:404
+msgid "Please select a partition from the options below"
+msgstr "Vă rugăm să selectați o partiție din opțiunile de mai jos"
+
+#: lingmo_installer/gtk/widget-partition.ui:49
+msgid "EFI Partition"
+msgstr "Partiție EFI"
+
+#: lingmo_installer/gtk/widget-partition.ui:50
+msgid ""
+"The partition to mount under “/boot/efi”. This directory stores files for "
+"booting in the bootloader."
+msgstr ""
+"Partiția care trebuie montată sub “/boot/efi”. Acest director stochează "
+"fișierele pentru pornirea în bootloader."
+
+#: lingmo_installer/gtk/widget-partition.ui:69
+msgid "BIOS Boot Partition"
+msgstr "Partiția de pornire a BIOS"
+
+#: lingmo_installer/gtk/widget-partition.ui:70
+msgid ""
+"The partition required by GPT-formatted disks to support booting from BIOS "
+"systems. It must be located in the first 2 TB of the disk and must be "
+"exactly 1 Mebibyte (1 MiB)."
+msgstr ""
+"Partiția necesară pentru discurile formatate GPT pentru a permite pornirea "
+"în sistemele BIOS. Aceasta trebuie să fie situată în primii 2 TB ai discului "
+"și trebuie să aibă exact 1 Mebibyte (1 MiB)."
+
+#: lingmo_installer/gtk/widget-partition.ui:85
+msgid "BIOS partition must be exactly 1 MiB."
+msgstr "Partiția BIOS trebuie să fie de exact 1 MiB."
+
+#: lingmo_installer/gtk/widget-partition.ui:90
+#, fuzzy
+msgid "Root Partition"
+msgstr "Partiții rădăcină"
+
+#: lingmo_installer/gtk/widget-partition.ui:91
+#, fuzzy
+msgid ""
+"The partition to mount under “/”. It will be automatically converted into an "
+"LVM thin pool during installation."
+msgstr ""
+"Partiția care trebuie montată sub “/boot”. Acest director stochează "
+"fișierele pentru pornirea Lingmo OS."
+
+#: lingmo_installer/gtk/widget-partition.ui:110
+#, fuzzy
+msgid "Var Partition"
+msgstr "Partiție swap"
+
+#: lingmo_installer/gtk/widget-partition.ui:111
+#, fuzzy
+msgid ""
+"The partition to mount under “/var”. This directory stores all user data "
+"like personal documents and system-wide configuration."
+msgstr ""
+"Partiția de montat sub “/home”. Acest director stochează toate datele "
+"utilizatorului."
+
+#: lingmo_installer/gtk/widget-partition.ui:130
+#: lingmo_installer/gtk/widget-partition.ui:134
+#, fuzzy
+msgid "Swap Partition"
+msgstr "Partiție swap"
+
+#: lingmo_installer/gtk/widget-partition.ui:131
+msgid ""
+"Swap acts as a virtual extension of your RAM and enables hibernation. "
+"Lingmo OS already uses zram to provide swapping at no storage cost."
+msgstr ""
+"Swap acționează ca o extensie virtuală a memoriei RAM și permite hibernarea. "
+"Lingmo OS folosește deja zram pentru a oferi swap fără costuri de stocare."
+
+#: lingmo_installer/gtk/widget-partition.ui:135
+msgid ""
+"Choose a partition to use for swap alongside zram. This is not required for "
+"hibernation."
+msgstr ""
+"Alegeți o partiție care să fie folosită pentru swap alături de zram. Această "
+"setare de partiție nu este necesară pentru hibernare."
+
+#: lingmo_installer/gtk/window-unsupported.ui:58
+msgid "Power Off..."
+msgstr ""
+
+#: lingmo_installer/gtk/window.ui:37
+msgid "Back"
+msgstr "Înapoi"
+
+#: lingmo_installer/gtk/wireless-row.ui:34
+#: lingmo_installer/defaults/network.py:372
+msgid "Connected"
+msgstr ""
+
+#: lingmo_installer/defaults/disk.py:298
+msgid "GParted is already running. Only one instance of GParted is permitted."
+msgstr "GParted rulează deja. Este permisă o singură instanță de GParted."
+
+#: lingmo_installer/defaults/disk.py:363
+msgid "Partition must be at least {}"
+msgstr "Partiția trebuie să fie de cel puțin {}"
+
+#: lingmo_installer/defaults/disk.py:387
+msgid "Partition must EXACTLY {}"
+msgstr "Partiția trebuie EXACT {}"
+
+#: lingmo_installer/defaults/disk.py:402
+msgid "No partition selected"
+msgstr "Nicio partiție selectată"
+
+#: lingmo_installer/defaults/disk.py:500
+msgid "Partitions have changed. Current selections have been cleared."
+msgstr "Partițiile s-au schimbat. Selecțiile curente au fost șterse."
+
+#: lingmo_installer/defaults/disk.py:558
+msgid "Entire disk will be used."
+msgstr "Se va folosi întregul disc."
+
+#: lingmo_installer/defaults/disk.py:565
+msgid "Will be formatted in {} and mounted in {}"
+msgstr "Va fi formatat în {} și montat în {}"
+
+#: lingmo_installer/defaults/network.py:37
+msgid "Insecure network (WEP)"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:38
+msgid "Secure network (WPA)"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:39
+msgid "Secure network (WPA2)"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:40
+msgid "Secure network (WPA3)"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:375
+msgid "Authentication required"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:383
+msgid "Connecting"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:385
+msgid "Disconnected"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:387
+msgid "Disconnecting"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:389
+msgid "Connection Failed"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:391
+msgid "Status Unknown"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:393
+msgid "Unmanaged"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:395
+msgid "Unavailable"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:397
+msgid "Unknown"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:409
+msgid "Cable Unplugged"
+msgstr ""
+
+#: lingmo_installer/defaults/timezone.py:58
+#, python-format
+msgid "(at %s, %s)"
+msgstr ""
+
+#: lingmo_installer/layouts/preferences.py:67
+msgid "Please select at least one option."
+msgstr "Alegeți vă rog cel puțin o opțiune."
+
+#: lingmo_installer/utils/builder.py:73
+msgid "Missing 'log_file' in the recipe."
+msgstr "Lipsește 'log_file' în rețetă."
+
+#: lingmo_installer/utils/builder.py:82
+#, python-format
+msgid "failed to create log file: %s"
+msgstr "nu s-a putut crea fișierul jurnal: %s"
+
+#: lingmo_installer/utils/builder.py:83
+msgid "No log will be stored."
+msgstr "Nu va fi stocat niciun jurnal."
+
+#: lingmo_installer/utils/builder.py:90
+#, python-format
+msgid "Performing display-condition: %s"
+msgstr "Se efectuază condiția de afișare: %s"
+
+#: lingmo_installer/utils/builder.py:99 lingmo_installer/utils/builder.py:104
+#, python-format
+msgid "Step %s skipped due to display-conditions"
+msgstr "Pasul %s sărit din cauza condițiilor de afișare"
+
+#: lingmo_installer/utils/recipe.py:43
+msgid "Invalid recipe file"
+msgstr "Fișier de rețetă invalid"
+
+#: lingmo_installer/utils/recipe.py:52
+msgid "Recipe is not a dictionary"
+msgstr "Rețeta nu este un dicționar"
+
+#: lingmo_installer/utils/recipe.py:57
+#, python-brace-format
+msgid "Recipe is missing the '{key}' key"
+msgstr "În rețetă lipsește cheia '{key}'"
+
+#: lingmo_installer/utils/recipe.py:61
+msgid "Recipe steps is not a list"
+msgstr "Etapele rețetei nu sunt o listă"
+
+#: lingmo_installer/utils/recipe.py:66
+#, python-brace-format
+msgid "Step {step} is not a dictionary"
+msgstr "Pasul {step} nu este un dicționar"
+
+#: lingmo_installer/views/confirm.py:81
+msgid "Keyboard"
+msgstr "Tastatură"
+
+#: lingmo_installer/views/confirm.py:87
+msgid "Timezone"
+msgstr "Fus orar"
+
+#: lingmo_installer/views/confirm.py:95
+msgid "Users"
+msgstr "Utilizatori"
+
+#: lingmo_installer/views/confirm.py:104
+#: lingmo_installer/views/confirm.py:120
+msgid "Disk"
+msgstr "Disc"
+
+#: lingmo_installer/views/done.py:40
+msgid "Restart your device to enjoy your {} experience."
+msgstr "Reporniți dispozitivul pentru a vă bucura de experiența {}."
+
+#: lingmo_installer/views/done.py:54
+msgid "Something went wrong"
+msgstr "Ceva a dat greș"
+
+#: lingmo_installer/views/done.py:56
+msgid "Please contact the distribution developers."
+msgstr "Vă rog să contactați dezvoltatorii distribuției."
+
+#~ msgid "Date & Time"
+#~ msgstr "Dată & Oră"
+
+#~ msgid "Select your preferred timezone"
+#~ msgstr "Selectează fusul orar preferat"
+
+#, fuzzy
+#~| msgid "Search for a Timezone"
+#~ msgid "Search timezones"
+#~ msgstr "Caută un fus orar"
+
+#~ msgid "Boot partition is too small."
+#~ msgstr "Partiția de pornire este prea mică."
+
+#~ msgid "EFI partition is too small."
+#~ msgstr "Partiția EFI este prea mică."
+
+#, fuzzy
+#~| msgid "Boot partition is too small."
+#~ msgid "Root partition is too small."
+#~ msgstr "Partiția de pornire este prea mică."
+
+#~ msgid "Home partition is too small."
+#~ msgstr "Partiția de acasă este prea mică."
+
+#~ msgid "All done!"
+#~ msgstr "Totul este gata!"
+
+#~ msgid "Open GParted"
+#~ msgstr "Deschide GParted"
+
+#~ msgid "Region"
+#~ msgstr "Regiune"
+
+#~ msgid "Zone"
+#~ msgstr "Zonă"
+
+#, fuzzy
+#~| msgid "Try Lingmo OS"
+#~ msgid "Welcome to Lingmo OS!"
+#~ msgstr "Încearcă Lingmo OS"
+
+#~ msgid ""
+#~ "The partitions to mount under “/”. Both partitions must be the same size."
+#~ msgstr ""
+#~ "Partițiile de montat sub “/”. Ambele partiții trebuie să aibă aceeași "
+#~ "dimensiune."
+
+#~ msgid ""
+#~ "Lingmo OS uses an A/B partition system managed by ABRoot,\n"
+#~ "which switches between two root partitions between updates."
+#~ msgstr ""
+#~ "Lingmo OS folosește un sistem de partiții A/B gestionat de ABRoot,\n"
+#~ "care comută între două partiții rădăcină între actualizări."
+
+#~ msgid "Root partitions are not the same size."
+#~ msgstr "Partițiile rădăcină nu au aceeași dimensiune."
+
+#~ msgid "Please make sure your A and B partitions have the same disk space."
+#~ msgstr "Asigurați-vă că partițiile A și B au alocat același spațiu pe disc."
+
+#~ msgid "Root partitions are too small."
+#~ msgstr "Partițiile rădăcină sunt prea mici."
+
+#~ msgid "Home Partition"
+#~ msgstr "Partiție de acasă"
+
+#~ msgid "clicked"
+#~ msgstr "apăsat"
+
+#~ msgid "installation-confirmed"
+#~ msgstr "instalare-confirmată"
+
+#~ msgid "page-changed"
+#~ msgstr "pagină-schimbată"
+
+#~ msgid "Lingmo OS Recovery"
+#~ msgstr "Recuperare Lingmo OS"
+
+#~ msgid "Select a Disk"
+#~ msgstr "Selectează un disc"
+
+#~ msgid "Select the disk where you want to install Lingmo OS"
+#~ msgstr "Selectați discul pe care doriți să instalați Lingmo OS"
+
+#~ msgid "Configure"
+#~ msgstr "Configurează"
+
+#~ msgid "Disk Allocation"
+#~ msgstr "Alocarea discurilor"
+
+#~ msgid "Choose how to install Lingmo OS on your drive."
+#~ msgstr "Alegeți cum să instalați Lingmo OS pe discul dvs."
+
+#~ msgid "This will erase all data on the disk."
+#~ msgstr "Acest proces va șterge toate datele de pe disc."
+
+#~ msgid ""
+#~ "Select which partitions to use for installation. Incorrect configuration "
+#~ "can lead to data loss, corruption, and/or an unbootable system."
+#~ msgstr ""
+#~ "Selectați ce partiții să utilizați pentru instalare. O configurație "
+#~ "incorectă poate duce la pierderea datelor, distrugerea fișiere și/sau la "
+#~ "un sistem care nu poate porni."
+
+#, python-brace-format
+#~ msgid "Not enough space: {0}/{1}"
+#~ msgstr "Spațiu insuficient: {0}/{1}"
+
+#~ msgid "This is the only disk available and cannot be deselected!"
+#~ msgstr "Acesta este singurul disc disponibil și nu poate fi deselectat!"
+
+#~ msgid "Welcome"
+#~ msgstr "Bun venit"
+
+#~ msgid "This software will guide you through the installation process."
+#~ msgstr "Acest program vă va ajuta în procesul de instalare."
+
+#~ msgid "The following partitions were found on the disk"
+#~ msgstr "Următoarele partiții au fost găsite pe disc"
+
+#~ msgid "Format"
+#~ msgstr "Formatează"
+
+#~ msgid "Choose a new file system or leave as is"
+#~ msgstr "Alege un sistem de fișiere nou sau lasă-l așa"
+
+#~ msgid "Mount Point"
+#~ msgstr "Punct de montare"
+
+#~ msgid "Choose a mount point for the partition"
+#~ msgstr "Alege un punct de montare pentru această partiție"

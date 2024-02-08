@@ -1,0 +1,809 @@
+# Korean translations for lingmo-installer package.
+# Copyright (C) 2022 THE lingmo-installer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-installer package.
+# Automatically generated, 2022.
+#
+# Namhoon Kim <namhoon80.kim@gmail.com>, 2023.
+# MJKim <kmj10727@gmail.com>, 2023.
+# lmj0927 <lmjj0927@naver.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: 2023-12-22 13:50+0000\n"
+"Last-Translator: lmj0927 <lmjj0927@naver.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/lingmo-os/"
+"installer/ko/>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/org.lingmoos.Installer.desktop.in:3 lingmo_installer/gtk/window.ui:8
+msgid "Lingmo OS Installer"
+msgstr "바닐라 OS 설치 프로그램"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:7
+#, fuzzy
+msgid "Tweak your Lingmo OS installation."
+msgstr "우분투 바닐라 GNOME 설치를 수정합니다."
+
+#: data/org.lingmoos.Installer.appdata.xml.in:10
+msgid "No description"
+msgstr "설명 없음"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:26
+msgid "First release"
+msgstr "첫 번째 릴리스"
+
+#: lingmo_installer/gtk/confirm.ui:10
+msgid "Confirm Installation"
+msgstr "설치 확인하기"
+
+#: lingmo_installer/gtk/confirm.ui:11
+#, fuzzy
+msgid "The following changes will be made to your system"
+msgstr "사용자의 시스템에 다음과 같은 변경사항이 적용됩니다:"
+
+#: lingmo_installer/gtk/confirm.ui:28
+msgid "Install Lingmo OS"
+msgstr "바닐라 OS 설치하기"
+
+#: lingmo_installer/gtk/default-conn-check.ui:12
+msgid "Checking Connection…"
+msgstr ""
+
+#: lingmo_installer/gtk/default-conn-check.ui:13
+msgid "Please wait until the connection check is done"
+msgstr ""
+
+#: lingmo_installer/gtk/default-disk.ui:19
+#: lingmo_installer/gtk/default-encryption.ui:18
+#: lingmo_installer/gtk/default-keyboard.ui:30
+#: lingmo_installer/gtk/default-language.ui:18
+#: lingmo_installer/gtk/default-network.ui:18
+#: lingmo_installer/gtk/default-theme.ui:49
+#: lingmo_installer/gtk/default-users.ui:19
+#: lingmo_installer/gtk/layout-preferences.ui:29
+#: lingmo_installer/gtk/progress.ui:41
+msgid "Next"
+msgstr "다음"
+
+#: lingmo_installer/gtk/default-disk.ui:29
+msgid "Install Location"
+msgstr "설치위치"
+
+#: lingmo_installer/gtk/default-disk.ui:30
+msgid ""
+"Select the disk where you want to install Lingmo OS. Alternatively, you can "
+"select one or more disks to configure manually."
+msgstr ""
+"바닐라 OS를 설치할 디스크를 선택하세요. 또는 수동으로 구성할 하나 이상의 디스"
+"크를 선택할 수 있습니다."
+
+#: lingmo_installer/gtk/default-disk.ui:44
+#, fuzzy
+msgid "Use Entire Disk"
+msgstr "전체 디스크 사용하기"
+
+#: lingmo_installer/gtk/default-disk.ui:56
+msgid "Manual"
+msgstr "메뉴얼"
+
+#: lingmo_installer/gtk/default-disk.ui:86
+msgid "You need at least %s of disk space to proceed with the installation."
+msgstr "설치를 계속하려면 최소 %s의 디스크 공간이 필요합니다."
+
+#: lingmo_installer/gtk/default-encryption.ui:28
+msgid "Device Encryption"
+msgstr "장치 암호화"
+
+#: lingmo_installer/gtk/default-encryption.ui:29
+#, fuzzy
+msgid "Lingmo OS encrypts your disk to protect your personal information"
+msgstr ""
+"바닐라 OS는 LUKS2를 통한 완전한 디스크 암호화를 제공하여 장치가 도난당한 경"
+"우 개인 정보를 보호합니다."
+
+#: lingmo_installer/gtk/default-encryption.ui:36
+#, fuzzy
+msgid "Encrypt Device"
+msgstr "암호화 된 장치"
+
+#: lingmo_installer/gtk/default-encryption.ui:37
+msgid "Use a memorable password to encrypt your data"
+msgstr "데이터를 암호화하기 위해 기억하기 쉬운 암호 사용하세요"
+
+#: lingmo_installer/gtk/default-encryption.ui:49
+#: lingmo_installer/gtk/default-users.ui:60
+msgid "Password"
+msgstr "비밀번호"
+
+#: lingmo_installer/gtk/default-encryption.ui:55
+#: lingmo_installer/gtk/default-users.ui:66
+msgid "Confirm Password"
+msgstr "비밀번호 확인"
+
+#: lingmo_installer/gtk/default-keyboard.ui:42
+msgid "Keyboard Layout"
+msgstr "키보드 레이아웃"
+
+#: lingmo_installer/gtk/default-keyboard.ui:43
+msgid "Select your preferred keyboard layout"
+msgstr "원하는 키보드 레이아웃 선택하십시오"
+
+#: lingmo_installer/gtk/default-keyboard.ui:53
+#, fuzzy
+msgid "Search keyboard layouts"
+msgstr "키보드 레이아웃 검색"
+
+#: lingmo_installer/gtk/default-language.ui:28
+#: lingmo_installer/gtk/widget-language.ui:12
+#: lingmo_installer/views/confirm.py:75
+msgid "Language"
+msgstr "언어"
+
+#: lingmo_installer/gtk/default-language.ui:29
+msgid "Select your language"
+msgstr "사용자의 언어 선택하기"
+
+#: lingmo_installer/gtk/default-language.ui:39
+#, fuzzy
+msgid "Search languages"
+msgstr "언어 검색하기"
+
+#: lingmo_installer/gtk/default-network.ui:27
+msgid "Internet"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:28
+msgid "An active internet connection is required to install the system"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:39
+msgid "Wired"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:44
+msgid "Wireless Networks"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:49
+msgid "Advanced"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:52
+msgid "Connect to Hidden Network..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:79
+msgid "Open Proxy Settings..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:14
+msgid "NVIDIA® Drivers"
+msgstr "NVIDIA® 드라이버"
+
+#: lingmo_installer/gtk/default-nvidia.ui:15
+msgid ""
+"Choose whether to install proprietary NVIDIA drivers for better "
+"compatibility and performance."
+msgstr ""
+"호환성 및 성능 향상을 위해 NVIDIA 전용 드라이버를 설치할지 여부를 선택하세요."
+
+#: lingmo_installer/gtk/default-nvidia.ui:29
+#: lingmo_installer/gtk/default-vm.ui:29
+msgid "Skip"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:38
+#: lingmo_installer/gtk/default-vm.ui:38
+#, fuzzy
+msgid "Install  (Recommended)"
+msgstr "설치(권장)"
+
+#: lingmo_installer/gtk/default-nvidia.ui:70
+msgid "About Proprietary Drivers"
+msgstr "독점 드라이버 정보"
+
+#: lingmo_installer/gtk/default-nvidia.ui:78
+msgid ""
+"A proprietary driver has private code that neither Lingmo OS nor Debian "
+"developers can review.\n"
+"\n"
+"Security and other updates are dependent on the driver vendor."
+msgstr ""
+"독점 드라이버에는 바닐라 OS나 데비안 개발자가 검토할 수 없는 비공개 코드가 있"
+"습니다.\n"
+"\n"
+"보안 및 기타 업데이트는 드라이버 공급업체에 따라 다릅니다."
+
+#: lingmo_installer/gtk/default-vm.ui:14
+msgid "VM Tools"
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:15
+#, fuzzy
+msgid ""
+"Choose whether to install VM Tools for better compatibility and performance."
+msgstr ""
+"호환성 및 성능 향상을 위해 NVIDIA 전용 드라이버를 설치할지 여부를 선택하세요."
+
+#: lingmo_installer/gtk/default-theme.ui:17
+msgid "Default"
+msgstr "기본값"
+
+#: lingmo_installer/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr "어두운 테마"
+
+#: lingmo_installer/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr "색 구성표"
+
+#: lingmo_installer/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system"
+msgstr "사용자 시스템의 색 구성표 고르기"
+
+#: lingmo_installer/gtk/default-users.ui:40
+msgid "Create User"
+msgstr "사용자 생성"
+
+#: lingmo_installer/gtk/default-users.ui:41
+msgid "Provide details for your user account"
+msgstr "사용자 계정에 대한 세부 정보를 제공하세요"
+
+#: lingmo_installer/gtk/default-users.ui:48
+msgid "Name"
+msgstr "이름"
+
+#: lingmo_installer/gtk/default-users.ui:54
+msgid "Username"
+msgstr "사용자 이름"
+
+#: lingmo_installer/gtk/default-welcome.ui:17
+msgid "Install"
+msgstr "설치"
+
+#: lingmo_installer/gtk/default-welcome.ui:34
+#: lingmo_installer/gtk/dialog-recovery.ui:6
+msgid "Recovery"
+msgstr "복구"
+
+#: lingmo_installer/gtk/default-welcome.ui:51
+#: lingmo_installer/gtk/dialog-poweroff.ui:6
+#: lingmo_installer/gtk/dialog-poweroff.ui:26
+msgid "Power Off"
+msgstr "전원 시스템 종료"
+
+#: lingmo_installer/gtk/dialog.ui:6
+#, fuzzy
+msgid "Showing Information"
+msgstr "정보 표시"
+
+#: lingmo_installer/gtk/dialog-disk.ui:5
+msgid "Configure Disk"
+msgstr "디스크 구성하기"
+
+#: lingmo_installer/gtk/dialog-disk.ui:17
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:18
+msgid "Cancel"
+msgstr "취소"
+
+#: lingmo_installer/gtk/dialog-disk.ui:22
+msgid "Apply"
+msgstr "적용하기"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:6
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:25
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:36
+msgid "Confirm Changes"
+msgstr "변경사항 확인하기"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:26
+msgid ""
+"The following changes will be made to your disk. Please review them "
+"carefully."
+msgstr "디스크에 다음과 같은 변경사항이 적용됩니다. 주의 깊게 검토하십시오."
+
+#: lingmo_installer/gtk/dialog-output.ui:6
+msgid "Log"
+msgstr "로그"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:42
+msgid "Restart"
+msgstr "재시작"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:58
+msgid "Restart into Firmware Setup"
+msgstr "펌웨어 설정으로 재시작"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:26
+msgid "Console"
+msgstr "콘솔"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:27
+#, fuzzy
+msgid "Open a terminal"
+msgstr "터미널 열기"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:43
+msgid "Documentation"
+msgstr "문서"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:44
+#, fuzzy
+msgid "Open the Lingmo OS documentation"
+msgstr "Lingmo OS 문서 읽기"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:60
+#, fuzzy
+msgid "GParted"
+msgstr "GParted"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:61
+msgid "Manage disks and partitions"
+msgstr "디스크 및 파티션 관리"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:77
+msgid "Handbook"
+msgstr "핸드북"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:78
+#, fuzzy
+msgid "Read tutorials and guides about Lingmo OS"
+msgstr "바닐라 OS에 대한 튜토리얼 및 가이드 읽기."
+
+#: lingmo_installer/gtk/dialog-recovery.ui:94
+msgid "Web Browser"
+msgstr "웹 브라우저"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:95
+#, fuzzy
+msgid "Search help online"
+msgstr "온라인에서 도움말 검색"
+
+#: lingmo_installer/gtk/done.ui:12
+msgid "Finished!"
+msgstr ""
+
+#: lingmo_installer/gtk/done.ui:13
+msgid "Restart your device to enjoy your Lingmo OS experience"
+msgstr "사용자의 기기를 다시 시작하여 바닐라 OS 환경을 즐기십시오"
+
+#: lingmo_installer/gtk/done.ui:23
+msgid "Show Log"
+msgstr "로그 표시"
+
+#: lingmo_installer/gtk/done.ui:32
+msgid "Reboot Now"
+msgstr "지금 재부팅"
+
+#: lingmo_installer/gtk/done.ui:42
+msgid "Close"
+msgstr "닫기"
+
+#: lingmo_installer/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr "예, 활성화합니다"
+
+#: lingmo_installer/gtk/progress.ui:27
+msgid "Previous"
+msgstr ""
+
+#: lingmo_installer/gtk/progress.ui:110
+msgid "Installing..."
+msgstr "설치중..."
+
+#: lingmo_installer/gtk/progress.ui:131
+msgid "Show Console output"
+msgstr "콘솔 출력 표시"
+
+#: lingmo_installer/gtk/progress.ui:146
+msgid "Show Slideshow"
+msgstr "슬라이드쇼 표시"
+
+#: lingmo_installer/gtk/widget-keyboard.ui:12
+msgid "key"
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:10
+#, fuzzy
+msgid "Manually Partition"
+msgstr "파티션"
+
+#: lingmo_installer/gtk/widget-partition.ui:11
+msgid "Open GParted to manually partition the disk"
+msgstr "디스크를 수동으로 분할하기 위해 GParted 열기"
+
+#: lingmo_installer/gtk/widget-partition.ui:29
+msgid "Boot Partition"
+msgstr "부팅 파티션"
+
+#: lingmo_installer/gtk/widget-partition.ui:30
+#, fuzzy
+msgid ""
+"The partition to mount under “/boot”. This directory stores files for "
+"booting into Lingmo OS."
+msgstr "\"/boot\" 파티션. 바닐라 OS 부팅 파일들을 위한 디렉토리 입니다."
+
+#: lingmo_installer/gtk/widget-partition.ui:33
+#: lingmo_installer/gtk/widget-partition.ui:53
+#: lingmo_installer/gtk/widget-partition.ui:73
+#: lingmo_installer/gtk/widget-partition.ui:94
+#: lingmo_installer/gtk/widget-partition.ui:114
+#: lingmo_installer/gtk/widget-partition.ui:147
+#, fuzzy
+msgid "No Partition Selected"
+msgstr "파티션이 선택되지 않았습니다"
+
+#: lingmo_installer/gtk/widget-partition.ui:34
+#: lingmo_installer/gtk/widget-partition.ui:54
+#: lingmo_installer/gtk/widget-partition.ui:74
+#: lingmo_installer/gtk/widget-partition.ui:95
+#: lingmo_installer/gtk/widget-partition.ui:115
+#: lingmo_installer/gtk/widget-partition.ui:148
+#: lingmo_installer/defaults/disk.py:404
+msgid "Please select a partition from the options below"
+msgstr "아래 옵션에서 파티션을 선택하세요."
+
+#: lingmo_installer/gtk/widget-partition.ui:49
+msgid "EFI Partition"
+msgstr "EFI 파티션"
+
+#: lingmo_installer/gtk/widget-partition.ui:50
+msgid ""
+"The partition to mount under “/boot/efi”. This directory stores files for "
+"booting in the bootloader."
+msgstr "\"/boot/efi\" 파티션. 부트로더를 위한 파일들이 저장됩니다."
+
+#: lingmo_installer/gtk/widget-partition.ui:69
+msgid "BIOS Boot Partition"
+msgstr "BIOS 부팅 파티션"
+
+#: lingmo_installer/gtk/widget-partition.ui:70
+msgid ""
+"The partition required by GPT-formatted disks to support booting from BIOS "
+"systems. It must be located in the first 2 TB of the disk and must be "
+"exactly 1 Mebibyte (1 MiB)."
+msgstr ""
+"BIOS 부팅을 지원하기 위해서 GPT-형식의 디스크에서 요구하는 파티션. 반드시 디"
+"스크의 처음 2TB에 위치하여야 하며 정확히 1 MiB 크기가 필요합니다."
+
+#: lingmo_installer/gtk/widget-partition.ui:85
+msgid "BIOS partition must be exactly 1 MiB."
+msgstr "BIOS 파티션은 정확히 1MiB 이어야 합니다."
+
+#: lingmo_installer/gtk/widget-partition.ui:90
+#, fuzzy
+msgid "Root Partition"
+msgstr "루트 파티션"
+
+#: lingmo_installer/gtk/widget-partition.ui:91
+msgid ""
+"The partition to mount under “/”. It will be automatically converted into an "
+"LVM thin pool during installation."
+msgstr ""
+"파티션을 \"/\" 아래에 마운트합니다. 설치 중에 자동으로 LVM 얇은 풀로 변환됩니"
+"다."
+
+#: lingmo_installer/gtk/widget-partition.ui:110
+msgid "Var Partition"
+msgstr "var 파티션"
+
+#: lingmo_installer/gtk/widget-partition.ui:111
+msgid ""
+"The partition to mount under “/var”. This directory stores all user data "
+"like personal documents and system-wide configuration."
+msgstr ""
+"\"/var\" 아래에 마운트할 파티션입니다. 이 디렉터리에는 개인 문서 및 시스템 전"
+"역 구성과 같은 모든 사용자 데이터가 저장됩니다."
+
+#: lingmo_installer/gtk/widget-partition.ui:130
+#: lingmo_installer/gtk/widget-partition.ui:134
+msgid "Swap Partition"
+msgstr "파티션 교체"
+
+#: lingmo_installer/gtk/widget-partition.ui:131
+msgid ""
+"Swap acts as a virtual extension of your RAM and enables hibernation. "
+"Lingmo OS already uses zram to provide swapping at no storage cost."
+msgstr ""
+"스왑은 RAM의 가상 확장 역할을 하며 최대 절전 모드를 활성화합니다. 바닐라 OS"
+"는 이미 zram을 사용하여 스토리지 비용 없이 스왑을 제공합니다."
+
+#: lingmo_installer/gtk/widget-partition.ui:135
+msgid ""
+"Choose a partition to use for swap alongside zram. This is not required for "
+"hibernation."
+msgstr ""
+"zram과 함께 스왑에 사용할 파티션을 선택합니다. 최대 절전 모드에서는 필요하지 "
+"않습니다."
+
+#: lingmo_installer/gtk/window-unsupported.ui:58
+#, fuzzy
+msgid "Power Off..."
+msgstr "전원 시스템 종료"
+
+#: lingmo_installer/gtk/window.ui:37
+msgid "Back"
+msgstr "뒤로"
+
+#: lingmo_installer/gtk/wireless-row.ui:34
+#: lingmo_installer/defaults/network.py:372
+msgid "Connected"
+msgstr "연결됨"
+
+#: lingmo_installer/defaults/disk.py:298
+msgid "GParted is already running. Only one instance of GParted is permitted."
+msgstr "GParted가 이미 실행 중입니다. GParted의 인스턴스는 하나만 허용됩니다."
+
+#: lingmo_installer/defaults/disk.py:363
+msgid "Partition must be at least {}"
+msgstr "파티션은 {} 이상이어야 합니다"
+
+#: lingmo_installer/defaults/disk.py:387
+msgid "Partition must EXACTLY {}"
+msgstr "파티션은 정확히 {}여야 합니다"
+
+#: lingmo_installer/defaults/disk.py:402
+msgid "No partition selected"
+msgstr "파티션이 선택되지 않았습니다"
+
+#: lingmo_installer/defaults/disk.py:500
+msgid "Partitions have changed. Current selections have been cleared."
+msgstr "파티션이 변경되었습니다. 현재 선택 항목이 지워졌습니다."
+
+#: lingmo_installer/defaults/disk.py:558
+msgid "Entire disk will be used."
+msgstr "전체 디스크가 사용됩니다."
+
+#: lingmo_installer/defaults/disk.py:565
+msgid "Will be formatted in {} and mounted in {}"
+msgstr "{}로 포맷되고 {}에 마운트됩니다"
+
+#: lingmo_installer/defaults/network.py:37
+msgid "Insecure network (WEP)"
+msgstr "보안이 취약한 네트워크 (WEP)"
+
+#: lingmo_installer/defaults/network.py:38
+msgid "Secure network (WPA)"
+msgstr "안전한 네트워크 (WPA)"
+
+#: lingmo_installer/defaults/network.py:39
+msgid "Secure network (WPA2)"
+msgstr "안전한 네트워크 (WPA2)"
+
+#: lingmo_installer/defaults/network.py:40
+msgid "Secure network (WPA3)"
+msgstr "안전한 네트워크 (WPA3)"
+
+#: lingmo_installer/defaults/network.py:375
+msgid "Authentication required"
+msgstr "인증이 필요합니다"
+
+#: lingmo_installer/defaults/network.py:383
+msgid "Connecting"
+msgstr "연결중"
+
+#: lingmo_installer/defaults/network.py:385
+msgid "Disconnected"
+msgstr "연결이 끊어졌습니다"
+
+#: lingmo_installer/defaults/network.py:387
+msgid "Disconnecting"
+msgstr "연결 끊는 중"
+
+#: lingmo_installer/defaults/network.py:389
+msgid "Connection Failed"
+msgstr "연결 실패"
+
+#: lingmo_installer/defaults/network.py:391
+msgid "Status Unknown"
+msgstr "상태를 알 수 없음"
+
+#: lingmo_installer/defaults/network.py:393
+msgid "Unmanaged"
+msgstr "관리되지 않음"
+
+#: lingmo_installer/defaults/network.py:395
+msgid "Unavailable"
+msgstr "사용할 수 없음"
+
+#: lingmo_installer/defaults/network.py:397
+#, fuzzy
+msgid "Unknown"
+msgstr "상태를 알 수 없음"
+
+#: lingmo_installer/defaults/network.py:409
+msgid "Cable Unplugged"
+msgstr "케이블이 연결되지 않음"
+
+#: lingmo_installer/defaults/timezone.py:58
+#, python-format
+msgid "(at %s, %s)"
+msgstr ""
+
+#: lingmo_installer/layouts/preferences.py:67
+msgid "Please select at least one option."
+msgstr "옵션을 하나 이상 선택하십시오."
+
+#: lingmo_installer/utils/builder.py:73
+msgid "Missing 'log_file' in the recipe."
+msgstr "레시피에 '로그 파일'이 누락되었습니다."
+
+#: lingmo_installer/utils/builder.py:82
+#, python-format
+msgid "failed to create log file: %s"
+msgstr "로그 파일을 만들지 못했습니다: %s"
+
+#: lingmo_installer/utils/builder.py:83
+msgid "No log will be stored."
+msgstr "로그는 저장되지 않습니다."
+
+#: lingmo_installer/utils/builder.py:90
+#, python-format
+msgid "Performing display-condition: %s"
+msgstr "디스플레이 조건 수행: %s"
+
+#: lingmo_installer/utils/builder.py:99 lingmo_installer/utils/builder.py:104
+#, python-format
+msgid "Step %s skipped due to display-conditions"
+msgstr "%s 단계는 디스플레이 조건으로 인해 건너뛰었습니다"
+
+#: lingmo_installer/utils/recipe.py:43
+msgid "Invalid recipe file"
+msgstr "잘못된 레시피 파일"
+
+#: lingmo_installer/utils/recipe.py:52
+msgid "Recipe is not a dictionary"
+msgstr "레시피는 사전이 아닙니다"
+
+#: lingmo_installer/utils/recipe.py:57
+#, python-brace-format
+msgid "Recipe is missing the '{key}' key"
+msgstr "레시피에 '{key}' 키가 누락되었습니다"
+
+#: lingmo_installer/utils/recipe.py:61
+msgid "Recipe steps is not a list"
+msgstr "레시피 단계는 목록이 아닙니다"
+
+#: lingmo_installer/utils/recipe.py:66
+#, python-brace-format
+msgid "Step {step} is not a dictionary"
+msgstr "{step} 단계는 사전이 아닙니다"
+
+#: lingmo_installer/views/confirm.py:81
+msgid "Keyboard"
+msgstr "키보드"
+
+#: lingmo_installer/views/confirm.py:87
+msgid "Timezone"
+msgstr "표준 시간대"
+
+#: lingmo_installer/views/confirm.py:95
+msgid "Users"
+msgstr "사용자"
+
+#: lingmo_installer/views/confirm.py:104
+#: lingmo_installer/views/confirm.py:120
+msgid "Disk"
+msgstr "디스크"
+
+#: lingmo_installer/views/done.py:40
+#, fuzzy
+msgid "Restart your device to enjoy your {} experience."
+msgstr "사용자의 PC를 다시 시작하여 {} 환경을 즐기십시오."
+
+#: lingmo_installer/views/done.py:54
+msgid "Something went wrong"
+msgstr "문제가 발생했습니다"
+
+#: lingmo_installer/views/done.py:56
+msgid "Please contact the distribution developers."
+msgstr "배포 개발자에게 문의하십시오."
+
+#~ msgid "Date & Time"
+#~ msgstr "날짜 및 시간"
+
+#~ msgid "Select your preferred timezone"
+#~ msgstr "원하는 시간대 선택하기"
+
+#, fuzzy
+#~| msgid "Search for a Timezone"
+#~ msgid "Search timezones"
+#~ msgstr "시간대 검색하기"
+
+#~ msgid "Boot partition is too small."
+#~ msgstr "부트 파티션이 너무 작습니다."
+
+#~ msgid "EFI partition is too small."
+#~ msgstr "EFI 파티션이 너무 작습니다."
+
+#~ msgid "Root partition is too small."
+#~ msgstr "루트 파티션이 너무 작습니다."
+
+#~ msgid "Home partition is too small."
+#~ msgstr "홈 파티션이 너무 작습니다."
+
+#~ msgid "Don't install"
+#~ msgstr "설치하지 않기"
+
+#~ msgid "All done!"
+#~ msgstr "모두 완료되었습니다!"
+
+#~ msgid "Open GParted"
+#~ msgstr "GParted 열기"
+
+#~ msgid "Region"
+#~ msgstr "지역"
+
+#~ msgid "Zone"
+#~ msgstr "구역"
+
+#, fuzzy
+#~| msgid "Try Lingmo OS"
+#~ msgid "Welcome to Lingmo OS!"
+#~ msgstr "바닐라 OS 사용해보기"
+
+#, fuzzy
+#~ msgid "Home Partition"
+#~ msgstr "파티션"
+
+#, fuzzy
+#~ msgid "Lingmo OS Recovery"
+#~ msgstr "바닐라 OS 설치 프로그램"
+
+#~ msgid "Select a Disk"
+#~ msgstr "디스크 선택하기"
+
+#, fuzzy
+#~ msgid "Select the disk where you want to install Lingmo OS"
+#~ msgstr "바닐라 OS를 설치할 디스크 선택하기"
+
+#~ msgid "Configure"
+#~ msgstr "구성하기"
+
+#~ msgid "Disk Allocation"
+#~ msgstr "디스크 할당"
+
+#, fuzzy
+#~ msgid "Choose how to install Lingmo OS on your drive."
+#~ msgstr "바닐라 OS를 설치할 디스크 선택하기"
+
+#~ msgid "This will erase all data on the disk."
+#~ msgstr "디스크의 모든 데이터가 지워집니다."
+
+#~ msgid ""
+#~ "Select which partitions to use for installation. Incorrect configuration "
+#~ "can lead to data loss, corruption, and/or an unbootable system."
+#~ msgstr ""
+#~ "설치를 위하여 사용할 파티션을 선택하십시요. 잘못된 구성은 데이터 유실, 오"
+#~ "염, 또는 시동할 수 없는 시스템을 만들 수 있습니다."
+
+#~ msgid "This is the only disk available and cannot be deselected!"
+#~ msgstr "이 디스크만 사용할 수 있으며 선택을 취소할 수 없습니다!"
+
+#~ msgid "Welcome"
+#~ msgstr "환영합니다"
+
+#~ msgid "This software will guide you through the installation process."
+#~ msgstr "이 소프트웨어는 설치 과정을 통해 당신을 안내합니다."
+
+#~ msgid "The following partitions were found on the disk"
+#~ msgstr "디스크에서 다음 파티션이 발견되었습니다"
+
+#~ msgid "Format"
+#~ msgstr "포멧"
+
+#~ msgid "Choose a new file system or leave as is"
+#~ msgstr "새 파일 시스템을 선택하거나 그대로 둡니다"
+
+#~ msgid "Mount Point"
+#~ msgstr "마운트 지점"
+
+#~ msgid "Choose a mount point for the partition"
+#~ msgstr "파티션의 마운트 지점 고르기"

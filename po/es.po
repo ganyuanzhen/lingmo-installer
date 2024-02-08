@@ -1,0 +1,857 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-installer package.
+# gallegonovato <fran-carro@hotmail.es>, 2023, 2024.
+# Juan <benitesjn@gmail.com>, 2023.
+# Juan Benites <benitesjn@gmail.com>, 2023.
+# Jorge Ivan Carmona Cortez <dh_plasma@hotmail.com>, 2023.
+# Nacho Colorado <nachocolorado04@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: 2024-01-01 14:07+0000\n"
+"Last-Translator: Nacho Colorado <nachocolorado04@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/lingmo-os/"
+"installer/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/org.lingmoos.Installer.desktop.in:3 lingmo_installer/gtk/window.ui:8
+msgid "Lingmo OS Installer"
+msgstr "Instalador de Lingmo OS"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:7
+msgid "Tweak your Lingmo OS installation."
+msgstr "Modifique su instalación de Lingmo OS."
+
+#: data/org.lingmoos.Installer.appdata.xml.in:10
+msgid "No description"
+msgstr "Sin descripción"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:26
+msgid "First release"
+msgstr "Primer lanzamiento"
+
+#: lingmo_installer/gtk/confirm.ui:10
+msgid "Confirm Installation"
+msgstr "Confirmar instalación"
+
+#: lingmo_installer/gtk/confirm.ui:11
+msgid "The following changes will be made to your system"
+msgstr "Se realizarán los siguientes cambios en su sistema"
+
+#: lingmo_installer/gtk/confirm.ui:28
+msgid "Install Lingmo OS"
+msgstr "Instalar Lingmo OS"
+
+#: lingmo_installer/gtk/default-conn-check.ui:12
+msgid "Checking Connection…"
+msgstr "Revisando la conexión…"
+
+#: lingmo_installer/gtk/default-conn-check.ui:13
+msgid "Please wait until the connection check is done"
+msgstr "Por favor espere hasta que se termine el test de conexión"
+
+#: lingmo_installer/gtk/default-disk.ui:19
+#: lingmo_installer/gtk/default-encryption.ui:18
+#: lingmo_installer/gtk/default-keyboard.ui:30
+#: lingmo_installer/gtk/default-language.ui:18
+#: lingmo_installer/gtk/default-network.ui:18
+#: lingmo_installer/gtk/default-theme.ui:49
+#: lingmo_installer/gtk/default-users.ui:19
+#: lingmo_installer/gtk/layout-preferences.ui:29
+#: lingmo_installer/gtk/progress.ui:41
+msgid "Next"
+msgstr "Siguiente"
+
+#: lingmo_installer/gtk/default-disk.ui:29
+msgid "Install Location"
+msgstr "Ubicación de la instalación"
+
+#: lingmo_installer/gtk/default-disk.ui:30
+msgid ""
+"Select the disk where you want to install Lingmo OS. Alternatively, you can "
+"select one or more disks to configure manually."
+msgstr ""
+"Seleccione el disco en el que desea instalar Lingmo OS. Alternativamente, "
+"puede seleccionar uno o más discos para configurarlos manualmente."
+
+#: lingmo_installer/gtk/default-disk.ui:44
+msgid "Use Entire Disk"
+msgstr "Utilizar todo el disco"
+
+#: lingmo_installer/gtk/default-disk.ui:56
+msgid "Manual"
+msgstr "Manual"
+
+#: lingmo_installer/gtk/default-disk.ui:86
+msgid "You need at least %s of disk space to proceed with the installation."
+msgstr ""
+"Necesita al menos %s de espacio en disco para proceder con la instalación."
+
+#: lingmo_installer/gtk/default-encryption.ui:28
+msgid "Device Encryption"
+msgstr "Cifrado de dispositivos"
+
+#: lingmo_installer/gtk/default-encryption.ui:29
+msgid "Lingmo OS encrypts your disk to protect your personal information"
+msgstr "Lingmo OS encripta tu disco para proteger tu información personal."
+
+#: lingmo_installer/gtk/default-encryption.ui:36
+msgid "Encrypt Device"
+msgstr "Cifrar el dispositivo"
+
+#: lingmo_installer/gtk/default-encryption.ui:37
+msgid "Use a memorable password to encrypt your data"
+msgstr "Utiliza una contraseña fácil de recordar para encriptar tus datos"
+
+#: lingmo_installer/gtk/default-encryption.ui:49
+#: lingmo_installer/gtk/default-users.ui:60
+msgid "Password"
+msgstr "Contraseña"
+
+#: lingmo_installer/gtk/default-encryption.ui:55
+#: lingmo_installer/gtk/default-users.ui:66
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#: lingmo_installer/gtk/default-keyboard.ui:42
+msgid "Keyboard Layout"
+msgstr "Distribución de teclado"
+
+#: lingmo_installer/gtk/default-keyboard.ui:43
+msgid "Select your preferred keyboard layout"
+msgstr "Seleccione su distribución de teclado preferida"
+
+#: lingmo_installer/gtk/default-keyboard.ui:53
+msgid "Search keyboard layouts"
+msgstr "Buscar diseños de teclado"
+
+#: lingmo_installer/gtk/default-language.ui:28
+#: lingmo_installer/gtk/widget-language.ui:12
+#: lingmo_installer/views/confirm.py:75
+msgid "Language"
+msgstr "Idioma"
+
+#: lingmo_installer/gtk/default-language.ui:29
+msgid "Select your language"
+msgstr "Elija su idioma"
+
+#: lingmo_installer/gtk/default-language.ui:39
+msgid "Search languages"
+msgstr "Buscar idiomas"
+
+#: lingmo_installer/gtk/default-network.ui:27
+msgid "Internet"
+msgstr "Internet"
+
+#: lingmo_installer/gtk/default-network.ui:28
+msgid "An active internet connection is required to install the system"
+msgstr "Es necesario tener conexión a internet para instalar el sistema"
+
+#: lingmo_installer/gtk/default-network.ui:39
+msgid "Wired"
+msgstr "Cenexión por cable"
+
+#: lingmo_installer/gtk/default-network.ui:44
+msgid "Wireless Networks"
+msgstr "Redes inalámbricas"
+
+#: lingmo_installer/gtk/default-network.ui:49
+msgid "Advanced"
+msgstr "Redes Wifi"
+
+#: lingmo_installer/gtk/default-network.ui:52
+msgid "Connect to Hidden Network..."
+msgstr "Conectarse a una red oculta..."
+
+#: lingmo_installer/gtk/default-network.ui:79
+msgid "Open Proxy Settings..."
+msgstr "Abrir los ajustes de proxy..."
+
+#: lingmo_installer/gtk/default-nvidia.ui:14
+msgid "NVIDIA® Drivers"
+msgstr "Controladores de NVIDIA®"
+
+#: lingmo_installer/gtk/default-nvidia.ui:15
+msgid ""
+"Choose whether to install proprietary NVIDIA drivers for better "
+"compatibility and performance."
+msgstr ""
+"Elige si quieres instalar los controladores propietarios de NVIDIA para "
+"mejorar la compatibilidad y el rendimiento."
+
+#: lingmo_installer/gtk/default-nvidia.ui:29
+#: lingmo_installer/gtk/default-vm.ui:29
+msgid "Skip"
+msgstr "Omitir"
+
+#: lingmo_installer/gtk/default-nvidia.ui:38
+#: lingmo_installer/gtk/default-vm.ui:38
+#, fuzzy
+msgid "Install  (Recommended)"
+msgstr "Instalar (recomendado)"
+
+#: lingmo_installer/gtk/default-nvidia.ui:70
+msgid "About Proprietary Drivers"
+msgstr "Acerca de los controladores propietarios"
+
+#: lingmo_installer/gtk/default-nvidia.ui:78
+msgid ""
+"A proprietary driver has private code that neither Lingmo OS nor Debian "
+"developers can review.\n"
+"\n"
+"Security and other updates are dependent on the driver vendor."
+msgstr ""
+"Un controlador propietario tiene código privado que ni los desarrolladores "
+"de Lingmo OS ni los de Debian pueden revisar.\n"
+"\n"
+"La seguridad y otras actualizaciones dependen del proveedor del controlador."
+
+#: lingmo_installer/gtk/default-vm.ui:14
+msgid "VM Tools"
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:15
+#, fuzzy
+msgid ""
+"Choose whether to install VM Tools for better compatibility and performance."
+msgstr ""
+"Elige si quieres instalar los controladores propietarios de NVIDIA para "
+"mejorar la compatibilidad y el rendimiento."
+
+#: lingmo_installer/gtk/default-theme.ui:17
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lingmo_installer/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr "Oscuro"
+
+#: lingmo_installer/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr "Paleta de colores"
+
+#: lingmo_installer/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system"
+msgstr "Elija una paleta de colores para el sistema"
+
+#: lingmo_installer/gtk/default-users.ui:40
+msgid "Create User"
+msgstr "Crear usuario"
+
+#: lingmo_installer/gtk/default-users.ui:41
+msgid "Provide details for your user account"
+msgstr "Proporcione los detalles de su cuenta de usuario"
+
+#: lingmo_installer/gtk/default-users.ui:48
+msgid "Name"
+msgstr "Nombre"
+
+#: lingmo_installer/gtk/default-users.ui:54
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: lingmo_installer/gtk/default-welcome.ui:17
+msgid "Install"
+msgstr "Instalar"
+
+#: lingmo_installer/gtk/default-welcome.ui:34
+#: lingmo_installer/gtk/dialog-recovery.ui:6
+msgid "Recovery"
+msgstr "Recuperación"
+
+#: lingmo_installer/gtk/default-welcome.ui:51
+#: lingmo_installer/gtk/dialog-poweroff.ui:6
+#: lingmo_installer/gtk/dialog-poweroff.ui:26
+msgid "Power Off"
+msgstr "Apagar"
+
+#: lingmo_installer/gtk/dialog.ui:6
+msgid "Showing Information"
+msgstr "Mostrando detalles"
+
+#: lingmo_installer/gtk/dialog-disk.ui:5
+msgid "Configure Disk"
+msgstr "Configurar unidad de almacenamiento"
+
+#: lingmo_installer/gtk/dialog-disk.ui:17
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:18
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lingmo_installer/gtk/dialog-disk.ui:22
+msgid "Apply"
+msgstr "Aplicar"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:6
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:25
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:36
+msgid "Confirm Changes"
+msgstr "Confirmar cambios"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:26
+msgid ""
+"The following changes will be made to your disk. Please review them "
+"carefully."
+msgstr ""
+"Se realizarán los siguientes cambios en su unidad de almacenamiento. Por "
+"favor revíselos cuidadosamente."
+
+#: lingmo_installer/gtk/dialog-output.ui:6
+msgid "Log"
+msgstr "Registro"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:42
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:58
+msgid "Restart into Firmware Setup"
+msgstr "Reinicie la configuración del firmware"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:26
+msgid "Console"
+msgstr "Consola"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:27
+msgid "Open a terminal"
+msgstr "Abrir un terminal"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:43
+msgid "Documentation"
+msgstr "Información"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:44
+msgid "Open the Lingmo OS documentation"
+msgstr "Abra la documentación de Lingmo OS"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:60
+msgid "GParted"
+msgstr "GParted"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:61
+msgid "Manage disks and partitions"
+msgstr "Administrar discos y particiones"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:77
+msgid "Handbook"
+msgstr "Manual"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:78
+msgid "Read tutorials and guides about Lingmo OS"
+msgstr "Lee tutoriales y guías sobre Lingmo OS"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:94
+msgid "Web Browser"
+msgstr "Navegadores web"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:95
+msgid "Search help online"
+msgstr "Buscar ayuda en Internet"
+
+#: lingmo_installer/gtk/done.ui:12
+msgid "Finished!"
+msgstr "¡Terminado!"
+
+#: lingmo_installer/gtk/done.ui:13
+msgid "Restart your device to enjoy your Lingmo OS experience"
+msgstr "Reinicie su dispositivo para disfrutar la experiencia de Lingmo OS"
+
+#: lingmo_installer/gtk/done.ui:23
+msgid "Show Log"
+msgstr "Mostrar registro"
+
+#: lingmo_installer/gtk/done.ui:32
+msgid "Reboot Now"
+msgstr "Reiniciar ahora"
+
+#: lingmo_installer/gtk/done.ui:42
+msgid "Close"
+msgstr "Cerrar"
+
+#: lingmo_installer/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr "Sí, activar"
+
+#: lingmo_installer/gtk/progress.ui:27
+msgid "Previous"
+msgstr "Anterior"
+
+#: lingmo_installer/gtk/progress.ui:110
+msgid "Installing..."
+msgstr "Instalando..."
+
+#: lingmo_installer/gtk/progress.ui:131
+msgid "Show Console output"
+msgstr "Mostrar la salida de la consola"
+
+#: lingmo_installer/gtk/progress.ui:146
+msgid "Show Slideshow"
+msgstr "Ver las presentación de las diapositivas"
+
+#: lingmo_installer/gtk/widget-keyboard.ui:12
+msgid "key"
+msgstr "clave"
+
+#: lingmo_installer/gtk/widget-partition.ui:10
+msgid "Manually Partition"
+msgstr "Partición manual"
+
+#: lingmo_installer/gtk/widget-partition.ui:11
+msgid "Open GParted to manually partition the disk"
+msgstr "Abra GParted para particionar manualmente la unidad"
+
+#: lingmo_installer/gtk/widget-partition.ui:29
+msgid "Boot Partition"
+msgstr "Particion de arranque"
+
+#: lingmo_installer/gtk/widget-partition.ui:30
+msgid ""
+"The partition to mount under “/boot”. This directory stores files for "
+"booting into Lingmo OS."
+msgstr ""
+"La partición para montar en \"/boot\". Este directorio almacena los archivos "
+"para iniciar Lingmo OS."
+
+#: lingmo_installer/gtk/widget-partition.ui:33
+#: lingmo_installer/gtk/widget-partition.ui:53
+#: lingmo_installer/gtk/widget-partition.ui:73
+#: lingmo_installer/gtk/widget-partition.ui:94
+#: lingmo_installer/gtk/widget-partition.ui:114
+#: lingmo_installer/gtk/widget-partition.ui:147
+#, fuzzy
+msgid "No Partition Selected"
+msgstr "Ninguna partición seleccionada"
+
+#: lingmo_installer/gtk/widget-partition.ui:34
+#: lingmo_installer/gtk/widget-partition.ui:54
+#: lingmo_installer/gtk/widget-partition.ui:74
+#: lingmo_installer/gtk/widget-partition.ui:95
+#: lingmo_installer/gtk/widget-partition.ui:115
+#: lingmo_installer/gtk/widget-partition.ui:148
+#: lingmo_installer/defaults/disk.py:404
+msgid "Please select a partition from the options below"
+msgstr "Por favor, seleccione al menos una opción"
+
+#: lingmo_installer/gtk/widget-partition.ui:49
+msgid "EFI Partition"
+msgstr "Particion EFI"
+
+#: lingmo_installer/gtk/widget-partition.ui:50
+msgid ""
+"The partition to mount under “/boot/efi”. This directory stores files for "
+"booting in the bootloader."
+msgstr ""
+"Partición \"/boot/efi\". Este directorio almacena archivos para arrancar en "
+"el gestor de arranque."
+
+#: lingmo_installer/gtk/widget-partition.ui:69
+msgid "BIOS Boot Partition"
+msgstr "Partición de arranque del BIOS"
+
+#: lingmo_installer/gtk/widget-partition.ui:70
+msgid ""
+"The partition required by GPT-formatted disks to support booting from BIOS "
+"systems. It must be located in the first 2 TB of the disk and must be "
+"exactly 1 Mebibyte (1 MiB)."
+msgstr ""
+"La partición requerida por los discos con formato GPT para admitir el "
+"arranque desde sistemas BIOS. Debe estar ubicado en los primeros 2 TB del "
+"disco y debe tener exactamente 1 Mebibyte (1 MiB)."
+
+#: lingmo_installer/gtk/widget-partition.ui:85
+msgid "BIOS partition must be exactly 1 MiB."
+msgstr "La partición BIOS debe tener exactamente 1 MiB."
+
+#: lingmo_installer/gtk/widget-partition.ui:90
+msgid "Root Partition"
+msgstr "Partición Root"
+
+#: lingmo_installer/gtk/widget-partition.ui:91
+msgid ""
+"The partition to mount under “/”. It will be automatically converted into an "
+"LVM thin pool during installation."
+msgstr ""
+"La partición para montar bajo “/”. Se convertirá automáticamente en un grupo "
+"delgado LVM durante la instalación."
+
+#: lingmo_installer/gtk/widget-partition.ui:110
+msgid "Var Partition"
+msgstr "Partición Var"
+
+#: lingmo_installer/gtk/widget-partition.ui:111
+msgid ""
+"The partition to mount under “/var”. This directory stores all user data "
+"like personal documents and system-wide configuration."
+msgstr ""
+"La partición a montar bajo \"/var\". Este directorio almacena todos los "
+"datos del usuario, como los documentos personales y la configuración de todo "
+"el sistema."
+
+#: lingmo_installer/gtk/widget-partition.ui:130
+#: lingmo_installer/gtk/widget-partition.ui:134
+msgid "Swap Partition"
+msgstr "Partición Swap"
+
+#: lingmo_installer/gtk/widget-partition.ui:131
+msgid ""
+"Swap acts as a virtual extension of your RAM and enables hibernation. "
+"Lingmo OS already uses zram to provide swapping at no storage cost."
+msgstr ""
+"Swap actúa como una extensión virtual de su RAM y permite la hibernación. "
+"Lingmo OS ya usa zram para proporcionar intercambio sin costo de "
+"almacenamiento."
+
+#: lingmo_installer/gtk/widget-partition.ui:135
+msgid ""
+"Choose a partition to use for swap alongside zram. This is not required for "
+"hibernation."
+msgstr ""
+"Elija una partición para usar para el intercambio junto con zram. Esto no es "
+"necesario para la hibernación."
+
+#: lingmo_installer/gtk/window-unsupported.ui:58
+msgid "Power Off..."
+msgstr "Apagar..."
+
+#: lingmo_installer/gtk/window.ui:37
+msgid "Back"
+msgstr "Regresar"
+
+#: lingmo_installer/gtk/wireless-row.ui:34
+#: lingmo_installer/defaults/network.py:372
+msgid "Connected"
+msgstr "Conectado"
+
+#: lingmo_installer/defaults/disk.py:298
+msgid "GParted is already running. Only one instance of GParted is permitted."
+msgstr ""
+"GParted ya se está ejecutando. Solo se permite una instancia de GParted."
+
+#: lingmo_installer/defaults/disk.py:363
+msgid "Partition must be at least {}"
+msgstr "La partición debe tener al menos {}"
+
+#: lingmo_installer/defaults/disk.py:387
+msgid "Partition must EXACTLY {}"
+msgstr "La partición debe ser EXACTAMENTE {}"
+
+#: lingmo_installer/defaults/disk.py:402
+msgid "No partition selected"
+msgstr "Ninguna partición seleccionada"
+
+#: lingmo_installer/defaults/disk.py:500
+msgid "Partitions have changed. Current selections have been cleared."
+msgstr "Las particiones han cambiado. Las selecciones actuales se han borrado."
+
+#: lingmo_installer/defaults/disk.py:558
+msgid "Entire disk will be used."
+msgstr "Se usará toda la unidad de almacenamiento."
+
+#: lingmo_installer/defaults/disk.py:565
+msgid "Will be formatted in {} and mounted in {}"
+msgstr "Se formateará en {} y se montará en {}"
+
+#: lingmo_installer/defaults/network.py:37
+msgid "Insecure network (WEP)"
+msgstr "Red insegura (WEP)"
+
+#: lingmo_installer/defaults/network.py:38
+msgid "Secure network (WPA)"
+msgstr "Red segura (WPA)"
+
+#: lingmo_installer/defaults/network.py:39
+msgid "Secure network (WPA2)"
+msgstr "Red segura (WPA2)"
+
+#: lingmo_installer/defaults/network.py:40
+msgid "Secure network (WPA3)"
+msgstr "Red segura (WPA3)"
+
+#: lingmo_installer/defaults/network.py:375
+msgid "Authentication required"
+msgstr "Autenticación necesaria"
+
+#: lingmo_installer/defaults/network.py:383
+msgid "Connecting"
+msgstr "Conectando"
+
+#: lingmo_installer/defaults/network.py:385
+msgid "Disconnected"
+msgstr "Desconectado"
+
+#: lingmo_installer/defaults/network.py:387
+msgid "Disconnecting"
+msgstr "Desconectando"
+
+#: lingmo_installer/defaults/network.py:389
+msgid "Connection Failed"
+msgstr "Conexión fallida"
+
+#: lingmo_installer/defaults/network.py:391
+msgid "Status Unknown"
+msgstr "Estado desconocido"
+
+#: lingmo_installer/defaults/network.py:393
+msgid "Unmanaged"
+msgstr "No gestionado"
+
+#: lingmo_installer/defaults/network.py:395
+msgid "Unavailable"
+msgstr "No está disponible"
+
+#: lingmo_installer/defaults/network.py:397
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: lingmo_installer/defaults/network.py:409
+msgid "Cable Unplugged"
+msgstr "Cable desconectado"
+
+#: lingmo_installer/defaults/timezone.py:58
+#, python-format
+msgid "(at %s, %s)"
+msgstr ""
+
+#: lingmo_installer/layouts/preferences.py:67
+msgid "Please select at least one option."
+msgstr "Por favor, seleccione al menos una opción."
+
+#: lingmo_installer/utils/builder.py:73
+msgid "Missing 'log_file' in the recipe."
+msgstr "Falta 'log_file' en la entrada."
+
+#: lingmo_installer/utils/builder.py:82
+#, python-format
+msgid "failed to create log file: %s"
+msgstr "no se pudo crear el archivo de registro: %s"
+
+#: lingmo_installer/utils/builder.py:83
+msgid "No log will be stored."
+msgstr "No se almacenará ningún registro."
+
+#: lingmo_installer/utils/builder.py:90
+#, python-format
+msgid "Performing display-condition: %s"
+msgstr "Ejecutando condición de visualización: %s"
+
+#: lingmo_installer/utils/builder.py:99 lingmo_installer/utils/builder.py:104
+#, python-format
+msgid "Step %s skipped due to display-conditions"
+msgstr "Paso %s omitido debido a condiciones-de-pantalla"
+
+#: lingmo_installer/utils/recipe.py:43
+msgid "Invalid recipe file"
+msgstr "Archivo de configuración no inválido"
+
+#: lingmo_installer/utils/recipe.py:52
+msgid "Recipe is not a dictionary"
+msgstr "Una receta no es un diccionario"
+
+#: lingmo_installer/utils/recipe.py:57
+#, python-brace-format
+msgid "Recipe is missing the '{key}' key"
+msgstr "La receta no contiene la clave '{key}'"
+
+#: lingmo_installer/utils/recipe.py:61
+msgid "Recipe steps is not a list"
+msgstr "Los pasos de la configuración no son una lista"
+
+#: lingmo_installer/utils/recipe.py:66
+#, python-brace-format
+msgid "Step {step} is not a dictionary"
+msgstr "El paso {step} no es un diccionario"
+
+#: lingmo_installer/views/confirm.py:81
+msgid "Keyboard"
+msgstr "Distribución de teclado"
+
+#: lingmo_installer/views/confirm.py:87
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#: lingmo_installer/views/confirm.py:95
+msgid "Users"
+msgstr "Usuarios"
+
+#: lingmo_installer/views/confirm.py:104
+#: lingmo_installer/views/confirm.py:120
+msgid "Disk"
+msgstr "Disco"
+
+#: lingmo_installer/views/done.py:40
+msgid "Restart your device to enjoy your {} experience."
+msgstr "Reinicie su dispositivo para disfrutar su experiencia en {}."
+
+#: lingmo_installer/views/done.py:54
+msgid "Something went wrong"
+msgstr "Algo salió mal"
+
+#: lingmo_installer/views/done.py:56
+msgid "Please contact the distribution developers."
+msgstr ""
+"Por favor, póngase en contacto con los desarrolladores de la distribución."
+
+#~ msgid "Date & Time"
+#~ msgstr "Fecha y hora"
+
+#~ msgid "Select your preferred timezone"
+#~ msgstr "Seleccione su zona horaria preferida"
+
+#~ msgid "Search timezones"
+#~ msgstr "Buscar zonas horarias"
+
+#~ msgid "Boot partition is too small."
+#~ msgstr "La partición de arranque es demasiado pequeña."
+
+#~ msgid "EFI partition is too small."
+#~ msgstr "La partición EFI es demasiado pequeña."
+
+#~ msgid "Root partition is too small."
+#~ msgstr "La partición Root es demasiado pequeña."
+
+#~ msgid "Home partition is too small."
+#~ msgstr "Partición Home demasiado pequeña."
+
+#~ msgid "You need at least %s of disk space to proceed with installation."
+#~ msgstr ""
+#~ "Necesita al menos %s de espacio en disco para proceder con la instalación."
+
+#~ msgid "Don't install"
+#~ msgstr "No instalar"
+
+#~ msgid "Region"
+#~ msgstr "Región"
+
+#~ msgid "Zone"
+#~ msgstr "Zona"
+
+#~ msgid "Welcome to Lingmo OS!"
+#~ msgstr "¡Bienvenid@ a Lingmo OS!"
+
+#~ msgid "Read the Lingmo OS Handbook"
+#~ msgstr "Lea el Manual del sistema operativo Lingmo OS"
+
+#~ msgid "All done!"
+#~ msgstr "¡Todo listo!"
+
+#~ msgid "Open GParted"
+#~ msgstr "Abrir GParted"
+
+#~ msgid ""
+#~ "The partition to mount under “/boot”. This directory stores files for "
+#~ "booting in Lingmo OS."
+#~ msgstr ""
+#~ "Partición “/boot”. Este directorio almacena archivos para arrancar en "
+#~ "Lingmo OS."
+
+#~ msgid "Root Partitions"
+#~ msgstr "Particiones Root"
+
+#~ msgid ""
+#~ "The partitions to mount under “/”. Both partitions must be the same size."
+#~ msgstr "Partición “/”. Ambas particiones deben tener el mismo tamaño."
+
+#~ msgid ""
+#~ "Lingmo OS uses an A/B partition system managed by ABRoot,\n"
+#~ "which switches between two root partitions between updates."
+#~ msgstr ""
+#~ "Lingmo OS utiliza un sistema de partición A/B administrado por ABRoot,\n"
+#~ "que cambia entre dos particiones raíz entre actualizaciones."
+
+#~ msgid "Root partitions are not the same size."
+#~ msgstr "Las particiones Raíz no son del mismo tamaño."
+
+#~ msgid "Please make sure your A and B partitions have the same disk space."
+#~ msgstr ""
+#~ "Asegúrese de que sus particiones A y B tengan el mismo espacio en disco."
+
+#~ msgid "Root partitions are too small."
+#~ msgstr "Las particiones Raíz son demasiado pequeñas."
+
+#~ msgid "Home Partition"
+#~ msgstr "Particion Home"
+
+#~ msgid ""
+#~ "The partition to mount under “/home”. This directory stores all user data."
+#~ msgstr ""
+#~ "Partición “/home”. Este directorio almacena todos los datos del usuario."
+
+#~ msgid "Search for a language"
+#~ msgstr "Buscar un idioma"
+
+#~ msgid "clicked"
+#~ msgstr "Hizo clic"
+
+#~ msgid "installation-confirmed"
+#~ msgstr "Instalación-confirmada"
+
+#~ msgid "page-changed"
+#~ msgstr "página-cambiada"
+
+#~ msgid "Lingmo OS Recovery"
+#~ msgstr "Recuperación de Lingmo OS"
+
+#~ msgid "Select a Disk"
+#~ msgstr "Seleccione una unidad de almacenamiento"
+
+#~ msgid "Select the disk where you want to install Lingmo OS"
+#~ msgstr "Seleccione el disco donde quiere instalar Lingmo OS"
+
+#~ msgid "Configure"
+#~ msgstr "Configurar"
+
+#~ msgid "Disk Allocation"
+#~ msgstr "Asignar disco"
+
+#~ msgid "Choose how to install Lingmo OS on your drive."
+#~ msgstr "Seleccione la unidad donde quiere instalar Lingmo OS."
+
+#~ msgid "This will erase all data on the disk."
+#~ msgstr "Esto borrará todos los datos de la unidad."
+
+#~ msgid ""
+#~ "Select which partitions to use for installation. Incorrect configuration "
+#~ "can lead to data loss, corruption, and/or an unbootable system."
+#~ msgstr ""
+#~ "Seleccione particiones para la instalación. Una configuración incorrecta "
+#~ "puede provocar corrupción o pérdida de datos, o un sistema que no se "
+#~ "puede iniciar."
+
+#, python-brace-format
+#~ msgid "Not enough space: {0}/{1}"
+#~ msgstr "Espacio insuficiente: {0}/{1}"
+
+#~ msgid "This is the only disk available and cannot be deselected!"
+#~ msgstr ""
+#~ "¡Esta es la única unidad de almacenamiento disponible y no se puede de-"
+#~ "seleccionar!"
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenido/a"
+
+#~ msgid "This software will guide you through the installation process."
+#~ msgstr "El asistente lo guiará a través del proceso de instalación."
+
+#~ msgid "The following partitions were found on the disk"
+#~ msgstr ""
+#~ "Se encontraron las siguientes particiones en su unidad del almacenamiento"
+
+#~ msgid "Format"
+#~ msgstr "Formatear"
+
+#~ msgid "Choose a new file system or leave as is"
+#~ msgstr "Elija un nuevo sistema de archivos, o déjelo como está"
+
+#~ msgid "Mount Point"
+#~ msgstr "Punto de montaje"
+
+#~ msgid "Choose a mount point for the partition"
+#~ msgstr "Elija un punto de montaje para la partición"

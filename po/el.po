@@ -1,0 +1,860 @@
+# Greek translations for lingmo-installer package.
+# Copyright (C) 2022 THE lingmo-installer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-installer package.
+# Automatically generated, 2022.
+#
+# Andrew Geo <andrewgeo@outlook.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: 2023-08-19 21:52+0000\n"
+"Last-Translator: Andrew Geo <andrewgeo@outlook.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/lingmo-os/"
+"installer/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
+
+#: data/org.lingmoos.Installer.desktop.in:3 lingmo_installer/gtk/window.ui:8
+msgid "Lingmo OS Installer"
+msgstr "Πρόγραμμα Εγκατάστασης του Lingmo OS"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:7
+msgid "Tweak your Lingmo OS installation."
+msgstr "Τροποποιήστε την εγκατάσταση του Lingmo OS."
+
+#: data/org.lingmoos.Installer.appdata.xml.in:10
+msgid "No description"
+msgstr "Χωρίς περιγραφή"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:26
+msgid "First release"
+msgstr "Πρώτη έκδοση"
+
+#: lingmo_installer/gtk/confirm.ui:10
+msgid "Confirm Installation"
+msgstr "Επιβεβαίωση Εγκατάστασης"
+
+#: lingmo_installer/gtk/confirm.ui:11
+#, fuzzy
+msgid "The following changes will be made to your system"
+msgstr "Οι παρακάτω αλλαγές θα γίνουν στο σύστημά σας:"
+
+#: lingmo_installer/gtk/confirm.ui:28
+msgid "Install Lingmo OS"
+msgstr "Εγκατάσταση του Lingmo OS"
+
+#: lingmo_installer/gtk/default-conn-check.ui:12
+msgid "Checking Connection…"
+msgstr ""
+
+#: lingmo_installer/gtk/default-conn-check.ui:13
+msgid "Please wait until the connection check is done"
+msgstr ""
+
+#: lingmo_installer/gtk/default-disk.ui:19
+#: lingmo_installer/gtk/default-encryption.ui:18
+#: lingmo_installer/gtk/default-keyboard.ui:30
+#: lingmo_installer/gtk/default-language.ui:18
+#: lingmo_installer/gtk/default-network.ui:18
+#: lingmo_installer/gtk/default-theme.ui:49
+#: lingmo_installer/gtk/default-users.ui:19
+#: lingmo_installer/gtk/layout-preferences.ui:29
+#: lingmo_installer/gtk/progress.ui:41
+msgid "Next"
+msgstr "Επόμενο"
+
+#: lingmo_installer/gtk/default-disk.ui:29
+msgid "Install Location"
+msgstr "Τοποθεσία εγκατάστασης"
+
+#: lingmo_installer/gtk/default-disk.ui:30
+msgid ""
+"Select the disk where you want to install Lingmo OS. Alternatively, you can "
+"select one or more disks to configure manually."
+msgstr ""
+"Επιλέξτε τον δίσκο όπου θέλετε να εγκατασταθεί το Lingmo OS. Εναλλακτικά, "
+"μπορείτε να επιλέξετε έναν ή περισσότερους δίσκους για χειροκίνητη ρύθμιση."
+
+#: lingmo_installer/gtk/default-disk.ui:44
+#, fuzzy
+msgid "Use Entire Disk"
+msgstr "Χρήση ολόκληρου του δίσκου"
+
+#: lingmo_installer/gtk/default-disk.ui:56
+msgid "Manual"
+msgstr "Χειροκίνητα"
+
+#: lingmo_installer/gtk/default-disk.ui:86
+msgid "You need at least %s of disk space to proceed with the installation."
+msgstr ""
+
+#: lingmo_installer/gtk/default-encryption.ui:28
+msgid "Device Encryption"
+msgstr "Έγκρυψη δεδομένων συσκευής"
+
+#: lingmo_installer/gtk/default-encryption.ui:29
+#, fuzzy
+msgid "Lingmo OS encrypts your disk to protect your personal information"
+msgstr ""
+"Το Lingmo OS παρέχει έγκρυψη δεδομένων ολόκληρου του δίσκου μέσω του LUKS2 "
+"για την προστασία των προσωπικών σας πληροφοριών σε περίπτωση που η συσκευή "
+"σας κλαπεί."
+
+#: lingmo_installer/gtk/default-encryption.ui:36
+#, fuzzy
+msgid "Encrypt Device"
+msgstr "Κρυπτογράφηση συσκευής"
+
+#: lingmo_installer/gtk/default-encryption.ui:37
+msgid "Use a memorable password to encrypt your data"
+msgstr ""
+"Χρησιμοποιήστε έναν αξιομνημόνευτο κωδικό πρόσβασης για την έγκρυψη των "
+"δεδομένων σας"
+
+#: lingmo_installer/gtk/default-encryption.ui:49
+#: lingmo_installer/gtk/default-users.ui:60
+msgid "Password"
+msgstr "Κωδικός"
+
+#: lingmo_installer/gtk/default-encryption.ui:55
+#: lingmo_installer/gtk/default-users.ui:66
+msgid "Confirm Password"
+msgstr "Επιβεβαίωση Κωδικού"
+
+#: lingmo_installer/gtk/default-keyboard.ui:42
+msgid "Keyboard Layout"
+msgstr "Διάταξη Πληκτρολογίου"
+
+#: lingmo_installer/gtk/default-keyboard.ui:43
+msgid "Select your preferred keyboard layout"
+msgstr "Επιλέξτε τη προτιμώμενη διάταξη πληκτρολογίου σας"
+
+#: lingmo_installer/gtk/default-keyboard.ui:53
+#, fuzzy
+msgid "Search keyboard layouts"
+msgstr "Αναζήτηση διάταξης πληκτρολογίου"
+
+#: lingmo_installer/gtk/default-language.ui:28
+#: lingmo_installer/gtk/widget-language.ui:12
+#: lingmo_installer/views/confirm.py:75
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: lingmo_installer/gtk/default-language.ui:29
+msgid "Select your language"
+msgstr "Επιλέξτε τη γλώσσα σας"
+
+#: lingmo_installer/gtk/default-language.ui:39
+#, fuzzy
+msgid "Search languages"
+msgstr "Αναζήτηση γλώσσας"
+
+#: lingmo_installer/gtk/default-network.ui:27
+msgid "Internet"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:28
+msgid "An active internet connection is required to install the system"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:39
+msgid "Wired"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:44
+msgid "Wireless Networks"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:49
+msgid "Advanced"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:52
+msgid "Connect to Hidden Network..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:79
+msgid "Open Proxy Settings..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:14
+msgid "NVIDIA® Drivers"
+msgstr "Προγράμματα οδήγησης της NVIDIA®"
+
+#: lingmo_installer/gtk/default-nvidia.ui:15
+msgid ""
+"Choose whether to install proprietary NVIDIA drivers for better "
+"compatibility and performance."
+msgstr ""
+"Επιλέξτε αν θα εγκαταστήσετε ιδιοταγή προγράμματα οδήγησης της NVIDIA για "
+"καλύτερη συμβατότητα και απόδοση."
+
+#: lingmo_installer/gtk/default-nvidia.ui:29
+#: lingmo_installer/gtk/default-vm.ui:29
+msgid "Skip"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:38
+#: lingmo_installer/gtk/default-vm.ui:38
+#, fuzzy
+msgid "Install  (Recommended)"
+msgstr "Να εγκατασταθούν  (συνίσταται)"
+
+#: lingmo_installer/gtk/default-nvidia.ui:70
+msgid "About Proprietary Drivers"
+msgstr "Σχετικά με τα ιδιοταγή προγράμματα οδήγησης"
+
+#: lingmo_installer/gtk/default-nvidia.ui:78
+msgid ""
+"A proprietary driver has private code that neither Lingmo OS nor Debian "
+"developers can review.\n"
+"\n"
+"Security and other updates are dependent on the driver vendor."
+msgstr ""
+"Ένα ιδιοταγές πρόγραμμα οδήγησης περιέχει ιδιωτικό κώδικα που ούτε οι "
+"προγραμματιστές του Lingmo OS ή του Debian μπορούν να επιθεωρήσουν.\n"
+"\n"
+"Οι ενημερώσεις ασφαλείας και μη εξαρτώνται από τον προμηθευτή του "
+"προγράμματος οδήγησης."
+
+#: lingmo_installer/gtk/default-vm.ui:14
+msgid "VM Tools"
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:15
+#, fuzzy
+msgid ""
+"Choose whether to install VM Tools for better compatibility and performance."
+msgstr ""
+"Επιλέξτε αν θα εγκαταστήσετε ιδιοταγή προγράμματα οδήγησης της NVIDIA για "
+"καλύτερη συμβατότητα και απόδοση."
+
+#: lingmo_installer/gtk/default-theme.ui:17
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: lingmo_installer/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr "Σκοτεινό"
+
+#: lingmo_installer/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr "Συνδυασμός Χρωμάτων"
+
+#: lingmo_installer/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system"
+msgstr "Επιλέξτε έναν συνδυασμό χρωμάτων για το σύστημά σας"
+
+#: lingmo_installer/gtk/default-users.ui:40
+msgid "Create User"
+msgstr "Δημιουργία Χρήστη"
+
+#: lingmo_installer/gtk/default-users.ui:41
+msgid "Provide details for your user account"
+msgstr "Παραθέστε πληροφορίες για τον λογαριασμό χρήστη"
+
+#: lingmo_installer/gtk/default-users.ui:48
+msgid "Name"
+msgstr "Τίτλος"
+
+#: lingmo_installer/gtk/default-users.ui:54
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
+#: lingmo_installer/gtk/default-welcome.ui:17
+#, fuzzy
+msgid "Install"
+msgstr "Γίνεται εγκατάσταση..."
+
+#: lingmo_installer/gtk/default-welcome.ui:34
+#: lingmo_installer/gtk/dialog-recovery.ui:6
+msgid "Recovery"
+msgstr "Επανόρθωση"
+
+#: lingmo_installer/gtk/default-welcome.ui:51
+#: lingmo_installer/gtk/dialog-poweroff.ui:6
+#: lingmo_installer/gtk/dialog-poweroff.ui:26
+msgid "Power Off"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog.ui:6
+msgid "Showing Information"
+msgstr "Προβολή πληροφοριών"
+
+#: lingmo_installer/gtk/dialog-disk.ui:5
+msgid "Configure Disk"
+msgstr "Παραμετροποίηση Δίσκου"
+
+#: lingmo_installer/gtk/dialog-disk.ui:17
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:18
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: lingmo_installer/gtk/dialog-disk.ui:22
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:6
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:25
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:36
+msgid "Confirm Changes"
+msgstr "Επιβεβαίωση Αλλαγών"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:26
+msgid ""
+"The following changes will be made to your disk. Please review them "
+"carefully."
+msgstr ""
+"Οι παρακάτω αλλαγές θα εγγραφούν στον δίσκο σας. Παρακαλώ, ελέγξτε τες "
+"προσεκτικά."
+
+#: lingmo_installer/gtk/dialog-output.ui:6
+msgid "Log"
+msgstr "Καταγραφή"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:42
+msgid "Restart"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:58
+msgid "Restart into Firmware Setup"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-recovery.ui:26
+msgid "Console"
+msgstr "Κονσόλα"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:27
+#, fuzzy
+msgid "Open a terminal"
+msgstr "Άνοιγμα ενός τερματικού"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:43
+msgid "Documentation"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-recovery.ui:44
+#, fuzzy
+msgid "Open the Lingmo OS documentation"
+msgstr "Διαβάστε το Εγχειρίδιο του Lingmo OS"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:60
+#, fuzzy
+msgid "GParted"
+msgstr "Gparted"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:61
+msgid "Manage disks and partitions"
+msgstr "Διαχείριση δίσκων και διαμερισμάτων"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:77
+msgid "Handbook"
+msgstr "Εγχειρίδιο"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:78
+msgid "Read tutorials and guides about Lingmo OS"
+msgstr ""
+
+#: lingmo_installer/gtk/dialog-recovery.ui:94
+msgid "Web Browser"
+msgstr "Φυλλομετρητής"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:95
+#, fuzzy
+msgid "Search help online"
+msgstr "Αναζήτηση βοήθειας στο διαδίκτυο"
+
+#: lingmo_installer/gtk/done.ui:12
+msgid "Finished!"
+msgstr ""
+
+#: lingmo_installer/gtk/done.ui:13
+msgid "Restart your device to enjoy your Lingmo OS experience"
+msgstr ""
+"Επανεκκινήστε τη συσκευή σας για να απολαύσετε την εμπειρία του Lingmo OS"
+
+#: lingmo_installer/gtk/done.ui:23
+msgid "Show Log"
+msgstr "Προβολή καταγραφών"
+
+#: lingmo_installer/gtk/done.ui:32
+msgid "Reboot Now"
+msgstr "Επανεκκίνηση Τώρα"
+
+#: lingmo_installer/gtk/done.ui:42
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: lingmo_installer/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr "Ναι, να ενεργοποιηθεί"
+
+#: lingmo_installer/gtk/progress.ui:27
+msgid "Previous"
+msgstr ""
+
+#: lingmo_installer/gtk/progress.ui:110
+msgid "Installing..."
+msgstr "Γίνεται εγκατάσταση..."
+
+#: lingmo_installer/gtk/progress.ui:131
+msgid "Show Console output"
+msgstr "Προβολή εξόδου κονσόλας"
+
+#: lingmo_installer/gtk/progress.ui:146
+msgid "Show Slideshow"
+msgstr "Προβολή Παρουσίασης"
+
+#: lingmo_installer/gtk/widget-keyboard.ui:12
+msgid "key"
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:10
+#, fuzzy
+msgid "Manually Partition"
+msgstr "Χειροκίνητος Διαμερισμός"
+
+#: lingmo_installer/gtk/widget-partition.ui:11
+msgid "Open GParted to manually partition the disk"
+msgstr "Άνοιγμα του GParted για χειροκίνητο διαμερισμό του δίσκου"
+
+#: lingmo_installer/gtk/widget-partition.ui:29
+msgid "Boot Partition"
+msgstr "Διαμέρισμα Εκκίνησης"
+
+#: lingmo_installer/gtk/widget-partition.ui:30
+#, fuzzy
+msgid ""
+"The partition to mount under “/boot”. This directory stores files for "
+"booting into Lingmo OS."
+msgstr ""
+"Το διαμέρισμα που θα αναρτηθεί στο \"/boot\". Αυτός ο κατάλογος θα κρατάει "
+"αρχεία για την εκκίνηση του Lingmo OS."
+
+#: lingmo_installer/gtk/widget-partition.ui:33
+#: lingmo_installer/gtk/widget-partition.ui:53
+#: lingmo_installer/gtk/widget-partition.ui:73
+#: lingmo_installer/gtk/widget-partition.ui:94
+#: lingmo_installer/gtk/widget-partition.ui:114
+#: lingmo_installer/gtk/widget-partition.ui:147
+#, fuzzy
+msgid "No Partition Selected"
+msgstr "Δεν επιλέχθηκε διαμέρισμα"
+
+#: lingmo_installer/gtk/widget-partition.ui:34
+#: lingmo_installer/gtk/widget-partition.ui:54
+#: lingmo_installer/gtk/widget-partition.ui:74
+#: lingmo_installer/gtk/widget-partition.ui:95
+#: lingmo_installer/gtk/widget-partition.ui:115
+#: lingmo_installer/gtk/widget-partition.ui:148
+#: lingmo_installer/defaults/disk.py:404
+msgid "Please select a partition from the options below"
+msgstr "Παρακαλώ διαλέξτε ένα διαμέρισμα απο τις παρακάτω επιλογές"
+
+#: lingmo_installer/gtk/widget-partition.ui:49
+msgid "EFI Partition"
+msgstr "Διαμέρισμα EFI"
+
+#: lingmo_installer/gtk/widget-partition.ui:50
+msgid ""
+"The partition to mount under “/boot/efi”. This directory stores files for "
+"booting in the bootloader."
+msgstr ""
+"Το διαμέρισμα που θα αναρτηθεί στο \"/boot/efi\". Αυτός ο κατάλογος θα "
+"κρατάει αρχεία για την εκκίνηση στον φορτωτή εκκινητήρα."
+
+#: lingmo_installer/gtk/widget-partition.ui:69
+msgid "BIOS Boot Partition"
+msgstr "Διαμέρισμα Εκκίνησης BIOS"
+
+#: lingmo_installer/gtk/widget-partition.ui:70
+msgid ""
+"The partition required by GPT-formatted disks to support booting from BIOS "
+"systems. It must be located in the first 2 TB of the disk and must be "
+"exactly 1 Mebibyte (1 MiB)."
+msgstr ""
+"Το διαμέρισμα που απαιτείται από δίσκους του μορφότυπου: GPT, ώστε να "
+"υποστηρίζεται η εκκίνηση από τα συστήματα BIOS. Πρέπει να βρίσκεται στα "
+"πρώτα 2 TB του δίσκου και να ισούται ακριβώς με 1 Mebibyte (1 MiB)."
+
+#: lingmo_installer/gtk/widget-partition.ui:85
+msgid "BIOS partition must be exactly 1 MiB."
+msgstr "Το διαμέρισμα του BIOS πρέπει να ισούται ακριβώς με 1 MiB."
+
+#: lingmo_installer/gtk/widget-partition.ui:90
+#, fuzzy
+msgid "Root Partition"
+msgstr "Διαμερίσματα Ρίζας"
+
+#: lingmo_installer/gtk/widget-partition.ui:91
+#, fuzzy
+msgid ""
+"The partition to mount under “/”. It will be automatically converted into an "
+"LVM thin pool during installation."
+msgstr ""
+"Το διαμέρισμα που θα αναρτηθεί στο \"/boot\". Αυτός ο κατάλογος θα κρατάει "
+"αρχεία για την εκκίνηση του Lingmo OS."
+
+#: lingmo_installer/gtk/widget-partition.ui:110
+#, fuzzy
+msgid "Var Partition"
+msgstr "Διαμέρισμα Σελιδοποίησης"
+
+#: lingmo_installer/gtk/widget-partition.ui:111
+#, fuzzy
+msgid ""
+"The partition to mount under “/var”. This directory stores all user data "
+"like personal documents and system-wide configuration."
+msgstr ""
+"Το διαμέρισμα που θα αναρτηθεί στο \"/home\". Αυτός ο κατάλογος κρατάει όλα "
+"τα δεδομένα του χρήστη."
+
+#: lingmo_installer/gtk/widget-partition.ui:130
+#: lingmo_installer/gtk/widget-partition.ui:134
+msgid "Swap Partition"
+msgstr "Διαμέρισμα Σελιδοποίησης"
+
+#: lingmo_installer/gtk/widget-partition.ui:131
+msgid ""
+"Swap acts as a virtual extension of your RAM and enables hibernation. "
+"Lingmo OS already uses zram to provide swapping at no storage cost."
+msgstr ""
+"Η σελιδοποίηση λειτουργεί ως επέκταση της RAM και ενεργοποιεί την αναστολή "
+"λειτουργίας. Το Lingmo OS ήδη χρησιμοποιεί το δομοστοιχείο zram ώστε να "
+"παρέχει σελιδοποίηση χωρίς κόστος αποθήκευσης."
+
+#: lingmo_installer/gtk/widget-partition.ui:135
+msgid ""
+"Choose a partition to use for swap alongside zram. This is not required for "
+"hibernation."
+msgstr ""
+"Επιλέξτε ένα διαμέρισμα για σελιδοποίηση μαζί με το zram. Αυτό δεν είναι "
+"απαιτούμενο για την αναστολή λειτουργίας."
+
+#: lingmo_installer/gtk/window-unsupported.ui:58
+msgid "Power Off..."
+msgstr ""
+
+#: lingmo_installer/gtk/window.ui:37
+msgid "Back"
+msgstr "Πίσω"
+
+#: lingmo_installer/gtk/wireless-row.ui:34
+#: lingmo_installer/defaults/network.py:372
+msgid "Connected"
+msgstr ""
+
+#: lingmo_installer/defaults/disk.py:298
+msgid "GParted is already running. Only one instance of GParted is permitted."
+msgstr ""
+"Το GParted εκτελείται ήδη. Μόνο μια υπόσταση του GParted είναι επιτρεπτή."
+
+#: lingmo_installer/defaults/disk.py:363
+msgid "Partition must be at least {}"
+msgstr "Το διαμέρισμα πρέπει να είναι τουλάχιστον {}"
+
+#: lingmo_installer/defaults/disk.py:387
+msgid "Partition must EXACTLY {}"
+msgstr "Το διαμέρισμα πρέπει να είναι ΑΚΡΙΒΩΣ {}"
+
+#: lingmo_installer/defaults/disk.py:402
+msgid "No partition selected"
+msgstr "Δεν επιλέχθηκε διαμέρισμα"
+
+#: lingmo_installer/defaults/disk.py:500
+msgid "Partitions have changed. Current selections have been cleared."
+msgstr ""
+"Τα διαμερίσματα έχουν τροποποιηθεί. Οι τρέχουσες επιλογές έχουν διαγραφεί."
+
+#: lingmo_installer/defaults/disk.py:558
+msgid "Entire disk will be used."
+msgstr "Θα χρησιμοποιηθεί ολόκληρος ο δίσκος."
+
+#: lingmo_installer/defaults/disk.py:565
+msgid "Will be formatted in {} and mounted in {}"
+msgstr "Θα μορφοποιηθεί σε {} και θα αναρτηθεί στο {}"
+
+#: lingmo_installer/defaults/network.py:37
+msgid "Insecure network (WEP)"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:38
+msgid "Secure network (WPA)"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:39
+msgid "Secure network (WPA2)"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:40
+msgid "Secure network (WPA3)"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:375
+msgid "Authentication required"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:383
+msgid "Connecting"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:385
+msgid "Disconnected"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:387
+msgid "Disconnecting"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:389
+msgid "Connection Failed"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:391
+msgid "Status Unknown"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:393
+msgid "Unmanaged"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:395
+msgid "Unavailable"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:397
+msgid "Unknown"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:409
+msgid "Cable Unplugged"
+msgstr ""
+
+#: lingmo_installer/defaults/timezone.py:58
+#, python-format
+msgid "(at %s, %s)"
+msgstr ""
+
+#: lingmo_installer/layouts/preferences.py:67
+msgid "Please select at least one option."
+msgstr "Παρακαλώ επιλέξτε τουλάχιστον ένα στοιχείο."
+
+#: lingmo_installer/utils/builder.py:73
+msgid "Missing 'log_file' in the recipe."
+msgstr "To 'log_file' δεν βρέθηκε στη συνταγή (αρχείο τροποποιήσεων)."
+
+#: lingmo_installer/utils/builder.py:82
+#, python-format
+msgid "failed to create log file: %s"
+msgstr "Αποτυχία δημιουργίας αρχείου καταγραφής: %s"
+
+#: lingmo_installer/utils/builder.py:83
+msgid "No log will be stored."
+msgstr "Καμία καταγραφή δεν θα αποθηκευτεί."
+
+#: lingmo_installer/utils/builder.py:90
+#, python-format
+msgid "Performing display-condition: %s"
+msgstr "Εφαρμογή φίλτρων: %s"
+
+#: lingmo_installer/utils/builder.py:99 lingmo_installer/utils/builder.py:104
+#, python-format
+msgid "Step %s skipped due to display-conditions"
+msgstr "Το βήμα %s παρακάμφθηκε λόγω φίλτρων προβολής"
+
+#: lingmo_installer/utils/recipe.py:43
+msgid "Invalid recipe file"
+msgstr "Μη έγκυρο αρχείο συνταγής (αρχείο τροποποίησης)"
+
+#: lingmo_installer/utils/recipe.py:52
+msgid "Recipe is not a dictionary"
+msgstr "Οι συνταγές δεν είναι λεξικά"
+
+#: lingmo_installer/utils/recipe.py:57
+#, python-brace-format
+msgid "Recipe is missing the '{key}' key"
+msgstr "Το κλειδί '{key}' λείπει από τη συνταγή"
+
+#: lingmo_installer/utils/recipe.py:61
+msgid "Recipe steps is not a list"
+msgstr "Τα βήματα της συνταγής δεν είναι λίστα"
+
+#: lingmo_installer/utils/recipe.py:66
+#, python-brace-format
+msgid "Step {step} is not a dictionary"
+msgstr "Το βήμα {step} δεν είναι λεξικό"
+
+#: lingmo_installer/views/confirm.py:81
+msgid "Keyboard"
+msgstr "Πληκτρολόγιο"
+
+#: lingmo_installer/views/confirm.py:87
+msgid "Timezone"
+msgstr "Ζώνη ώρας"
+
+#: lingmo_installer/views/confirm.py:95
+msgid "Users"
+msgstr "Χρήστες"
+
+#: lingmo_installer/views/confirm.py:104
+#: lingmo_installer/views/confirm.py:120
+msgid "Disk"
+msgstr "Δίσκος"
+
+#: lingmo_installer/views/done.py:40
+msgid "Restart your device to enjoy your {} experience."
+msgstr "Επανεκκινήστε τη συσκεύη σας για να απολαύσετε την εμπειρία {}."
+
+#: lingmo_installer/views/done.py:54
+msgid "Something went wrong"
+msgstr "Κάτι πήγε στραβά"
+
+#: lingmo_installer/views/done.py:56
+msgid "Please contact the distribution developers."
+msgstr "Παρακαλώ επικοινωνήστε με τους δημιουργούς της διανομής."
+
+#~ msgid "Date & Time"
+#~ msgstr "Ημερομηνία & Ώρα"
+
+#~ msgid "Select your preferred timezone"
+#~ msgstr "Επιλέξτε την επιθυμητή ζώνη ώρας σας"
+
+#, fuzzy
+#~| msgid "Search for a Timezone"
+#~ msgid "Search timezones"
+#~ msgstr "Αναζήτηση ζώνης ώρας"
+
+#~ msgid "Boot partition is too small."
+#~ msgstr "Το διαμέρισμα εκκίνησης είναι πολύ μικρό."
+
+#~ msgid "EFI partition is too small."
+#~ msgstr "Το διαμέρισμα EFI είναι πολύ μικρό."
+
+#, fuzzy
+#~| msgid "Boot partition is too small."
+#~ msgid "Root partition is too small."
+#~ msgstr "Το διαμέρισμα εκκίνησης είναι πολύ μικρό."
+
+#~ msgid "Home partition is too small."
+#~ msgstr "Ο πάτριος κατάλογος είναι πολύ μικρός."
+
+#~ msgid "Don't install"
+#~ msgstr "Να μην εγκατασταθούν"
+
+#~ msgid "All done!"
+#~ msgstr "Όλα έτοιμα!"
+
+#~ msgid "Open GParted"
+#~ msgstr "Άνοιγμα του GParted"
+
+#~ msgid "Region"
+#~ msgstr "Περιοχή"
+
+#~ msgid "Zone"
+#~ msgstr "Ζώνη"
+
+#, fuzzy
+#~| msgid "Try Lingmo OS"
+#~ msgid "Welcome to Lingmo OS!"
+#~ msgstr "Δοκιμή του Lingmo OS"
+
+#~ msgid ""
+#~ "The partitions to mount under “/”. Both partitions must be the same size."
+#~ msgstr ""
+#~ "Τα διαμερίσματα που θα αναρτηθούν στο \"/\". Πρέπει και τα δύο να έχουν "
+#~ "το ίδιο μέγεθος."
+
+#~ msgid ""
+#~ "Lingmo OS uses an A/B partition system managed by ABRoot,\n"
+#~ "which switches between two root partitions between updates."
+#~ msgstr ""
+#~ "Το Lingmo OS χρησιμοποιεί ένα σύστημα διαμοιρασμού A/B που χειρίζεται "
+#~ "από το ABRoot,\n"
+#~ "το οποίο εναλάσσει τα δύο διαμερίσματα ρίζας μεταξύ ενημερώσεων."
+
+#~ msgid "Root partitions are not the same size."
+#~ msgstr "Τα διαμερίσματα ρίζας δεν έχουν το ίδιο μέγεθος."
+
+#~ msgid "Please make sure your A and B partitions have the same disk space."
+#~ msgstr ""
+#~ "Παρακαλώ, σιγουρευτείτε πως τα διαμερίσματα Α και Β έχουν τον ίδιο χώρο "
+#~ "στον δίσκο."
+
+#~ msgid "Root partitions are too small."
+#~ msgstr "Τα διαμερίσματα ρίζας είναι πολύ μικρά."
+
+#~ msgid "Home Partition"
+#~ msgstr "Πάτριο Διαμέρισμα"
+
+#~ msgid "clicked"
+#~ msgstr "Επιλεγμένο"
+
+#~ msgid "installation-confirmed"
+#~ msgstr "Η εγκατάσταση επιβεβαιώθηκε"
+
+#~ msgid "page-changed"
+#~ msgstr "Η σελίδα άλλαξε"
+
+#~ msgid "Lingmo OS Recovery"
+#~ msgstr "Επανόρθωση του Lingmo OS"
+
+#~ msgid "Select a Disk"
+#~ msgstr "Επιλογή Δίσκου"
+
+#~ msgid "Select the disk where you want to install Lingmo OS"
+#~ msgstr "Επιλέξτε τον δίσκο όπου θα εγκατασταθεί το Lingmo OS"
+
+#~ msgid "Configure"
+#~ msgstr "Παραμετροποίηση"
+
+#~ msgid "Disk Allocation"
+#~ msgstr "Καταμερισμός Δίσκου"
+
+#~ msgid "Choose how to install Lingmo OS on your drive."
+#~ msgstr "Επιλέξτε πως το Lingmo OS θα εγκατασταθεί στον δίσκο."
+
+#~ msgid "This will erase all data on the disk."
+#~ msgstr "Αυτό θα διαγράψει όλα τα δεδομένα στον δίσκο."
+
+#~ msgid ""
+#~ "Select which partitions to use for installation. Incorrect configuration "
+#~ "can lead to data loss, corruption, and/or an unbootable system."
+#~ msgstr ""
+#~ "Επιλέξτε τα διαμερίσματα που θα χρησιμοποιηθούν για την εγκατάσταση. Οι "
+#~ "λανθασμένες ρυθμίσεις μπορεί να οδηγήσουν σε απώλεια ή αλλοίωση "
+#~ "δεδομένων, ή/ και σε ένα σύστημα που δεν μπορεί να εκκινηθεί."
+
+#, python-brace-format
+#~ msgid "Not enough space: {0}/{1}"
+#~ msgstr "Ανεπαρκής διαθέσιμος χώρος: {0}/{1}"
+
+#~ msgid "This is the only disk available and cannot be deselected!"
+#~ msgstr ""
+#~ "Αυτός είναι ο μόνος διαθέσιμος δίσκος και δεν δύναται να αποεπιλεχθεί!"
+
+#~ msgid "Welcome"
+#~ msgstr "Καλωσορίσατε"
+
+#~ msgid "This software will guide you through the installation process."
+#~ msgstr "Αυτό το λογισμικό θα σας καθοδηγεί στην διαδικασία εγκατάστασης."
+
+#~ msgid "The following partitions were found on the disk"
+#~ msgstr "Τα παρκάτω διαμερίσματα βρέθηκαν στον δίσκο"
+
+#~ msgid "Format"
+#~ msgstr "Διαμόρφωση"
+
+#~ msgid "Choose a new file system or leave as is"
+#~ msgstr "Επιλογή ενός νέου συστήματος αρχείων ή διατήρηση ως έχει"
+
+#~ msgid "Mount Point"
+#~ msgstr "Σημείο ανάρτησης"
+
+#~ msgid "Choose a mount point for the partition"
+#~ msgstr "Επιλέξτε ένα σημείο ανάρτησης για το διαμέρισμα του δίσκου"

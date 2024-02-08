@@ -1,0 +1,849 @@
+# Turkish translations for lingmo-installer package.
+# Copyright (C) 2022 THE lingmo-installer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-installer package.
+# Automatically generated, 2022.
+#
+# Murattut <tutmurattut@outlook.com>, 2023.
+# Fellow Turkish <f3ll0wm4il3r_12@protonmail.com>, 2023.
+# Muhammed Dalgalı <muhammedalgali2@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: 2023-12-24 12:17+0000\n"
+"Last-Translator: Muhammed Dalgalı <muhammedalgali2@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/lingmo-os/"
+"installer/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/org.lingmoos.Installer.desktop.in:3 lingmo_installer/gtk/window.ui:8
+msgid "Lingmo OS Installer"
+msgstr "Lingmo OS Yükleyici"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:7
+msgid "Tweak your Lingmo OS installation."
+msgstr "Lingmo OS kurulumunuzda ince ayar yapın."
+
+#: data/org.lingmoos.Installer.appdata.xml.in:10
+msgid "No description"
+msgstr "Açıklama yok"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:26
+msgid "First release"
+msgstr "İlk sürüm"
+
+#: lingmo_installer/gtk/confirm.ui:10
+msgid "Confirm Installation"
+msgstr "Kurulumu Doğrulayın"
+
+#: lingmo_installer/gtk/confirm.ui:11
+#, fuzzy
+msgid "The following changes will be made to your system"
+msgstr "Aşağıdaki değişiklikler sisteminize uygulanacaktır:"
+
+#: lingmo_installer/gtk/confirm.ui:28
+msgid "Install Lingmo OS"
+msgstr "Lingmo OS'u yükleyin"
+
+#: lingmo_installer/gtk/default-conn-check.ui:12
+msgid "Checking Connection…"
+msgstr ""
+
+#: lingmo_installer/gtk/default-conn-check.ui:13
+msgid "Please wait until the connection check is done"
+msgstr ""
+
+#: lingmo_installer/gtk/default-disk.ui:19
+#: lingmo_installer/gtk/default-encryption.ui:18
+#: lingmo_installer/gtk/default-keyboard.ui:30
+#: lingmo_installer/gtk/default-language.ui:18
+#: lingmo_installer/gtk/default-network.ui:18
+#: lingmo_installer/gtk/default-theme.ui:49
+#: lingmo_installer/gtk/default-users.ui:19
+#: lingmo_installer/gtk/layout-preferences.ui:29
+#: lingmo_installer/gtk/progress.ui:41
+msgid "Next"
+msgstr "Sonraki"
+
+#: lingmo_installer/gtk/default-disk.ui:29
+msgid "Install Location"
+msgstr "Kurulum Konumu"
+
+#: lingmo_installer/gtk/default-disk.ui:30
+msgid ""
+"Select the disk where you want to install Lingmo OS. Alternatively, you can "
+"select one or more disks to configure manually."
+msgstr ""
+"Lingmo OS'yi kurmak istediğiniz diski seçin. Ayrıca manuel olarak "
+"yapılandırmak için bir veya daha fazla disk seçebilirsiniz."
+
+#: lingmo_installer/gtk/default-disk.ui:44
+#, fuzzy
+msgid "Use Entire Disk"
+msgstr "Tüm diski kullan"
+
+#: lingmo_installer/gtk/default-disk.ui:56
+msgid "Manual"
+msgstr "Manuel"
+
+#: lingmo_installer/gtk/default-disk.ui:86
+msgid "You need at least %s of disk space to proceed with the installation."
+msgstr "Kuruluma devam etmek için en az %s disk alanına ihtiyacınız var."
+
+#: lingmo_installer/gtk/default-encryption.ui:28
+msgid "Device Encryption"
+msgstr "Cihaz Şifreleme"
+
+#: lingmo_installer/gtk/default-encryption.ui:29
+#, fuzzy
+msgid "Lingmo OS encrypts your disk to protect your personal information"
+msgstr ""
+"Lingmo OS, cihazınızın çalınması durumunda kişisel bilgilerinizi korumak "
+"için LUKS2 aracılığıyla tam disk şifrelemesi sağlar."
+
+#: lingmo_installer/gtk/default-encryption.ui:36
+#, fuzzy
+msgid "Encrypt Device"
+msgstr "Cihazı şifrele"
+
+#: lingmo_installer/gtk/default-encryption.ui:37
+msgid "Use a memorable password to encrypt your data"
+msgstr "Verilerinizi şifrelemek için unutmayacağınız bir şifre kullanın"
+
+#: lingmo_installer/gtk/default-encryption.ui:49
+#: lingmo_installer/gtk/default-users.ui:60
+msgid "Password"
+msgstr "Şifre"
+
+#: lingmo_installer/gtk/default-encryption.ui:55
+#: lingmo_installer/gtk/default-users.ui:66
+msgid "Confirm Password"
+msgstr "Şifreyi Doğrulayın"
+
+#: lingmo_installer/gtk/default-keyboard.ui:42
+msgid "Keyboard Layout"
+msgstr "Klavye Yerleşimi"
+
+#: lingmo_installer/gtk/default-keyboard.ui:43
+msgid "Select your preferred keyboard layout"
+msgstr "Tercih ettiğiniz klavye yerleşimini seçin"
+
+#: lingmo_installer/gtk/default-keyboard.ui:53
+#, fuzzy
+msgid "Search keyboard layouts"
+msgstr "Klavye Yerleşimi arayın"
+
+#: lingmo_installer/gtk/default-language.ui:28
+#: lingmo_installer/gtk/widget-language.ui:12
+#: lingmo_installer/views/confirm.py:75
+msgid "Language"
+msgstr "Dil"
+
+#: lingmo_installer/gtk/default-language.ui:29
+msgid "Select your language"
+msgstr "Dilinizi seçin"
+
+#: lingmo_installer/gtk/default-language.ui:39
+#, fuzzy
+msgid "Search languages"
+msgstr "Dil arayın"
+
+#: lingmo_installer/gtk/default-network.ui:27
+msgid "Internet"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:28
+msgid "An active internet connection is required to install the system"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:39
+msgid "Wired"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:44
+msgid "Wireless Networks"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:49
+msgid "Advanced"
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:52
+msgid "Connect to Hidden Network..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-network.ui:79
+msgid "Open Proxy Settings..."
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:14
+msgid "NVIDIA® Drivers"
+msgstr "NVIDIA® Sürücüleri"
+
+#: lingmo_installer/gtk/default-nvidia.ui:15
+msgid ""
+"Choose whether to install proprietary NVIDIA drivers for better "
+"compatibility and performance."
+msgstr ""
+"Daha iyi uyumluluk ve performans için özel NVIDIA sürücülerinin kurulup "
+"kurulmayacağını seçin."
+
+#: lingmo_installer/gtk/default-nvidia.ui:29
+#: lingmo_installer/gtk/default-vm.ui:29
+msgid "Skip"
+msgstr ""
+
+#: lingmo_installer/gtk/default-nvidia.ui:38
+#: lingmo_installer/gtk/default-vm.ui:38
+#, fuzzy
+msgid "Install  (Recommended)"
+msgstr "Yükle    (önerilir)"
+
+#: lingmo_installer/gtk/default-nvidia.ui:70
+msgid "About Proprietary Drivers"
+msgstr "Tescilli Sürücüler Hakkında"
+
+#: lingmo_installer/gtk/default-nvidia.ui:78
+msgid ""
+"A proprietary driver has private code that neither Lingmo OS nor Debian "
+"developers can review.\n"
+"\n"
+"Security and other updates are dependent on the driver vendor."
+msgstr ""
+"Tescilli bir sürücünün ne Lingmo OS ne de Debian geliştiricilerinin "
+"inceleyemeyeceği özel kodu vardır.\n"
+"\n"
+"Güvenlik ve diğer güncellemeler sürücü sağlayıcısına bağlıdır."
+
+#: lingmo_installer/gtk/default-vm.ui:14
+msgid "VM Tools"
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:15
+#, fuzzy
+msgid ""
+"Choose whether to install VM Tools for better compatibility and performance."
+msgstr ""
+"Daha iyi uyumluluk ve performans için özel NVIDIA sürücülerinin kurulup "
+"kurulmayacağını seçin."
+
+#: lingmo_installer/gtk/default-theme.ui:17
+msgid "Default"
+msgstr "Varsayılan"
+
+#: lingmo_installer/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr "Koyu"
+
+#: lingmo_installer/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr "Renk Şeması"
+
+#: lingmo_installer/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system"
+msgstr "Sisteminiz için bir renk şeması seçin"
+
+#: lingmo_installer/gtk/default-users.ui:40
+msgid "Create User"
+msgstr "Kullanıcı oluşturun"
+
+#: lingmo_installer/gtk/default-users.ui:41
+msgid "Provide details for your user account"
+msgstr "Kullanıcı hesabınız için ayrıntıları girin"
+
+#: lingmo_installer/gtk/default-users.ui:48
+msgid "Name"
+msgstr "Ad"
+
+#: lingmo_installer/gtk/default-users.ui:54
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: lingmo_installer/gtk/default-welcome.ui:17
+msgid "Install"
+msgstr "Kur"
+
+#: lingmo_installer/gtk/default-welcome.ui:34
+#: lingmo_installer/gtk/dialog-recovery.ui:6
+msgid "Recovery"
+msgstr "Kurtarma"
+
+#: lingmo_installer/gtk/default-welcome.ui:51
+#: lingmo_installer/gtk/dialog-poweroff.ui:6
+#: lingmo_installer/gtk/dialog-poweroff.ui:26
+msgid "Power Off"
+msgstr "Kapat"
+
+#: lingmo_installer/gtk/dialog.ui:6
+msgid "Showing Information"
+msgstr "Bilgiler gösteriliyor"
+
+#: lingmo_installer/gtk/dialog-disk.ui:5
+msgid "Configure Disk"
+msgstr "Diski Yapılandır"
+
+#: lingmo_installer/gtk/dialog-disk.ui:17
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:18
+msgid "Cancel"
+msgstr "İptal"
+
+#: lingmo_installer/gtk/dialog-disk.ui:22
+msgid "Apply"
+msgstr "Uygula"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:6
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:25
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:36
+msgid "Confirm Changes"
+msgstr "Değişiklikleri Onayla"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:26
+msgid ""
+"The following changes will be made to your disk. Please review them "
+"carefully."
+msgstr ""
+"Aşağıdaki değişiklikler diskinize uygulanacaktır. Lütfen onları dikkatlice "
+"gözden geçirin."
+
+#: lingmo_installer/gtk/dialog-output.ui:6
+msgid "Log"
+msgstr "Günlük"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:42
+msgid "Restart"
+msgstr "Yeniden Başlat"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:58
+msgid "Restart into Firmware Setup"
+msgstr "Yazılım Kurulumunu Yeniden Başlatın"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:26
+msgid "Console"
+msgstr "Konsol"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:27
+#, fuzzy
+msgid "Open a terminal"
+msgstr "Bir Terminal Aç"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:43
+msgid "Documentation"
+msgstr "Dokümantasyon"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:44
+#, fuzzy
+msgid "Open the Lingmo OS documentation"
+msgstr "Lingmo OS Belgelerini Okuyun"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:60
+#, fuzzy
+msgid "GParted"
+msgstr "GParted"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:61
+msgid "Manage disks and partitions"
+msgstr "Diskleri ve bölümleri yönetin"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:77
+msgid "Handbook"
+msgstr "El Kitabı"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:78
+#, fuzzy
+msgid "Read tutorials and guides about Lingmo OS"
+msgstr "Lingmo OS hakkındaki eğitimleri ve kılavuzları okuyun."
+
+#: lingmo_installer/gtk/dialog-recovery.ui:94
+msgid "Web Browser"
+msgstr "Web Tarayıcıları"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:95
+#, fuzzy
+msgid "Search help online"
+msgstr "Yardım için çevrimiçi arama yapın"
+
+#: lingmo_installer/gtk/done.ui:12
+msgid "Finished!"
+msgstr ""
+
+#: lingmo_installer/gtk/done.ui:13
+msgid "Restart your device to enjoy your Lingmo OS experience"
+msgstr ""
+"Lingmo OS deneyiminizin keyfini çıkarmak için aygıtınızı yeniden başlatın"
+
+#: lingmo_installer/gtk/done.ui:23
+msgid "Show Log"
+msgstr "Günlüğü göster"
+
+#: lingmo_installer/gtk/done.ui:32
+msgid "Reboot Now"
+msgstr "Şimdi Yeniden Başlat"
+
+#: lingmo_installer/gtk/done.ui:42
+msgid "Close"
+msgstr "Kapat"
+
+#: lingmo_installer/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr "Evet, aktif hale getir"
+
+#: lingmo_installer/gtk/progress.ui:27
+msgid "Previous"
+msgstr ""
+
+#: lingmo_installer/gtk/progress.ui:110
+msgid "Installing..."
+msgstr "Kuruluyor..."
+
+#: lingmo_installer/gtk/progress.ui:131
+msgid "Show Console output"
+msgstr "Konsol çıktısını göster"
+
+#: lingmo_installer/gtk/progress.ui:146
+msgid "Show Slideshow"
+msgstr "Slayt gösterisini göster"
+
+#: lingmo_installer/gtk/widget-keyboard.ui:12
+msgid "key"
+msgstr ""
+
+#: lingmo_installer/gtk/widget-partition.ui:10
+#, fuzzy
+msgid "Manually Partition"
+msgstr "Manuel Bölümleniyor"
+
+#: lingmo_installer/gtk/widget-partition.ui:11
+msgid "Open GParted to manually partition the disk"
+msgstr "Diski elle bölümlendirmek için GParted'ı aç"
+
+#: lingmo_installer/gtk/widget-partition.ui:29
+msgid "Boot Partition"
+msgstr "Önyükleme Bölümleniyor"
+
+#: lingmo_installer/gtk/widget-partition.ui:30
+msgid ""
+"The partition to mount under “/boot”. This directory stores files for "
+"booting into Lingmo OS."
+msgstr ""
+"Bu Bölüm \"/boot\" olarak bağlanacak. Bu dizin Lingmo OS'un önyüklenebilir "
+"dosyalarını depolar."
+
+#: lingmo_installer/gtk/widget-partition.ui:33
+#: lingmo_installer/gtk/widget-partition.ui:53
+#: lingmo_installer/gtk/widget-partition.ui:73
+#: lingmo_installer/gtk/widget-partition.ui:94
+#: lingmo_installer/gtk/widget-partition.ui:114
+#: lingmo_installer/gtk/widget-partition.ui:147
+#, fuzzy
+msgid "No Partition Selected"
+msgstr "Bölüm seçilmedi"
+
+#: lingmo_installer/gtk/widget-partition.ui:34
+#: lingmo_installer/gtk/widget-partition.ui:54
+#: lingmo_installer/gtk/widget-partition.ui:74
+#: lingmo_installer/gtk/widget-partition.ui:95
+#: lingmo_installer/gtk/widget-partition.ui:115
+#: lingmo_installer/gtk/widget-partition.ui:148
+#: lingmo_installer/defaults/disk.py:404
+msgid "Please select a partition from the options below"
+msgstr "Lütfen aşağıdaki seçeneklerden bir bölüm seçin"
+
+#: lingmo_installer/gtk/widget-partition.ui:49
+msgid "EFI Partition"
+msgstr "EFI Bölümü"
+
+#: lingmo_installer/gtk/widget-partition.ui:50
+msgid ""
+"The partition to mount under “/boot/efi”. This directory stores files for "
+"booting in the bootloader."
+msgstr ""
+"Bu Bölüm \"/boot/efi\". olarak bağlanacak. Bu dizin Lingmo OS'un "
+"önyükleyiçinin önyükleme dosyalarını depolar."
+
+#: lingmo_installer/gtk/widget-partition.ui:69
+msgid "BIOS Boot Partition"
+msgstr "BIOS Önyükleme Bölümü"
+
+#: lingmo_installer/gtk/widget-partition.ui:70
+msgid ""
+"The partition required by GPT-formatted disks to support booting from BIOS "
+"systems. It must be located in the first 2 TB of the disk and must be "
+"exactly 1 Mebibyte (1 MiB)."
+msgstr ""
+"Bu bölüm GPT-formatted diskin, BIOS sisteminin önyüklenmesi için gereklidir. "
+"Bölüm diskin ilk 2 TB alanında bulunmalı ve tam olarak 1 Mebibyte (1 MiB) "
+"olmalıdır."
+
+#: lingmo_installer/gtk/widget-partition.ui:85
+msgid "BIOS partition must be exactly 1 MiB."
+msgstr "BIOS bölümü tam olarak 1 MİB(1 Mebibyte) olmalıdır."
+
+#: lingmo_installer/gtk/widget-partition.ui:90
+msgid "Root Partition"
+msgstr "Kök Bölümü"
+
+#: lingmo_installer/gtk/widget-partition.ui:91
+#, fuzzy
+msgid ""
+"The partition to mount under “/”. It will be automatically converted into an "
+"LVM thin pool during installation."
+msgstr ""
+"Bu Bölüm \"/boot\". olarak bağlanacak. Bu dizin Lingmo OS'un önyüklenebilir "
+"dosyalarını depolar."
+
+#: lingmo_installer/gtk/widget-partition.ui:110
+msgid "Var Partition"
+msgstr "War Bölümü"
+
+#: lingmo_installer/gtk/widget-partition.ui:111
+msgid ""
+"The partition to mount under “/var”. This directory stores all user data "
+"like personal documents and system-wide configuration."
+msgstr ""
+"Bu Bölüm \"/var\" altında bağlanacak. Bu dizin tüm kullanıcı dosyalarını "
+"depolar."
+
+#: lingmo_installer/gtk/widget-partition.ui:130
+#: lingmo_installer/gtk/widget-partition.ui:134
+msgid "Swap Partition"
+msgstr "Bölümü Değiştir"
+
+#: lingmo_installer/gtk/widget-partition.ui:131
+msgid ""
+"Swap acts as a virtual extension of your RAM and enables hibernation. "
+"Lingmo OS already uses zram to provide swapping at no storage cost."
+msgstr ""
+"Swap aslında ekstra sanal RAM olarak davranır ve hazırda beklemeyi "
+"aktifleştirir. Lingmo OS zaten depolama kaybı olmadan (swap) depolamayı "
+"zram kullanarak karşılar."
+
+#: lingmo_installer/gtk/widget-partition.ui:135
+msgid ""
+"Choose a partition to use for swap alongside zram. This is not required for "
+"hibernation."
+msgstr ""
+"Zram' in yanında swap alanı kullanmak için bir bölüm seçin. Bu hazırda "
+"bekletme modu için gerekli değildir."
+
+#: lingmo_installer/gtk/window-unsupported.ui:58
+#, fuzzy
+msgid "Power Off..."
+msgstr "Kapat"
+
+#: lingmo_installer/gtk/window.ui:37
+msgid "Back"
+msgstr "Geri"
+
+#: lingmo_installer/gtk/wireless-row.ui:34
+#: lingmo_installer/defaults/network.py:372
+msgid "Connected"
+msgstr "Bağlandı"
+
+#: lingmo_installer/defaults/disk.py:298
+msgid "GParted is already running. Only one instance of GParted is permitted."
+msgstr "GParted zaten çalışıyor. Sadece bir tane GParted yetkilendirildi."
+
+#: lingmo_installer/defaults/disk.py:363
+msgid "Partition must be at least {}"
+msgstr "Bölüm en az {} olmalıdır"
+
+#: lingmo_installer/defaults/disk.py:387
+msgid "Partition must EXACTLY {}"
+msgstr "Bölüm AYNI {} ŞEKLİNDE olmalıdır"
+
+#: lingmo_installer/defaults/disk.py:402
+msgid "No partition selected"
+msgstr "Bölüm seçilmedi"
+
+#: lingmo_installer/defaults/disk.py:500
+msgid "Partitions have changed. Current selections have been cleared."
+msgstr "Bölümler Değişti. Şuan seçilenler temizlendi."
+
+#: lingmo_installer/defaults/disk.py:558
+msgid "Entire disk will be used."
+msgstr "Tüm disk kullanılacak."
+
+#: lingmo_installer/defaults/disk.py:565
+msgid "Will be formatted in {} and mounted in {}"
+msgstr "{} şeklinde biçimlendirilecek ve {} noktasına bağlanacaktır"
+
+#: lingmo_installer/defaults/network.py:37
+msgid "Insecure network (WEP)"
+msgstr "Güvenli olmayan ağ (WEP)"
+
+#: lingmo_installer/defaults/network.py:38
+msgid "Secure network (WPA)"
+msgstr "Güvenli ağ (WPA)"
+
+#: lingmo_installer/defaults/network.py:39
+msgid "Secure network (WPA2)"
+msgstr "Güvenli ağ (WPA2)"
+
+#: lingmo_installer/defaults/network.py:40
+msgid "Secure network (WPA3)"
+msgstr "Güvenli ağ (WPA3)"
+
+#: lingmo_installer/defaults/network.py:375
+msgid "Authentication required"
+msgstr "Kimlik doğrulaması gerekli"
+
+#: lingmo_installer/defaults/network.py:383
+msgid "Connecting"
+msgstr "Bağlanıyor"
+
+#: lingmo_installer/defaults/network.py:385
+msgid "Disconnected"
+msgstr "Bağlantı kesildi"
+
+#: lingmo_installer/defaults/network.py:387
+msgid "Disconnecting"
+msgstr "Bağlantı kesiliyor"
+
+#: lingmo_installer/defaults/network.py:389
+msgid "Connection Failed"
+msgstr "Bağlantı başarısız oldu"
+
+#: lingmo_installer/defaults/network.py:391
+msgid "Status Unknown"
+msgstr "Durum bilinmiyor"
+
+#: lingmo_installer/defaults/network.py:393
+msgid "Unmanaged"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:395
+msgid "Unavailable"
+msgstr ""
+
+#: lingmo_installer/defaults/network.py:397
+#, fuzzy
+msgid "Unknown"
+msgstr "Durum bilinmiyor"
+
+#: lingmo_installer/defaults/network.py:409
+msgid "Cable Unplugged"
+msgstr "Kablo Takılı değil"
+
+#: lingmo_installer/defaults/timezone.py:58
+#, python-format
+msgid "(at %s, %s)"
+msgstr ""
+
+#: lingmo_installer/layouts/preferences.py:67
+msgid "Please select at least one option."
+msgstr "Lütfen en az bir seçeneği seçin."
+
+#: lingmo_installer/utils/builder.py:73
+msgid "Missing 'log_file' in the recipe."
+msgstr "Tarifte 'log_file' kayıp."
+
+#: lingmo_installer/utils/builder.py:82
+#, python-format
+msgid "failed to create log file: %s"
+msgstr "Günlük dosyasını yaratırken hata: %s"
+
+#: lingmo_installer/utils/builder.py:83
+msgid "No log will be stored."
+msgstr "Günlük saklanmayacak."
+
+#: lingmo_installer/utils/builder.py:90
+#, python-format
+msgid "Performing display-condition: %s"
+msgstr "Ekran-durumu gösteriliyor: %s"
+
+#: lingmo_installer/utils/builder.py:99 lingmo_installer/utils/builder.py:104
+#, python-format
+msgid "Step %s skipped due to display-conditions"
+msgstr "Ekran-durumları sırasında %s adımı atlandı"
+
+#: lingmo_installer/utils/recipe.py:43
+msgid "Invalid recipe file"
+msgstr "Geçersiz tarif dosyası"
+
+#: lingmo_installer/utils/recipe.py:52
+msgid "Recipe is not a dictionary"
+msgstr "Tarif dosyası bir dizin değildir"
+
+#: lingmo_installer/utils/recipe.py:57
+#, python-brace-format
+msgid "Recipe is missing the '{key}' key"
+msgstr "'{key}' anahtarı tarif dosyasında kayıp"
+
+#: lingmo_installer/utils/recipe.py:61
+msgid "Recipe steps is not a list"
+msgstr "Tarif adımları bir liste değildir"
+
+#: lingmo_installer/utils/recipe.py:66
+#, python-brace-format
+msgid "Step {step} is not a dictionary"
+msgstr "{step} adımı bir dizin değildir"
+
+#: lingmo_installer/views/confirm.py:81
+msgid "Keyboard"
+msgstr "Klavye"
+
+#: lingmo_installer/views/confirm.py:87
+msgid "Timezone"
+msgstr "Zaman Bölgesi"
+
+#: lingmo_installer/views/confirm.py:95
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: lingmo_installer/views/confirm.py:104
+#: lingmo_installer/views/confirm.py:120
+msgid "Disk"
+msgstr "Sürücü"
+
+#: lingmo_installer/views/done.py:40
+msgid "Restart your device to enjoy your {} experience."
+msgstr ""
+"{} deneyiminizin keyfini çıkarmak için bilgisayarınızı yeniden başlatın."
+
+#: lingmo_installer/views/done.py:54
+msgid "Something went wrong"
+msgstr "Bazı şeyler yolunda gitmedi"
+
+#: lingmo_installer/views/done.py:56
+msgid "Please contact the distribution developers."
+msgstr "Lütfen dağıtım geliştiricileri ile irtibata geçin."
+
+#~ msgid "Date & Time"
+#~ msgstr "Tarih & Saat"
+
+#~ msgid "Select your preferred timezone"
+#~ msgstr "Tercih ettiğiniz saat dilimini seçin"
+
+#, fuzzy
+#~| msgid "Search for a Timezone"
+#~ msgid "Search timezones"
+#~ msgstr "Bir saat dilimini ara"
+
+#~ msgid "Boot partition is too small."
+#~ msgstr "Önyükleme bölümü çok küçük."
+
+#~ msgid "EFI partition is too small."
+#~ msgstr "EFI bölümü çok küçük."
+
+#~ msgid "Root partition is too small."
+#~ msgstr "Kök bölümü çok küçük."
+
+#~ msgid "Home partition is too small."
+#~ msgstr "Ev bölümü çok küçük."
+
+#~ msgid "Don't install"
+#~ msgstr "Yükleme"
+
+#~ msgid "All done!"
+#~ msgstr "Her şey tamam!"
+
+#~ msgid "Open GParted"
+#~ msgstr "GParted'ı Aç"
+
+#~ msgid "Region"
+#~ msgstr "Bölge"
+
+#~ msgid "Zone"
+#~ msgstr "Alan"
+
+#, fuzzy
+#~| msgid "Try Lingmo OS"
+#~ msgid "Welcome to Lingmo OS!"
+#~ msgstr "Lingmo OS'u deneyimleyin"
+
+#~ msgid ""
+#~ "The partitions to mount under “/”. Both partitions must be the same size."
+#~ msgstr ""
+#~ "Bu Bölüm \"/\". altında bağlanacaktır, Her iki bölümde aynı boyutta "
+#~ "olmalıdır."
+
+#~ msgid ""
+#~ "Lingmo OS uses an A/B partition system managed by ABRoot,\n"
+#~ "which switches between two root partitions between updates."
+#~ msgstr ""
+#~ "Lingmo OS ABROOT tarafından yönetilen A/B sistem bölümü kullanır\n"
+#~ "Güncelleme sırasında iki kök bölümü kendi arasında değişir."
+
+#~ msgid "Root partitions are not the same size."
+#~ msgstr "Kök bölümleri aynı boyutta değil."
+
+#~ msgid "Please make sure your A and B partitions have the same disk space."
+#~ msgstr ""
+#~ "Lütfen A ve B bölümlerinin aynı disk boyutuna sahip olduğundan emin olun."
+
+#~ msgid "Root partitions are too small."
+#~ msgstr "Kök bölümleri çok küçük."
+
+#~ msgid "Home Partition"
+#~ msgstr "Ev Bölümü"
+
+#~ msgid "clicked"
+#~ msgstr "Tıklandı"
+
+#~ msgid "installation-confirmed"
+#~ msgstr "Yükleme-doğrulandı"
+
+#~ msgid "page-changed"
+#~ msgstr "Sayfa-değişti"
+
+#~ msgid "Lingmo OS Recovery"
+#~ msgstr "Lingmo OS Kurtarma"
+
+#~ msgid "Select a Disk"
+#~ msgstr "Disk seçin"
+
+#~ msgid "Select the disk where you want to install Lingmo OS"
+#~ msgstr "Lingmo OS'u yüklemek istediğiniz diski seçin"
+
+#~ msgid "Configure"
+#~ msgstr "Yapılandır"
+
+#~ msgid "Disk Allocation"
+#~ msgstr "Disk Tahsisi"
+
+#~ msgid "Choose how to install Lingmo OS on your drive."
+#~ msgstr "Lingmo OS'u diskinize nasıl yükleyeceğinizi seçin."
+
+#~ msgid "This will erase all data on the disk."
+#~ msgstr "Bu işlem, diskteki tüm veriyi silecektir."
+
+#~ msgid ""
+#~ "Select which partitions to use for installation. Incorrect configuration "
+#~ "can lead to data loss, corruption, and/or an unbootable system."
+#~ msgstr ""
+#~ "Kurulum için hangi bölümlerin kullanılacağını seçin. Yanlış bir ayar veri "
+#~ "kaybına, bozulmaya, ve/veya açılamayan bir sisteme sebep olabilir."
+
+#, python-brace-format
+#~ msgid "Not enough space: {0}/{1}"
+#~ msgstr "Yeterli alan yok: {0}/{1}"
+
+#~ msgid "This is the only disk available and cannot be deselected!"
+#~ msgstr "Bu, uygun olan tek disktir ve seçimi kaldırılamaz!"
+
+#~ msgid "Welcome"
+#~ msgstr "Hoşgeldiniz"
+
+#~ msgid "This software will guide you through the installation process."
+#~ msgstr "Bu yazılım, kurulum süreci boyunca size rehberlik edecek."
+
+#~ msgid "The following partitions were found on the disk"
+#~ msgstr "Diskte aşağıdaki bölümler bulundu"
+
+#~ msgid "Format"
+#~ msgstr "Biçim"
+
+#~ msgid "Choose a new file system or leave as is"
+#~ msgstr "Yeni bir dosya sistemi seçin veya olduğu gibi bırakın"
+
+#~ msgid "Mount Point"
+#~ msgstr "Bağlama Noktası"
+
+#~ msgid "Choose a mount point for the partition"
+#~ msgstr "Bölüm için bir bağlama noktası seçin"

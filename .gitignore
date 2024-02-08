@@ -1,0 +1,10 @@
+/obj-x86_64-linux-gnu
+/mesonbuild
+**.pyc
+**__pycache__
+/debian/lingmo-installer
+/debian/lingmo-installer.substvars
+/debian/lingmo-installer.debhelper.log
+install/
+.buildconfig
+.vscode/

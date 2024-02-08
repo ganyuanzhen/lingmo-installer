@@ -1,0 +1,837 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lingmo-installer package.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: lingmo-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 16:48+0530\n"
+"PO-Revision-Date: 2023-12-29 16:06+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/lingmo-os/"
+"installer/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/org.lingmoos.Installer.desktop.in:3 lingmo_installer/gtk/window.ui:8
+msgid "Lingmo OS Installer"
+msgstr "வெண்ணிலா OS நிறுவி"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:7
+msgid "Tweak your Lingmo OS installation."
+msgstr "உங்கள் வெண்ணிலா OS நிறுவலை மாற்றி அமையுங்கள்."
+
+#: data/org.lingmoos.Installer.appdata.xml.in:10
+msgid "No description"
+msgstr "விளக்கம் இல்லை"
+
+#: data/org.lingmoos.Installer.appdata.xml.in:26
+msgid "First release"
+msgstr "முதல் வெளியீடு"
+
+#: lingmo_installer/gtk/confirm.ui:10
+msgid "Confirm Installation"
+msgstr "நிறுவலை உறுதிப்படுத்தவும்"
+
+#: lingmo_installer/gtk/confirm.ui:11
+msgid "The following changes will be made to your system"
+msgstr "உங்கள் கணினியில் பின்வரும் மாற்றங்கள் செய்யப்படும்"
+
+#: lingmo_installer/gtk/confirm.ui:28
+msgid "Install Lingmo OS"
+msgstr "வெண்ணிலா OS ஐ நிறுவவும்"
+
+#: lingmo_installer/gtk/default-conn-check.ui:12
+msgid "Checking Connection…"
+msgstr "இணைப்பைச் சரிபார்க்கிறது…"
+
+#: lingmo_installer/gtk/default-conn-check.ui:13
+msgid "Please wait until the connection check is done"
+msgstr "இணைப்புச் சரிபார்ப்பு முடியும் வரை காத்திருக்கவும்"
+
+#: lingmo_installer/gtk/default-disk.ui:19
+#: lingmo_installer/gtk/default-encryption.ui:18
+#: lingmo_installer/gtk/default-keyboard.ui:30
+#: lingmo_installer/gtk/default-language.ui:18
+#: lingmo_installer/gtk/default-network.ui:18
+#: lingmo_installer/gtk/default-theme.ui:49
+#: lingmo_installer/gtk/default-users.ui:19
+#: lingmo_installer/gtk/layout-preferences.ui:29
+#: lingmo_installer/gtk/progress.ui:41
+msgid "Next"
+msgstr "அடுத்தது"
+
+#: lingmo_installer/gtk/default-disk.ui:29
+msgid "Install Location"
+msgstr "நிறுவல் இடம்"
+
+#: lingmo_installer/gtk/default-disk.ui:30
+msgid ""
+"Select the disk where you want to install Lingmo OS. Alternatively, you can "
+"select one or more disks to configure manually."
+msgstr ""
+"நீங்கள் வெண்ணிலா OS ஐ நிறுவ விரும்பும் வட்டைத் தேர்ந்தெடுக்கவும். மாற்றாக, கைமுறையாக "
+"உள்ளமைக்க ஒன்று அல்லது அதற்கு மேற்பட்ட வட்டுகளைத் தேர்ந்தெடுக்கலாம்."
+
+#: lingmo_installer/gtk/default-disk.ui:44
+msgid "Use Entire Disk"
+msgstr "முழு வட்டையும் பயன்படுத்தவும்"
+
+#: lingmo_installer/gtk/default-disk.ui:56
+msgid "Manual"
+msgstr "கையேடு"
+
+#: lingmo_installer/gtk/default-disk.ui:86
+msgid "You need at least %s of disk space to proceed with the installation."
+msgstr "நிறுவலைத் தொடர குறைந்தபட்சம் %s வட்டு இடம் தேவை."
+
+#: lingmo_installer/gtk/default-encryption.ui:28
+msgid "Device Encryption"
+msgstr "சாதன குறியாக்கம்"
+
+#: lingmo_installer/gtk/default-encryption.ui:29
+msgid "Lingmo OS encrypts your disk to protect your personal information"
+msgstr "உங்கள் தனிப்பட்ட தகவலைப் பாதுகாக்க வெண்ணிலா OS உங்கள் வட்டை குறியாக்குகிறது"
+
+#: lingmo_installer/gtk/default-encryption.ui:36
+msgid "Encrypt Device"
+msgstr "சாதனத்தை குறியாக்கம் செய்யவும்"
+
+#: lingmo_installer/gtk/default-encryption.ui:37
+msgid "Use a memorable password to encrypt your data"
+msgstr "உங்கள் தரவை குறியாக்க மறக்கமுடியாத கடவுச்சொல்லைப் பயன்படுத்தவும்"
+
+#: lingmo_installer/gtk/default-encryption.ui:49
+#: lingmo_installer/gtk/default-users.ui:60
+msgid "Password"
+msgstr "கடவுச்சொல்"
+
+#: lingmo_installer/gtk/default-encryption.ui:55
+#: lingmo_installer/gtk/default-users.ui:66
+msgid "Confirm Password"
+msgstr "கடவுச்சொல்லை உறுதிப்படுத்தவும்"
+
+#: lingmo_installer/gtk/default-keyboard.ui:42
+msgid "Keyboard Layout"
+msgstr "விசைப்பலகை தளவமைப்பு"
+
+#: lingmo_installer/gtk/default-keyboard.ui:43
+msgid "Select your preferred keyboard layout"
+msgstr "உங்களுக்கு விருப்பமான விசைப்பலகை அமைப்பைத் தேர்ந்தெடுக்கவும்"
+
+#: lingmo_installer/gtk/default-keyboard.ui:53
+msgid "Search keyboard layouts"
+msgstr "விசைப்பலகை தளவமைப்புகளைத் தேடுங்கள்"
+
+#: lingmo_installer/gtk/default-language.ui:28
+#: lingmo_installer/gtk/widget-language.ui:12
+#: lingmo_installer/views/confirm.py:75
+msgid "Language"
+msgstr "மொழி"
+
+#: lingmo_installer/gtk/default-language.ui:29
+msgid "Select your language"
+msgstr "உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்"
+
+#: lingmo_installer/gtk/default-language.ui:39
+msgid "Search languages"
+msgstr "மொழிகளைத் தேடுங்கள்"
+
+#: lingmo_installer/gtk/default-network.ui:27
+msgid "Internet"
+msgstr "இணையதளம்"
+
+#: lingmo_installer/gtk/default-network.ui:28
+msgid "An active internet connection is required to install the system"
+msgstr "கணினியை நிறுவ செயலில் இணைய இணைப்பு தேவை"
+
+#: lingmo_installer/gtk/default-network.ui:39
+msgid "Wired"
+msgstr "கம்பியுடையது"
+
+#: lingmo_installer/gtk/default-network.ui:44
+msgid "Wireless Networks"
+msgstr "கம்பியில்லா பிணையங்கள்"
+
+#: lingmo_installer/gtk/default-network.ui:49
+msgid "Advanced"
+msgstr "மேம்பட்டது"
+
+#: lingmo_installer/gtk/default-network.ui:52
+msgid "Connect to Hidden Network..."
+msgstr "மறைக்கப்பட்ட பிணையத்துடன் இணைக்கவும்..."
+
+#: lingmo_installer/gtk/default-network.ui:79
+msgid "Open Proxy Settings..."
+msgstr "ப்ராக்ஸி அமைப்புகளைத் திறக்கவும்..."
+
+#: lingmo_installer/gtk/default-nvidia.ui:14
+msgid "NVIDIA® Drivers"
+msgstr "NVIDIA® இயக்கிகள்"
+
+#: lingmo_installer/gtk/default-nvidia.ui:15
+msgid ""
+"Choose whether to install proprietary NVIDIA drivers for better "
+"compatibility and performance."
+msgstr ""
+"சிறந்த இணக்கத்தன்மை மற்றும் செயல்திறனுக்காக தனியுரிம NVIDIA இயக்கிகளை நிறுவ வேண்டுமா "
+"என்பதை தேர்வு செய்யவும்."
+
+#: lingmo_installer/gtk/default-nvidia.ui:29
+#: lingmo_installer/gtk/default-vm.ui:29
+msgid "Skip"
+msgstr "தவிர்"
+
+#: lingmo_installer/gtk/default-nvidia.ui:38
+#: lingmo_installer/gtk/default-vm.ui:38
+#, fuzzy
+msgid "Install  (Recommended)"
+msgstr "நிறுவவும்   (பரிந்துரைக்கப்பட்டது)"
+
+#: lingmo_installer/gtk/default-nvidia.ui:70
+msgid "About Proprietary Drivers"
+msgstr "தனியுரிம இயக்கிகள் பற்றி"
+
+#: lingmo_installer/gtk/default-nvidia.ui:78
+msgid ""
+"A proprietary driver has private code that neither Lingmo OS nor Debian "
+"developers can review.\n"
+"\n"
+"Security and other updates are dependent on the driver vendor."
+msgstr ""
+"தனியுரிம இயக்கிக்கு தனிப்பட்ட குறியீடு உள்ளது, அதை வெண்ணிலா OS அல்லது டெபியன் "
+"டெவலப்பர்கள் மதிப்பாய்வு செய்ய முடியாது.\n"
+"\n"
+"பாதுகாப்பு மற்றும் பிற புதுப்பிப்புகள் இயக்கி விற்பனையாளரைப் பொறுத்தது."
+
+#: lingmo_installer/gtk/default-vm.ui:14
+msgid "VM Tools"
+msgstr ""
+
+#: lingmo_installer/gtk/default-vm.ui:15
+#, fuzzy
+msgid ""
+"Choose whether to install VM Tools for better compatibility and performance."
+msgstr ""
+"சிறந்த இணக்கத்தன்மை மற்றும் செயல்திறனுக்காக தனியுரிம NVIDIA இயக்கிகளை நிறுவ வேண்டுமா "
+"என்பதை தேர்வு செய்யவும்."
+
+#: lingmo_installer/gtk/default-theme.ui:17
+msgid "Default"
+msgstr "இயல்புநிலை"
+
+#: lingmo_installer/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr "இருள்"
+
+#: lingmo_installer/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr "வண்ண திட்டம்"
+
+#: lingmo_installer/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system"
+msgstr "உங்கள் கணினிக்கான வண்ணத் திட்டத்தைத் தேர்ந்தெடுக்கவும்"
+
+#: lingmo_installer/gtk/default-users.ui:40
+msgid "Create User"
+msgstr "பயனரை உருவாக்கவும்"
+
+#: lingmo_installer/gtk/default-users.ui:41
+msgid "Provide details for your user account"
+msgstr "உங்கள் பயனர் கணக்கிற்கான விவரங்களை வழங்கவும்"
+
+#: lingmo_installer/gtk/default-users.ui:48
+msgid "Name"
+msgstr "பெயர்"
+
+#: lingmo_installer/gtk/default-users.ui:54
+msgid "Username"
+msgstr "பயனர் பெயர்"
+
+#: lingmo_installer/gtk/default-welcome.ui:17
+msgid "Install"
+msgstr "நிறுவு"
+
+#: lingmo_installer/gtk/default-welcome.ui:34
+#: lingmo_installer/gtk/dialog-recovery.ui:6
+msgid "Recovery"
+msgstr "மீட்பு"
+
+#: lingmo_installer/gtk/default-welcome.ui:51
+#: lingmo_installer/gtk/dialog-poweroff.ui:6
+#: lingmo_installer/gtk/dialog-poweroff.ui:26
+msgid "Power Off"
+msgstr "மின்சாரத்தை நிறுத்து"
+
+#: lingmo_installer/gtk/dialog.ui:6
+msgid "Showing Information"
+msgstr "தகவலைக் காட்டுகிறது"
+
+#: lingmo_installer/gtk/dialog-disk.ui:5
+msgid "Configure Disk"
+msgstr "வட்டை உள்ளமைக்கவும்"
+
+#: lingmo_installer/gtk/dialog-disk.ui:17
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:18
+msgid "Cancel"
+msgstr "ரத்துசெய்"
+
+#: lingmo_installer/gtk/dialog-disk.ui:22
+msgid "Apply"
+msgstr "விண்ணப்பிக்கவும்"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:6
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:25
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:36
+msgid "Confirm Changes"
+msgstr "மாற்றங்களை உறுதிப்படுத்தவும்"
+
+#: lingmo_installer/gtk/dialog-disk-confirm.ui:26
+msgid ""
+"The following changes will be made to your disk. Please review them "
+"carefully."
+msgstr "உங்கள் வட்டில் பின்வரும் மாற்றங்கள் செய்யப்படும். அவற்றை மதிப்பாய்வு செய்யவும்கவனமாக."
+
+#: lingmo_installer/gtk/dialog-output.ui:6
+msgid "Log"
+msgstr "பதிவு"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:42
+msgid "Restart"
+msgstr "மறுதொடக்கம்"
+
+#: lingmo_installer/gtk/dialog-poweroff.ui:58
+msgid "Restart into Firmware Setup"
+msgstr "நிலைபொருள் அமைப்பில் மறுதொடக்கம் செய்யுங்கள்"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:26
+msgid "Console"
+msgstr "முனையம்"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:27
+msgid "Open a terminal"
+msgstr "ஒரு முனையத்தைத் திறக்கவும்"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:43
+msgid "Documentation"
+msgstr "ஆவணம்"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:44
+msgid "Open the Lingmo OS documentation"
+msgstr "வெண்ணிலா OS ஆவணத்தைத் திறக்கவும்"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:60
+msgid "GParted"
+msgstr "GParted"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:61
+msgid "Manage disks and partitions"
+msgstr "வட்டுகள் மற்றும் பகிர்வுகளை நிர்வகிக்கவும்"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:77
+msgid "Handbook"
+msgstr "கைப்புத்தகம்"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:78
+msgid "Read tutorials and guides about Lingmo OS"
+msgstr "வெண்ணிலா OS பற்றிய பயிற்சிகள் மற்றும் வழிகாட்டிகளைப் படிக்கவும்"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:94
+msgid "Web Browser"
+msgstr "இணைய உலாவி"
+
+#: lingmo_installer/gtk/dialog-recovery.ui:95
+msgid "Search help online"
+msgstr "உதவிக்கு ஆன்லைனில் தேடவும்"
+
+#: lingmo_installer/gtk/done.ui:12
+msgid "Finished!"
+msgstr "முடிந்துவிட்டது!"
+
+#: lingmo_installer/gtk/done.ui:13
+msgid "Restart your device to enjoy your Lingmo OS experience"
+msgstr "உங்கள் வெண்ணிலா OS அனுபவத்தை அனுபவிக்க உங்கள் சாதனத்தை மறுதொடக்கம் செய்யவும்"
+
+#: lingmo_installer/gtk/done.ui:23
+msgid "Show Log"
+msgstr "பதிவை காட்டு"
+
+#: lingmo_installer/gtk/done.ui:32
+msgid "Reboot Now"
+msgstr "இப்போது மறுமுறை துவக்கு"
+
+#: lingmo_installer/gtk/done.ui:42
+msgid "Close"
+msgstr "மூடு"
+
+#: lingmo_installer/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr "ஆம், அதை இயக்கு"
+
+#: lingmo_installer/gtk/progress.ui:27
+msgid "Previous"
+msgstr "முந்தைய"
+
+#: lingmo_installer/gtk/progress.ui:110
+msgid "Installing..."
+msgstr "நிறுவுகிறது…"
+
+#: lingmo_installer/gtk/progress.ui:131
+msgid "Show Console output"
+msgstr "கன்சோல் வெளியீட்டைக் காட்டு"
+
+#: lingmo_installer/gtk/progress.ui:146
+msgid "Show Slideshow"
+msgstr "ஸ்லைடுஷோவைக் காட்டு"
+
+#: lingmo_installer/gtk/widget-keyboard.ui:12
+msgid "key"
+msgstr "சாவி"
+
+#: lingmo_installer/gtk/widget-partition.ui:10
+msgid "Manually Partition"
+msgstr "கைமுறையாக பகிர்வு"
+
+#: lingmo_installer/gtk/widget-partition.ui:11
+msgid "Open GParted to manually partition the disk"
+msgstr "வட்டை கைமுறையால் பிரிப்பதற்கு GParted ஐத் திறக்கவும்"
+
+#: lingmo_installer/gtk/widget-partition.ui:29
+msgid "Boot Partition"
+msgstr "துவக்க பகிர்வு"
+
+#: lingmo_installer/gtk/widget-partition.ui:30
+msgid ""
+"The partition to mount under “/boot”. This directory stores files for "
+"booting into Lingmo OS."
+msgstr ""
+"\"/boot\" இன் கீழ் மவுண்ட் செய்ய வேண்டிய பகிர்வு. இந்த அடைவு வெண்ணிலா OS இல் துவக்க "
+"கோப்புகளை சேமிக்கிறது."
+
+#: lingmo_installer/gtk/widget-partition.ui:33
+#: lingmo_installer/gtk/widget-partition.ui:53
+#: lingmo_installer/gtk/widget-partition.ui:73
+#: lingmo_installer/gtk/widget-partition.ui:94
+#: lingmo_installer/gtk/widget-partition.ui:114
+#: lingmo_installer/gtk/widget-partition.ui:147
+#, fuzzy
+msgid "No Partition Selected"
+msgstr "பகிர்வு எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+#: lingmo_installer/gtk/widget-partition.ui:34
+#: lingmo_installer/gtk/widget-partition.ui:54
+#: lingmo_installer/gtk/widget-partition.ui:74
+#: lingmo_installer/gtk/widget-partition.ui:95
+#: lingmo_installer/gtk/widget-partition.ui:115
+#: lingmo_installer/gtk/widget-partition.ui:148
+#: lingmo_installer/defaults/disk.py:404
+msgid "Please select a partition from the options below"
+msgstr "கீழே உள்ள விருப்பங்களிலிருந்து ஒரு பகிர்வைத் தேர்ந்தெடுக்கவும்"
+
+#: lingmo_installer/gtk/widget-partition.ui:49
+msgid "EFI Partition"
+msgstr "EFI பகிர்வு"
+
+#: lingmo_installer/gtk/widget-partition.ui:50
+msgid ""
+"The partition to mount under “/boot/efi”. This directory stores files for "
+"booting in the bootloader."
+msgstr ""
+"\"/boot/efi\" கீழ் மவுண்ட் செய்ய வேண்டிய பகிர்வு. இந்த கோப்பகம் பூட்லோடரில் துவக்க "
+"கோப்புகளை சேமிக்கிறது."
+
+#: lingmo_installer/gtk/widget-partition.ui:69
+msgid "BIOS Boot Partition"
+msgstr "BIOS துவக்க பகிர்வு"
+
+#: lingmo_installer/gtk/widget-partition.ui:70
+msgid ""
+"The partition required by GPT-formatted disks to support booting from BIOS "
+"systems. It must be located in the first 2 TB of the disk and must be "
+"exactly 1 Mebibyte (1 MiB)."
+msgstr ""
+"BIOS கணினிகளில் இருந்து பூட் செய்வதை ஆதரிக்க GPT-வடிவமைக்கப்பட்ட வட்டுகளுக்கு "
+"தேவைப்படும் பகிர்வு. இது வட்டின் முதல் 2 TB இல் இருக்க வேண்டும் மற்றும் சரியாக 1 "
+"Mebibyte (1 MiB) ஆக இருக்க வேண்டும்."
+
+#: lingmo_installer/gtk/widget-partition.ui:85
+msgid "BIOS partition must be exactly 1 MiB."
+msgstr "BIOS பகிர்வு சரியாக 1 MiB ஆக இருக்க வேண்டும்."
+
+#: lingmo_installer/gtk/widget-partition.ui:90
+msgid "Root Partition"
+msgstr "வேர் பகிர்வு"
+
+#: lingmo_installer/gtk/widget-partition.ui:91
+msgid ""
+"The partition to mount under “/”. It will be automatically converted into an "
+"LVM thin pool during installation."
+msgstr ""
+"\"/\" கீழ் மவுண்ட் செய்ய வேண்டிய பகிர்வு. நிறுவலின் போது இது தானாகவே LVM மெல்லிய "
+"குளமாக மாற்றப்படும்."
+
+#: lingmo_installer/gtk/widget-partition.ui:110
+msgid "Var Partition"
+msgstr "Var பகிர்வு"
+
+#: lingmo_installer/gtk/widget-partition.ui:111
+msgid ""
+"The partition to mount under “/var”. This directory stores all user data "
+"like personal documents and system-wide configuration."
+msgstr ""
+"\"/var\" கீழ் மவுண்ட் செய்ய வேண்டிய பகிர்வு. இந்த கோப்பகம் தனிப்பட்ட ஆவணங்கள் மற்றும் கணினி "
+"முழுவதும் உள்ளமைவு போன்ற அனைத்து பயனர் தரவையும் சேமிக்கிறது."
+
+#: lingmo_installer/gtk/widget-partition.ui:130
+#: lingmo_installer/gtk/widget-partition.ui:134
+msgid "Swap Partition"
+msgstr "ஸ்வாப் பகிர்வு"
+
+#: lingmo_installer/gtk/widget-partition.ui:131
+msgid ""
+"Swap acts as a virtual extension of your RAM and enables hibernation. "
+"Lingmo OS already uses zram to provide swapping at no storage cost."
+msgstr ""
+"ஸ்வாப் உங்கள் RAMமின் மெய்நிகர் நீட்டிப்பாக செயல்படுகிறது மற்றும் உறக்கநிலையை "
+"செயல்படுத்துகிறது. வெண்ணிலா OS ஏற்கனவே zram ஐப் பயன்படுத்தி, சேமிப்பகச் செலவில் "
+"இடமாற்றம் செய்யவில்லை."
+
+#: lingmo_installer/gtk/widget-partition.ui:135
+msgid ""
+"Choose a partition to use for swap alongside zram. This is not required for "
+"hibernation."
+msgstr ""
+"zram உடன் ஸ்வாப் பயன்படுத்த ஒரு பகிர்வை தேர்வு செய்யவும். உறக்கநிலைக்கு இது தேவையில்லை."
+
+#: lingmo_installer/gtk/window-unsupported.ui:58
+msgid "Power Off..."
+msgstr "மின்சாரத்தை நிறுத்து..."
+
+#: lingmo_installer/gtk/window.ui:37
+msgid "Back"
+msgstr "திரும்பவும்"
+
+#: lingmo_installer/gtk/wireless-row.ui:34
+#: lingmo_installer/defaults/network.py:372
+msgid "Connected"
+msgstr "இணைக்கப்பட்டது"
+
+#: lingmo_installer/defaults/disk.py:298
+msgid "GParted is already running. Only one instance of GParted is permitted."
+msgstr ""
+"GParted ஏற்கனவே இயங்குகிறது. GParted இன் ஒரு நிகழ்வு மட்டுமே அனுமதிக்கப்படுகிறது."
+
+#: lingmo_installer/defaults/disk.py:363
+msgid "Partition must be at least {}"
+msgstr "பகிர்வு குறைந்தது {} ஆக இருக்க வேண்டும்"
+
+#: lingmo_installer/defaults/disk.py:387
+msgid "Partition must EXACTLY {}"
+msgstr "பகிர்வு கண்டிப்பாக {}"
+
+#: lingmo_installer/defaults/disk.py:402
+msgid "No partition selected"
+msgstr "பகிர்வு எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+#: lingmo_installer/defaults/disk.py:500
+msgid "Partitions have changed. Current selections have been cleared."
+msgstr "பகிர்வுகள் மாறிவிட்டன. தற்போதைய தேர்வுகள் அழிக்கப்பட்டன."
+
+#: lingmo_installer/defaults/disk.py:558
+msgid "Entire disk will be used."
+msgstr "முழு வட்டு பயன்படுத்தப்படும்."
+
+#: lingmo_installer/defaults/disk.py:565
+msgid "Will be formatted in {} and mounted in {}"
+msgstr "{} இல் வடிவமைக்கப்படும் மற்றும் {} இல் ஏற்றப்படும்"
+
+#: lingmo_installer/defaults/network.py:37
+msgid "Insecure network (WEP)"
+msgstr "பாதுகாப்பற்ற வலைப்பின்னல் (WEP)"
+
+#: lingmo_installer/defaults/network.py:38
+msgid "Secure network (WPA)"
+msgstr "பாதுகாப்பான வலைப்பின்னல் (WPA)"
+
+#: lingmo_installer/defaults/network.py:39
+msgid "Secure network (WPA2)"
+msgstr "பாதுகாப்பான வலைப்பின்னல் (WPA2)"
+
+#: lingmo_installer/defaults/network.py:40
+msgid "Secure network (WPA3)"
+msgstr "பாதுகாப்பான வலைப்பின்னல் (WPA3)"
+
+#: lingmo_installer/defaults/network.py:375
+msgid "Authentication required"
+msgstr "அங்கீகாரம் தேவை"
+
+#: lingmo_installer/defaults/network.py:383
+msgid "Connecting"
+msgstr "இணைக்கிறது"
+
+#: lingmo_installer/defaults/network.py:385
+msgid "Disconnected"
+msgstr "இணைப்பு துண்டிக்கப்பட்டது"
+
+#: lingmo_installer/defaults/network.py:387
+msgid "Disconnecting"
+msgstr "இணைப்பைத் துண்டிக்கிறது"
+
+#: lingmo_installer/defaults/network.py:389
+msgid "Connection Failed"
+msgstr "இணைப்பு தோல்வியடைந்தது"
+
+#: lingmo_installer/defaults/network.py:391
+msgid "Status Unknown"
+msgstr "நிலை தெரியவில்லை"
+
+#: lingmo_installer/defaults/network.py:393
+msgid "Unmanaged"
+msgstr "நிர்வகிக்கப்படாதது"
+
+#: lingmo_installer/defaults/network.py:395
+msgid "Unavailable"
+msgstr "கிடைக்கவில்லை"
+
+#: lingmo_installer/defaults/network.py:397
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+#: lingmo_installer/defaults/network.py:409
+msgid "Cable Unplugged"
+msgstr "கம்பி துண்டிக்கப்பட்டது"
+
+#: lingmo_installer/defaults/timezone.py:58
+#, python-format
+msgid "(at %s, %s)"
+msgstr ""
+
+#: lingmo_installer/layouts/preferences.py:67
+msgid "Please select at least one option."
+msgstr "குறைந்தபட்சம் ஒரு விருப்பத்தைத் தேர்ந்தெடுக்கவும்."
+
+#: lingmo_installer/utils/builder.py:73
+msgid "Missing 'log_file' in the recipe."
+msgstr "செய்முறையில் 'log_file' இல்லை."
+
+#: lingmo_installer/utils/builder.py:82
+#, python-format
+msgid "failed to create log file: %s"
+msgstr "பதிவு கோப்பை உருவாக்க முடியவில்லை: %s"
+
+#: lingmo_installer/utils/builder.py:83
+msgid "No log will be stored."
+msgstr "பதிவு எதுவும் சேமிக்கப்படாது."
+
+#: lingmo_installer/utils/builder.py:90
+#, python-format
+msgid "Performing display-condition: %s"
+msgstr "காட்சி-நிலையை செயல்படுத்துகிறது: %s"
+
+#: lingmo_installer/utils/builder.py:99 lingmo_installer/utils/builder.py:104
+#, python-format
+msgid "Step %s skipped due to display-conditions"
+msgstr "காட்சி-நிபந்தனைகள் காரணமாக படி %s தவிர்க்கப்பட்டது"
+
+#: lingmo_installer/utils/recipe.py:43
+msgid "Invalid recipe file"
+msgstr "தவறான செய்முறை கோப்பு"
+
+#: lingmo_installer/utils/recipe.py:52
+msgid "Recipe is not a dictionary"
+msgstr "செய்முறை அகராதி அல்ல"
+
+#: lingmo_installer/utils/recipe.py:57
+#, python-brace-format
+msgid "Recipe is missing the '{key}' key"
+msgstr "செய்முறையில் '{key}' விசை இல்லை"
+
+#: lingmo_installer/utils/recipe.py:61
+msgid "Recipe steps is not a list"
+msgstr "செய்முறை படிகள் பட்டியல் அல்ல"
+
+#: lingmo_installer/utils/recipe.py:66
+#, python-brace-format
+msgid "Step {step} is not a dictionary"
+msgstr "படி {step} என்பது அகராதி அல்ல"
+
+#: lingmo_installer/views/confirm.py:81
+msgid "Keyboard"
+msgstr "விசைப்பலகை"
+
+#: lingmo_installer/views/confirm.py:87
+msgid "Timezone"
+msgstr "நேர மண்டலம்"
+
+#: lingmo_installer/views/confirm.py:95
+msgid "Users"
+msgstr "பயனர்கள்"
+
+#: lingmo_installer/views/confirm.py:104
+#: lingmo_installer/views/confirm.py:120
+msgid "Disk"
+msgstr "வட்டு"
+
+#: lingmo_installer/views/done.py:40
+msgid "Restart your device to enjoy your {} experience."
+msgstr "உங்கள் {} அனுபவத்தை அனுபவிக்க உங்கள் சாதனத்தை மறுதொடக்கம் செய்யவும்."
+
+#: lingmo_installer/views/done.py:54
+msgid "Something went wrong"
+msgstr "ஏதோ தவறாகிவிட்டது"
+
+#: lingmo_installer/views/done.py:56
+msgid "Please contact the distribution developers."
+msgstr "விநியோக டெவலப்பர்களைத் தொடர்பு கொள்ளவும்."
+
+#~ msgid "Date & Time"
+#~ msgstr "தேதி & நேரம்"
+
+#~ msgid "Select your preferred timezone"
+#~ msgstr "உங்களுக்கு விருப்பமான நேர மண்டலத்தைத் தேர்ந்தெடுக்கவும்"
+
+#~ msgid "Search timezones"
+#~ msgstr "நேர மண்டலங்களைத் தேடுங்கள்"
+
+#~ msgid "Boot partition is too small."
+#~ msgstr "துவக்க பகிர்வு மிகவும் சிறியது."
+
+#~ msgid "EFI partition is too small."
+#~ msgstr "EFI பகிர்வு மிகவும் சிறியது."
+
+#~ msgid "Root partition is too small."
+#~ msgstr "வேர் பகிர்வு மிகவும் சிறியது."
+
+#~ msgid "Home partition is too small."
+#~ msgstr "வீட்டுப் பகிர்வு மிகவும் சிறியது."
+
+#~ msgid "Search for a language"
+#~ msgstr "ஒரு மொழியைத் தேடவும்"
+
+#~ msgid "Don't install"
+#~ msgstr "நிறுவ வேண்டாம்"
+
+#~ msgid "All done!"
+#~ msgstr "அனைத்தும் முடிந்தது!"
+
+#~ msgid "Open GParted"
+#~ msgstr "GParted ஐத் திறக்கவும்"
+
+#~ msgid "Region"
+#~ msgstr "பிராந்தியம்"
+
+#~ msgid "Zone"
+#~ msgstr "மண்டலம்"
+
+#~ msgid "Welcome to Lingmo OS!"
+#~ msgstr "வெண்ணிலா OS க்கு வரவேற்கிறோம்!"
+
+#~ msgid ""
+#~ "The partitions to mount under “/”. Both partitions must be the same size."
+#~ msgstr ""
+#~ "பகிர்வுகளை \"/\" கீழ் ஏற்ற வேண்டும். இரண்டு பகிர்வுகளும் ஒரே அளவில் இருக்க வேண்டும்."
+
+#~ msgid ""
+#~ "Lingmo OS uses an A/B partition system managed by ABRoot,\n"
+#~ "which switches between two root partitions between updates."
+#~ msgstr ""
+#~ "வெண்ணிலா OS ஆனது ABRoot ஆல் நிர்வகிக்கப்படும் A/B பகிர்வு அமைப்பைப் "
+#~ "பயன்படுத்துகிறது,\n"
+#~ "புதுப்பிப்புகளுக்கு இடையில் இரண்டு வேர் பகிர்வுகளுக்கு இடையில் மாறுகிறது."
+
+#~ msgid "Root partitions are not the same size."
+#~ msgstr "வேர் பகிர்வுகள் ஒரே அளவு இல்லை."
+
+#~ msgid "Please make sure your A and B partitions have the same disk space."
+#~ msgstr "உங்கள் A மற்றும் B பகிர்வுகளில் ஒரே வட்டு இடம் இருப்பதை உறுதிப்படுத்தவும்."
+
+#~ msgid "Root partitions are too small."
+#~ msgstr "வேர் பகிர்வுகள் மிகவும் சிறியவை."
+
+#~ msgid "Home Partition"
+#~ msgstr "வீட்டுப் பகிர்வு"
+
+#~ msgid "clicked"
+#~ msgstr "சொடுக்கப்பட்டது"
+
+#~ msgid "installation-confirmed"
+#~ msgstr "நிறுவல்-உறுதிப்படுத்தப்பட்டது"
+
+#~ msgid "page-changed"
+#~ msgstr "பக்கம் மாற்றப்பட்டது"
+
+#~ msgid "Lingmo OS Recovery"
+#~ msgstr "வெண்ணிலா OS மீட்பு"
+
+#~ msgid "Select a Disk"
+#~ msgstr "ஒரு வட்டைத் தேர்ந்தெடுக்கவும்"
+
+#~ msgid "Select the disk where you want to install Lingmo OS"
+#~ msgstr "நீங்கள் வெண்ணிலா OS ஐ நிறுவ விரும்பும் வட்டைத் தேர்ந்தெடுக்கவும்"
+
+#~ msgid "Configure"
+#~ msgstr "கட்டமைக்கவும்"
+
+#~ msgid "Disk Allocation"
+#~ msgstr "வட்டு ஒதுக்கீடு"
+
+#~ msgid "Choose how to install Lingmo OS on your drive."
+#~ msgstr "உங்கள் ஓட்டில் வெண்ணிலா OS ஐ எவ்வாறு நிறுவுவது என்பதைத் தேர்வுசெய்யவும்."
+
+#~ msgid "This will erase all data on the disk."
+#~ msgstr "இது வட்டில் உள்ள அனைத்து தரவையும் அழித்துவிடும்."
+
+#~ msgid ""
+#~ "Select which partitions to use for installation. Incorrect configuration "
+#~ "can lead to data loss, corruption, and/or an unbootable system."
+#~ msgstr ""
+#~ "நிறுவலுக்குப் பயன்படுத்த வேண்டிய பகிர்வுகளைத் தேர்ந்தெடுக்கவும். தவறான உள்ளமைவு தரவு "
+#~ "இழப்பு, ஊழல் மற்றும்/அல்லது துவக்க முடியாத அமைப்புக்கு வழிவகுக்கும்."
+
+#, python-brace-format
+#~ msgid "Not enough space: {0}/{1}"
+#~ msgstr "போதுமான இடம் இல்லை: {0}/{1}"
+
+#~ msgid "This is the only disk available and cannot be deselected!"
+#~ msgstr "இந்த வட்டு மட்டுமே உள்ளது மற்றும் தேர்வுநீக்க முடியாது!"
+
+#~ msgid "Welcome"
+#~ msgstr "வரவேற்கிறோம்"
+
+#~ msgid "This software will guide you through the installation process."
+#~ msgstr "இந்த மென்பொருள் நிறுவல் செயல்முறையின் மூலம் உங்களுக்கு வழிகாட்டும்."
+
+#~ msgid "The following partitions were found on the disk"
+#~ msgstr "வட்டில் பின்வரும் பகிர்வுகள் காணப்பட்டன"
+
+#~ msgid "Format"
+#~ msgstr "வடிவம்"
+
+#~ msgid "Choose a new file system or leave as is"
+#~ msgstr "புதிய கோப்பு முறைமையைத் தேர்வு செய்யவும் அல்லது அப்படியே விடவும்"
+
+#~ msgid "Mount Point"
+#~ msgstr "ஏற்ற புள்ளி"
+
+#~ msgid "Choose a mount point for the partition"
+#~ msgstr "பகிர்வுக்கு ஏற்ற புள்ளியைத் தேர்ந்தெடுக்கவும்"
+
+#~ msgid "Open a Terminal."
+#~ msgstr "ஒரு முனையத்தைத் திறக்கவும்."
+
+#~ msgid "Manage disks and partitions."
+#~ msgstr "வட்டுகள் மற்றும் பகிர்வுகளை நிர்வகிக்கவும்."
+
+#~ msgid "Read the Lingmo OS Handbook."
+#~ msgstr "வெண்ணிலா OS கைப்புத்தகத்தை படியுங்கள்."
+
+#~ msgid "Search online for help."
+#~ msgstr "உதவிக்கு ஆன்லைனில் தேடவும்."
+
+#~ msgid "Try Lingmo OS"
+#~ msgstr "வெண்ணிலா OS ஐ முயற்சிக்கவும்"
