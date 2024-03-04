@@ -1,5 +1,5 @@
 {
-    "log_file": "/etc/lingmo/installer.log",
+    "log_file": "/tmp/lingmo/installer.log",
     "distro_name": "Lingmo OS",
     "distro_logo": "org.lingmoos.Installer-flower",
     "images": {

@@ -1,2 +1,2 @@
 recipe.json etc/lingmo-installer/
-installer.log etc/lingmo/
+installer.log tmp/lingmo/

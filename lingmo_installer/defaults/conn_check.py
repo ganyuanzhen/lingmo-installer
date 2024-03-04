@@ -77,12 +77,12 @@ class LingmoDefaultConnCheck(Adw.Bin):
                 headers = OrderedDict(
                     {
                         "Accept-Encoding": "gzip, deflate, br",
-                        "Host": "lingmoos.org",
+                        "Host": "lingmo.org",
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0",
                     }
                 )
                 s.headers = headers
-                s.get("https://lingmoos.org/", headers=headers, verify=True)
+                s.get("https://lingmo.org/", headers=headers, verify=True)
                 return True
             except Exception as e:
                 logger.error(f"Connection check failed: {str(e)}")

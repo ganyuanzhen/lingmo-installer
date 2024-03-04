@@ -45,7 +45,7 @@ class LingmoRecoveryDialog(Adw.Window):
         GLib.spawn_command_line_async("kgx")
 
     def __on_documentation_activated(self, row):
-        webbrowser.open("https://docs.lingmoos.org/collections/docs")
+        webbrowser.open("https://docs.lingmo.org/collections/docs")
 
     def __on_gparted_activated(self, row):
         try:
@@ -54,7 +54,7 @@ class LingmoRecoveryDialog(Adw.Window):
             GLib.spawn_command_line_async("/usr/sbin/gparted")
 
     def __on_handbook_activated(self, row):
-        webbrowser.open("https://docs.lingmoos.org/collections/handbook")
+        webbrowser.open("https://docs.lingmo.org/collections/handbook")
 
     def __on_web_activated(self, row):
-        webbrowser.open("https://lingmoos.org")
+        webbrowser.open("https://lingmo.org")
