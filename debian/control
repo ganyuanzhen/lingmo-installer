@@ -3,6 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends: build-essential,
+               gir1.2-vte-2.91,
                debhelper,
                python3,
                meson,

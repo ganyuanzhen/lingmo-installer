@@ -42,7 +42,7 @@ class LingmoRecoveryDialog(Adw.Window):
         self.row_web.connect("activated", self.__on_web_activated)
 
     def __on_console_activated(self, row):
-        GLib.spawn_command_line_async("kgx")
+        GLib.spawn_command_line_async("lingmo-terminal")
 
     def __on_documentation_activated(self, row):
         webbrowser.open("https://docs.lingmo.org/collections/docs")
