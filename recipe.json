@@ -3,9 +3,9 @@
     "distro_name": "Lingmo OS",
     "distro_logo": "org.lingmoos.Installer-flower",
     "images": {
-        "default": "ghcr.io/lingmo-os/desktop:main",
-        "nvidia": "ghcr.io/lingmo-os/nvidia:main",
-        "vm": "ghcr.io/lingmo-os/vm:main"
+        "default": "/var/run/live/medium/live/filesystem.squashfs",
+        "nvidia": "/var/run/live/medium/live/filesystem.squashfs",
+        "vm": "/var/run/live/medium/live/filesystem.squashfs"
     },
     "default_root_size": 12288,
     "min_disk_size": 28680,

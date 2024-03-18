@@ -285,12 +285,12 @@ class Processor:
         setup_steps.append(
             [disk, "lvcreate-thin", ["root-b", "vos-root", 19456, "root"]]
         )
-        setup_steps.append([disk, "lvm-format", ["vos-root/root-a", "btrfs", "vos-a"]])
-        setup_steps.append([disk, "lvm-format", ["vos-root/root-b", "btrfs", "vos-b"]])
+        setup_steps.append([disk, "lvm-format", ["vos-root/root-a", "ext4", "vos-a"]])
+        setup_steps.append([disk, "lvm-format", ["vos-root/root-b", "ext4", "vos-b"]])
 
         # LVM var
         setup_steps.append([disk, "lvcreate", ["var", "vos-var", "linear", "100%FREE"]])
-        lvm_var_args = ["vos-var/var", "btrfs", "vos-var"]
+        lvm_var_args = ["vos-var/var", "ext4", "vos-var"]
         if encrypt:
             lvm_var_args.insert(2, password)
         setup_steps.append(
@@ -396,10 +396,10 @@ class Processor:
                     ]
                 )
                 setup_steps.append(
-                    [part_disk, "lvm-format", ["vos-root/root-a", "btrfs", "vos-a"]]
+                    [part_disk, "lvm-format", ["vos-root/root-a", "ext4", "vos-a"]]
                 )
                 setup_steps.append(
-                    [part_disk, "lvm-format", ["vos-root/root-b", "btrfs", "vos-b"]]
+                    [part_disk, "lvm-format", ["vos-root/root-b", "ext4", "vos-b"]]
                 )
                 mountpoints.append(["/dev/vos-root/root-a", "/"])
                 mountpoints.append(["/dev/vos-root/root-b", "/"])
@@ -451,7 +451,7 @@ class Processor:
 
         images = sys_recipe.get("images")
         root_size = sys_recipe.get("default_root_size")
-        oci_image = images["default"]
+        oci_image = images["default"] # 默认安装用镜像（暂时没有别的）
 
         # Setup encryption if user selected it
         encrypt = False
@@ -488,7 +488,7 @@ class Processor:
                     oci_image = images["vm"]
 
         # Installation
-        recipe.set_installation("oci", oci_image)
+        recipe.set_installation("unsquashfs", oci_image)
 
         # Post-installation
         (
@@ -554,6 +554,15 @@ class Processor:
                 ],
             )
 
+            # Remove live user
+            recipe.add_postinstall_step(
+                "shell",
+                [
+                    "/usr/sbin/deluser --remove-home lingmo"
+                ],
+                chroot=True,
+            )
+
             # Create default user
             # This needs to be done after mounting `/etc` overlay, so set it as
             # late post-install
@@ -592,15 +601,15 @@ class Processor:
             )
 
             # Add autostart script to lingmo-first-setup
-            recipe.add_postinstall_step(
-                "shell",
-                [
-                    "mkdir -p /home/lingmo/.config/autostart",
-                    "cp /usr/share/applications/org.lingmoos.FirstSetup.desktop /home/lingmo/.config/autostart",
-                ],
-                chroot=True,
-                late=True,
-            )
+            # recipe.add_postinstall_step(
+            #     "shell",
+            #     [
+            #         "mkdir -p /home/lingmo/.config/autostart",
+            #         "cp /usr/share/applications/org.lingmoos.FirstSetup.desktop /home/lingmo/.config/autostart",
+            #     ],
+            #     chroot=True,
+            #     late=True,
+            # )
 
             # TODO: Install grub-pc if target is BIOS
             # Run `grub-install` with the boot partition as target
